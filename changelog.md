@@ -1,0 +1,7 @@
+## Initial changes
+
+- Fix overweight MAD-5A chassisdef, remove 10 heatsinks from mechdef
+- Fix PPC capaci(ta)tor so that it works with snub PPCs
+- Fix number of jumpjets for Uziel and Hellspawn chassisdefs (6, not 7)
+- Fix alternate Sun Spider chassisdefs to have the same number of jumpjets as the prime config
+- Fix movedef for Blood Asp to move at 4/6
