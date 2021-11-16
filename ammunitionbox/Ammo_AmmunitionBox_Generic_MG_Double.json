@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_MG",
+    "Capacity" : 440,
+    "Description" : {
+        "Cost" : 20000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "MG",
+        "UIName" : "MG Ammo [DBL]",
+        "Id" : "Ammo_AmmunitionBox_Generic_MG_Double",
+        "Name" : "MG Ammo [DBL]",
+        "Details" : "Doubled Ammo Bins allow more ammo than usual to be stored, having just one feeding mechanism to allow 10% more shots into one location. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.",
+        "Icon" : "uixSvgIcon_ammoBox_Support"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+	"CanExplode" : true,	
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

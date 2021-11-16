@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_GAUSS",
+    "Capacity" : 18,
+    "Description" : {
+        "Cost" : 100000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "GAUSS",
+        "UIName" : "Gauss Ammo [DBL]",
+        "Id" : "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+        "Name" : "Gauss Ammo [DBL]",
+        "Details" : "Doubled Ammo Bins allow more ammo than usual to be stored, having just one feeding mechanism to allow 10% more shots into one location. Unlike other Ammo Bins gauss ammo will not explode and destroy their installed location when they receive a Critical Hit but will be unusable.",
+        "Icon" : "uixSvgIcon_ammoBox_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+	"CanExplode" : false,	
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

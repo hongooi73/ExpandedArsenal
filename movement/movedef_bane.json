@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_bane",
+      "Name" : "MovementCapabilitiesDef for Bane",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 95.0,
+   "MaxSprintDistance" : 165.0,
+   "WalkVelocity" : 22.0,
+   "RunVelocity" : 28.0,
+   "SprintVelocity" : 36.0,
+   "LimpVelocity" : 8.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 40.0,
+   "MaxRadialVelocity" : 45.0,
+   "MaxRadialAcceleration" : 60.0,
+   "MaxJumpVel" : 0,
+   "MaxJumpAccel" : 0,
+   "MaxJumpVerticalAccel" : 0
+}

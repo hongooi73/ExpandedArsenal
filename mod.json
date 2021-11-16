@@ -1,0 +1,22 @@
+{
+    "Name": "Expanded Arsenal",
+    "Enabled": true,
+	"Description": "Uses the CAB to add new mechs.",	
+	"Version": "1.0",
+    "Author": "Z06Frank",	
+	"Manifest": [
+	{ "Type": "AmmunitionDef", "Path": "ammunition", "ShouldMergeJSON": false },
+    	{ "Type": "AmmunitionBoxDef", "Path": "ammunitionbox", "ShouldMergeJSON": false },	
+	{ "Type": "HeatSinkDef", "Path": "heatsinks", "ShouldMergeJSON": false  },
+	{ "Type": "JumpJetDef", "Path": "jumpjets", "ShouldMergeJSON": false  },
+	{ "Type": "UpgradeDef", "Path": "internals", "ShouldMergeJSON": false  },
+	{ "Type": "WeaponDef", "Path": "weapons", "ShouldMergeJSON": false  },
+	{ "Type": "ItemCollectionDef", "Path": "itemcol" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "ChassisDef", "Path": "chassis_clan" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "MechDef", "Path": "mech_clan" },
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
+    	{ "Type": "Sprite", "Path": "portraits" }		
+    ]
+}

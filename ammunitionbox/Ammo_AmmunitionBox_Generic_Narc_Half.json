@@ -1,0 +1,37 @@
+{
+    "AmmoID" : "Ammunition_Narc",
+    "Capacity" : 3,
+    "Description" : {
+        "Cost" : 15000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Narc",
+        "UIName" : "Narc Ammo [HALF]",
+        "Id" : "Ammo_AmmunitionBox_Generic_Narc_Half",
+        "Name" : "Narc Beacon Ammo [HALF]",
+        "Details" : "Half Ammo bins contain half the usual ammo, takes up the same space but saving half a ton. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit.",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.5,
+	"CanExplode" : true,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
