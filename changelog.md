@@ -5,3 +5,4 @@
 - Fix number of jumpjets for Uziel and Hellspawn chassisdefs (6, not 7)
 - Fix alternate Sun Spider chassisdefs to have the same number of jumpjets as the prime config
 - Fix movedef for Blood Asp to move at 4/6
+- Fix max number of jumpjets for both Yeoman chassisdefs
