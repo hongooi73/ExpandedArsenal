@@ -89,7 +89,7 @@
             "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 1
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
@@ -119,7 +119,7 @@
             "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 1
+            "InternalStructure": 85
         },
         {
             "Location": "LeftTorso",
@@ -137,7 +137,7 @@
             "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
-            "InternalStructure": 1
+            "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
@@ -163,7 +163,7 @@
             "InventorySlots": 4,
             "MaxArmor": 310,
             "MaxRearArmor": 155,
-            "InternalStructure": 1
+            "InternalStructure": 155
         },
         {
             "Location": "RightTorso",
@@ -181,7 +181,7 @@
             "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
-            "InternalStructure": 1
+            "InternalStructure": 105
         },
         {
             "Location": "RightArm",
@@ -211,7 +211,7 @@
             "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 1
+            "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
@@ -220,7 +220,7 @@
             "InventorySlots": 4,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 1
+            "InternalStructure": 105
         },
         {
             "Location": "RightLeg",
@@ -229,7 +229,7 @@
             "InventorySlots": 4,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 1
+            "InternalStructure": 105
         }
     ],
     "LOSSourcePositions": [
