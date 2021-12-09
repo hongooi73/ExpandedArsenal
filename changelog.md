@@ -7,3 +7,4 @@
 - Fix movedef for Blood Asp to move at 4/6
 - Fix max number of jumpjets for both Yeoman chassisdefs
 - Fix internal structure for Titan II
+- Fix movedef and jumpjets for Cougar
