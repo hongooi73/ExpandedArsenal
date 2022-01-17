@@ -9,3 +9,4 @@
 - Fix internal structure for Titan II
 - Fix movedef and jumpjets for Cougar
 - Fix clan targeting computer Mk II mismatch between ID and filename
+- Fix assetbundle name for Thugs
