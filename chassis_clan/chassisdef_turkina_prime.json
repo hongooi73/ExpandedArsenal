@@ -183,7 +183,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 	    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
@@ -195,7 +195,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 		    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
@@ -207,7 +207,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 		    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
@@ -219,7 +219,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 			    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
@@ -231,7 +231,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 				    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
@@ -243,7 +243,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 					    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
@@ -255,7 +255,7 @@
       "DamageLevel": "Functional",
       "prefabName": null,
       "hasPrefabName": false
-    }
+    },
 					    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
