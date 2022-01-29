@@ -31,7 +31,7 @@
     "PrefabIdentifier": "chrprfmech_highlanderiicbase-001",
     "PrefabBase": "highlanderiic",
     "Tonnage": 90,
-    "InitialTonnage": 20.5,
+    "InitialTonnage": 22.5,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
     "Heatsinks": 0,

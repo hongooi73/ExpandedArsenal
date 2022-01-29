@@ -12,3 +12,4 @@
 - Fix assetbundle name for Thugs
 - Fix clan targeting computer and Artemis IDs
 - Fix Mad Cat Mk II movedef
+- Fix Highlander IIC loadout (carrying excess ammo)
