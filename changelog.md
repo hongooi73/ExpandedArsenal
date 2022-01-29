@@ -10,3 +10,4 @@
 - Fix movedef and jumpjets for Cougar
 - Fix clan targeting computer Mk II mismatch between ID and filename
 - Fix assetbundle name for Thugs
+- Fix clan targeting computer and Artemis IDs
