@@ -13,3 +13,7 @@
 - Fix clan targeting computer and Artemis IDs
 - Fix Mad Cat Mk II movedef
 - Fix Highlander IIC loadout (carrying excess ammo)
+- Reduce stability damage for HAG/20, HAG/30, HAG/40 and ASC to slightly less extreme values
+- Increase damage per shot for RAC/2 and RAC/5 to 25 and 45 respectively
+- Remove restrictions on loading in `mod.json`
+

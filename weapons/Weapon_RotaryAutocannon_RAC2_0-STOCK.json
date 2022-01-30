@@ -12,7 +12,7 @@
     "AmmoCategory" : "AC2",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 24,
-    "Damage" : 17,
+    "Damage" : 25,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 2,

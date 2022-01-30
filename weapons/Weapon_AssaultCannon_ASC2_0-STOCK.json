@@ -27,7 +27,7 @@
     "ShotsWhenFired": 12,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 5,
+    "Instability": 2,
     "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
     "Description": {
         "Cost": 600000,
