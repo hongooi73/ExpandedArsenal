@@ -5,7 +5,6 @@
     "Version": "1.01",
     "Author": "Z06Frank/hongooi2",
     "Manifest": [
-        { "Type": "AmmunitionDef", "Path": "ammunition" },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionbox" },	
         { "Type": "HeatSinkDef", "Path": "heatsinks" },
         { "Type": "JumpJetDef", "Path": "jumpjets" },
