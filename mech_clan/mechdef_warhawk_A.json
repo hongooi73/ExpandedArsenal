@@ -23,7 +23,7 @@
         "UIName": "Warhawk",
         "Id": "mechdef_warhawk_A",
         "Name": "Warhawk",
-        "Details": "Introduced at the turn of the century, the Warhawk was created by the Smoke Jaguars in anticipation of the Clans’ return to the Inner Sphere.",
+        "Details": "Introduced at the turn of the century, the Warhawk was created by the Smoke Jaguars in anticipation of the Clans' return to the Inner Sphere.",
 		"Icon": "uixTxrIcon_warhawk"
     },
     "simGameMechPartCost": 4500000,
