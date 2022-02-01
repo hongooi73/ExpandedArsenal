@@ -125,7 +125,7 @@
         },	
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV_AVATAR",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
