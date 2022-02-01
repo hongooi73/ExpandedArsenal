@@ -1,4 +1,12 @@
-## Initial changes
+## v1.3.1
+
+- Targeting Computer Mk I now ignores 2 evasion pips with ballistic and energy weapons, rather than giving +2 accuracy
+  - Ignoring evasion should be much more powerful than accuracy, and appropriate for an item weighing 3 tons (more than a +++TTS)
+- Targeting Computer Mk II renamed to Targeting Computer +, to match the vanilla convention of +/++/+++ variants representing upgrades; ignores 2 evasion pips; reduced to 2 tons
+- IS Artemis IV ignores 2 evasion pips with missile weapons, rather than giving an accuracy bonus
+- Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
+
+## Initial changes (v1.3)
 
 - Fix overweight MAD-5A chassisdef, remove 10 heatsinks from mechdef
 - Fix PPC capaci(ta)tor so that it works with snub PPCs
