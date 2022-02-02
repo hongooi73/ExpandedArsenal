@@ -4,12 +4,23 @@
     "Description": "Uses the CAB to add new mechs.",	
     "Version": "1.01",
     "Author": "Z06Frank/hongooi2",
+    "DependsOn": [
+        "AdvancedWeapons",
+        "Even More Gear",
+        "Extreme Weapons",
+        "More Guns",
+        "More Lazerz",
+        "More Rokkits",
+        "PlasmaRifle",
+        "Artillery"
+    ],
     "Manifest": [
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionbox" },	
         { "Type": "HeatSinkDef", "Path": "heatsinks" },
         { "Type": "JumpJetDef", "Path": "jumpjets" },
         { "Type": "UpgradeDef", "Path": "internals" },
         { "Type": "WeaponDef", "Path": "weapons" },
+        { "Type": "WeaponDef", "Path": "weapon_legacy" },
         { "Type": "ItemCollectionDef", "Path": "itemcol" },
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "ChassisDef", "Path": "chassis_clan" },
