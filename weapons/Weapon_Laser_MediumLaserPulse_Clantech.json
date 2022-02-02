@@ -34,9 +34,9 @@
         "Purchasable": true,
         "Manufacturer": "Clan Tech",
         "Model": "Medium Pulse Laser",
-        "UIName": "M Pulse (C) +",
+        "UIName": "M Pulse (C)",
         "Id": "Weapon_Laser_MediumLaserPulse_Clantech",
-        "Name": "M Pulse (C) +",
+        "Name": "M Pulse (C)",
         "Details": "An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Like all Lasers, Medium Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
