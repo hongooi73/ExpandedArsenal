@@ -102,7 +102,7 @@
     "inventory": [
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_ATM12_CLAN",
+            "ComponentDefID": "Weapon_LRM_ATM12",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -143,10 +143,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },			
+        },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MicroLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MicroLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -157,7 +157,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MicroLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MicroLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -209,7 +209,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_HeavyMediumLaser_CLAN",
@@ -319,6 +319,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }		
+        }
     ]
 }
+

@@ -134,7 +134,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
@@ -200,10 +200,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
-    {
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -211,10 +211,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -222,8 +222,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_Guardian_ECM_CLAN",
             "SimGameUID": null,
@@ -233,8 +233,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_AMS_CLAN",
             "SimGameUID": null,
@@ -244,6 +244,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    }	
+        }
     ]
 }
+

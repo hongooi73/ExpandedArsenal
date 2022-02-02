@@ -103,7 +103,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -112,7 +112,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -121,7 +121,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
@@ -181,7 +181,7 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },			
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -193,15 +193,6 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",
@@ -211,15 +202,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",
@@ -271,7 +253,25 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -283,3 +283,4 @@
         }
     ]
 }
+

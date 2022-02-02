@@ -6,9 +6,9 @@
             "unit_lance_assassin",
             "unit_role_sniper",
             "unit_release",
-			"unit_range_long",
-			"unit_speed_low",
-			"unit_armor_high",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
             "unit_lance_assassin"
         ],
         "tagSetSourceFile": ""
@@ -115,7 +115,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Guardian_ECM",
             "SimGameUID": null,
@@ -148,7 +148,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID": null,
@@ -161,7 +161,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Gauss_Gauss_HEAVY",
+            "ComponentDefID": "Weapon_Gauss_HeavyGauss",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -170,9 +170,9 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Gauss_Gauss_HEAVY",
+            "ComponentDefID": "Weapon_Gauss_HeavyGauss",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -203,7 +203,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID": null,
@@ -260,3 +260,4 @@
         }
     ]
 }
+

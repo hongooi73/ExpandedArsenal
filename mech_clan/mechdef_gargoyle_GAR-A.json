@@ -99,7 +99,7 @@
             "AssignedRearArmor": -1
         }
     ],
-    "inventory": [	
+    "inventory": [
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
@@ -124,7 +124,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -135,7 +135,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -146,7 +146,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -157,7 +157,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -231,6 +231,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }		
+        }
     ]
 }
+

@@ -136,7 +136,7 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Autocannon_AC5_CLAN",
@@ -166,7 +166,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -175,13 +175,13 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -190,7 +190,7 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -202,3 +202,4 @@
         }
     ]
 }
+

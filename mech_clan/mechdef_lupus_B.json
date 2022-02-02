@@ -3,7 +3,7 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_jumpOK",			
+            "unit_jumpOK",
             "unit_indirectFire",
             "unit_lance_tank",
             "unit_lance_vanguard",
@@ -102,7 +102,7 @@
             "AssignedRearArmor": -1
         }
     ],
-    "inventory": [	
+    "inventory": [
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Autocannon_AC20_LBX_CLAN",
@@ -113,10 +113,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -124,10 +124,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },			
+        },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -138,7 +138,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -149,7 +149,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -160,7 +160,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -168,10 +168,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -179,7 +179,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },			
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X",
@@ -212,7 +212,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -226,3 +226,4 @@
         }
     ]
 }
+

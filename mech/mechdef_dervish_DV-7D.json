@@ -8,8 +8,8 @@
             "unit_lance_vanguard",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_medium",
-			"unit_jumpOK"
+            "unit_range_medium",
+            "unit_jumpOK"
         ],
         "tagSetSourceFile": ""
     },
@@ -326,3 +326,4 @@
         }
     ]
 }
+

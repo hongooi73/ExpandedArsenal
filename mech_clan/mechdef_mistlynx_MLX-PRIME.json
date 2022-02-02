@@ -134,7 +134,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
@@ -200,8 +200,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
-    {
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_SRM_SRM4_STREAK_CLAN",
             "SimGameUID": null,
@@ -211,8 +211,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
             "SimGameUID": null,
@@ -222,8 +222,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
             "SimGameUID": null,
@@ -233,8 +233,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "SimGameUID": null,
@@ -244,8 +244,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
             "SimGameUID": null,
@@ -255,10 +255,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_LRM10_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM10_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -266,8 +266,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
@@ -277,6 +277,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    }	
+        }
     ]
 }
+

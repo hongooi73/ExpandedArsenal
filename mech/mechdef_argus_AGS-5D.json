@@ -8,9 +8,9 @@
             "unit_lance_vanguard",
             "unit_role_brawler",
             "unit_release",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_speed_high"
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_speed_high"
         ],
         "tagSetSourceFile": ""
     },
@@ -126,7 +126,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_PPC_PPC_HEAVY",
@@ -159,7 +159,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
@@ -206,3 +206,4 @@
         }
     ]
 }
+

@@ -6,7 +6,6 @@
             "unit_release",
             "unit_lance_support",
             "unit_role_sniper"
-          
         ],
         "tagSetSourceFile": ""
     },
@@ -123,7 +122,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
@@ -224,3 +223,4 @@
         }
     ]
 }
+

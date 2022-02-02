@@ -7,8 +7,8 @@
             "unit_ready",
             "unit_lance_assassin",
             "unit_role_scout",
-			"unit_range_medium",
-			"unit_speed_high"
+            "unit_range_medium",
+            "unit_speed_high"
         ],
         "tagSetSourceFile": ""
     },
@@ -105,7 +105,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -149,3 +149,4 @@
         }
     ]
 }
+

@@ -106,7 +106,7 @@
     "inventory": [
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -115,7 +115,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -124,7 +124,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -133,16 +133,16 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -157,10 +157,10 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -169,7 +169,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -178,7 +178,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -194,7 +194,7 @@
             "DamageLevel": "Functional",
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
             "SimGameUID": "",
@@ -265,15 +265,6 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": "",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
         },
         {
             "MountedLocation": "RightTorso",
@@ -310,7 +301,16 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        },		
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
@@ -319,6 +319,7 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
-        }		
+        }
     ]
 }
+

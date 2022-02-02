@@ -99,7 +99,7 @@
             "AssignedRearArmor": -1
         }
     ],
-    "inventory": [	
+    "inventory": [
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Autocannon_AC5_LBX_CLAN",
@@ -113,7 +113,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_CLAN",
+            "ComponentDefID": "Weapon_SRM_SRM6_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -135,7 +135,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_CLAN",
+            "ComponentDefID": "Weapon_SRM_SRM6_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -143,10 +143,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -264,6 +264,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }			
+        }
     ]
 }
+

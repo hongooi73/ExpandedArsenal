@@ -134,7 +134,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
@@ -200,10 +200,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
-    {
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -211,19 +211,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -233,8 +222,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -244,8 +233,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -255,8 +244,19 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
             "SimGameUID": null,
@@ -266,10 +266,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -277,19 +277,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -299,8 +288,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -310,8 +299,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
             "SimGameUID": null,
@@ -321,8 +310,19 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-	{
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
             "SimGameUID": null,
@@ -332,10 +332,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -343,10 +343,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    },
-    {
+        },
+        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -354,6 +354,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-    }	
+        }
     ]
 }
+

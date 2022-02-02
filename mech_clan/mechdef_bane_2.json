@@ -8,10 +8,10 @@
             "unit_ready",
             "unit_lance_tank",
             "unit_role_brawler",
-			"unit_range_short",
-			"unit_indirectFire",
-			"unit_speed_low",
-			"unit_armor_high"	
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_speed_low",
+            "unit_armor_high"
         ],
         "tagSetSourceFile": ""
     },
@@ -259,7 +259,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
@@ -281,7 +281,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
@@ -303,7 +303,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
@@ -325,7 +325,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
@@ -347,7 +347,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
@@ -358,6 +358,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }		
+        }
     ]
 }
+

@@ -101,7 +101,7 @@
             "AssignedRearArmor": -1
         }
     ],
-    "inventory": [	
+    "inventory": [
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
@@ -123,7 +123,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
@@ -159,3 +159,4 @@
         }
     ]
 }
+
