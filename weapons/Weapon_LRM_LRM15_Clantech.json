@@ -1,18 +1,18 @@
 {
     "Category": "Missile",
-    "Type": "SRM",
-    "WeaponSubType": "SRM4",
+    "Type": "LRM",
+    "WeaponSubType": "LRM15",
     "MinRange": 0,
-    "MaxRange": 270,
+    "MaxRange": 630,
     "RangeSplit": [
-        180,
-        180,
-        270
+        420,
+        420,
+        630
     ],
-    "ammoCategoryID": "SRM",
+    "ammoCategoryID": "LRM",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 8,
-    "Damage": 8,
+    "HeatGenerated": 14,
+    "Damage": 4,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -21,46 +21,42 @@
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
-    "IndirectFireCapable": false,
+    "IndirectFireCapable": true,
     "RefireModifier": 0,
-    "ShotsWhenFired": 4,
+    "ShotsWhenFired": 15,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 3,
-    "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
+    "Instability": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
     "Description": {
-        "Cost": 60000,
+        "Cost": 175000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
-        "Model": "Short-Range Missile Launcher",
-        "UIName": "SRM4 (C)",
-        "Id": "Weapon_SRM_SRM4_CLAN",
-        "Name": "SRM4 (C)",
-        "Details": "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.",
+        "Model": "Long-Range Missile Launcher",
+        "UIName": "LRM15 (C)",
+        "Id": "Weapon_LRM_LRM15_Clantech",
+        "Name": "LRM15 (C)",
+        "Details": "LRM15 Long-Range Missile racks deal substantial damage and stability impact over distance, often found in pairs on indirect-fire support units. Like all LRMs, LRM15s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
-    "PrefabIdentifier": "srm4",
+    "PrefabIdentifier": "lrm15",
     "BattleValue": 0,
-    "InventorySize": 1,
-    "Tonnage": 1,
+    "InventorySize": 2,
+    "Tonnage": 3.5,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [
-
-    ],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_standard",
-            "BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile": ""
     }
 }
-

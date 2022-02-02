@@ -1,18 +1,18 @@
 {
     "Category": "Missile",
-    "Type": "SRM",
-    "WeaponSubType": "SRM4",
+    "Type": "LRM",
+    "WeaponSubType": "LRM20",
     "MinRange": 0,
-    "MaxRange": 270,
+    "MaxRange": 630,
     "RangeSplit": [
-        180,
-        180,
-        270
+        420,
+        420,
+        630
     ],
-    "ammoCategoryID": "SRM",
+    "ammoCategoryID": "LRM",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 8,
-    "Damage": 8,
+    "HeatGenerated": 18,
+    "Damage": 4,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -21,46 +21,42 @@
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
-    "IndirectFireCapable": false,
+    "IndirectFireCapable": true,
     "RefireModifier": 0,
-    "ShotsWhenFired": 4,
+    "ShotsWhenFired": 20,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 3,
-    "WeaponEffectID": "WeaponEffect-Weapon_SRM4",
+    "Instability": 2,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
     "Description": {
-        "Cost": 60000,
+        "Cost": 250000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
-        "Model": "Short-Range Missile Launcher",
-        "UIName": "SRM4 (C)",
-        "Id": "Weapon_SRM_SRM4_CLAN",
-        "Name": "SRM4 (C)",
-        "Details": "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.",
+        "Model": "Long-Range Missile Launcher",
+        "UIName": "LRM20 (C)",
+        "Id": "Weapon_LRM_LRM20_Clantech",
+        "Name": "LRM20 (C)",
+        "Details": "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
-    "PrefabIdentifier": "srm4",
+    "PrefabIdentifier": "lrm20",
     "BattleValue": 0,
-    "InventorySize": 1,
-    "Tonnage": 1,
+    "InventorySize": 3,
+    "Tonnage": 5,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [
-
-    ],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_standard",
-            "BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile": ""
     }
 }
-

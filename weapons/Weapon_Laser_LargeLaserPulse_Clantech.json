@@ -29,13 +29,13 @@
     "Instability": 0,
     "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
     "Description": {
-        "Cost": 175000,
-        "Rarity": 0,
+        "Cost": 2000000,
+        "Rarity": 2,
         "Purchasable": true,
-        "Manufacturer": "CLAN",
+        "Manufacturer": "Clan Tech",
         "Model": "Large Pulse Laser",
         "UIName": "L Pulse (C)",
-        "Id": "Weapon_Laser_LargeLaserPulse_CLAN",
+        "Id": "Weapon_Laser_LargeLaserPulse_Clantech",
         "Name": "L Pulse (C)",
         "Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon": "uixSvgIcon_weapon_Energy"
@@ -51,16 +51,14 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [
-
-    ],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_long",
-            "BLACKLISTED"
+            "component_type_variant",
+            "component_type_variant1",
+            "range_long"
         ],
         "tagSetSourceFile": ""
     }
 }
-

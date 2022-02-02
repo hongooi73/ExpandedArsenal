@@ -35,7 +35,7 @@
         "Manufacturer": "CLAN",
         "Model": "Short-Range Missile Launcher",
         "UIName": "SRM4 (C)",
-        "Id": "Weapon_SRM_SRM4_CLAN",
+        "Id": "Weapon_SRM_SRM4_Clantech",
         "Name": "SRM4 (C)",
         "Details": "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon": "uixSvgIcon_weapon_Missile"
@@ -51,16 +51,12 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [
-
-    ],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_standard",
-            "BLACKLISTED"
+            "range_standard"
         ],
         "tagSetSourceFile": ""
     }
 }
-

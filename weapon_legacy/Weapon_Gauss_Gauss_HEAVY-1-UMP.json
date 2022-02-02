@@ -51,12 +51,16 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "Arms",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_extreme"
+            "range_extreme",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }
 }
+

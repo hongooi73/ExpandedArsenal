@@ -1,43 +1,43 @@
 {
-    "Category": "Energy",
+    "Category": "AntiPersonnel",
     "Type": "Laser",
-    "WeaponSubType": "LargeLaserPulse",
+    "WeaponSubType": "SmallLaserER",
     "MinRange": 0,
-    "MaxRange": 600,
+    "MaxRange": 180,
     "RangeSplit": [
         180,
-        420,
-        560
+        180,
+        180
     ],
     "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 30,
-    "Damage": 60,
+    "HeatGenerated": 10,
+    "Damage": 35,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
     "DamageVariance": 0,
     "HeatDamage": 0,
-    "AccuracyModifier": -2,
-    "CriticalChanceMultiplier": 1,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1.25,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
     "ShotsWhenFired": 1,
-    "ProjectilesPerShot": 3,
+    "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
     "Instability": 0,
-    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
     "Description": {
-        "Cost": 175000,
-        "Rarity": 0,
+        "Cost": 600000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "CLAN",
-        "Model": "Large Pulse Laser",
-        "UIName": "L Pulse (C)",
-        "Id": "Weapon_Laser_LargeLaserPulse_CLAN",
-        "Name": "L Pulse (C)",
-        "Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Model": "Extended-Range Small Laser",
+        "UIName": "ER S Laser (C)",
+        "Id": "Weapon_Laser_SmallLaserER_Clantech",
+        "Name": "ER S Laser (C)",
+        "Details": "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "",
@@ -47,20 +47,18 @@
     "PrefabIdentifier": "Laser",
     "BattleValue": 0,
     "InventorySize": 1,
-    "Tonnage": 6,
+    "Tonnage": 0.5,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [
-
-    ],
+    "statusEffects": [],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_long",
-            "BLACKLISTED"
+            "component_type_variant",
+            "component_type_variant1",
+            "range_close"
         ],
         "tagSetSourceFile": ""
     }
 }
-

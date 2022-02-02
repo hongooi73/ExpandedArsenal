@@ -9,7 +9,7 @@
         490,
         730
     ],
-    "ammoCategoryID" : "LRM",
+    "ammoCategoryID": "LRM",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 20,
     "Damage": 12,
@@ -51,12 +51,16 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "range_extreme"
+            "range_extreme",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }
 }
+
