@@ -40,7 +40,7 @@
         "Details" : "The Streak SRM-2 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "Ignores 2 Evasion, + 2 Acc.",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
