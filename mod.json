@@ -27,6 +27,10 @@
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MechDef", "Path": "mech_clan" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-        { "Type": "Sprite", "Path": "portraits" }
+        { "Type": "Sprite", "Path": "portraits" },
+        {
+            "Type": "AdvancedJSONMerge",
+            "Path": "starsystems"
+        }
     ]
 }
