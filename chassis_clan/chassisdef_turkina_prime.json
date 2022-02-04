@@ -15,7 +15,7 @@
     "StockRole": "Sniper",
     "YangsThoughts": "The Turkina has 42 tons available for modular pods. The primary configuration is armed for long-range combat with twin ER PPCs, LRM-15s, and LB-X Autocannon/5s. Four extra double heat sinks keeps heat manageable, while enough ammunition is mounted to keep the Turkina in the fight for extended periods.",
     "Tonnage": 95,
-    "InitialTonnage": 35,
+    "InitialTonnage": 29,
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -180,90 +180,7 @@
         }
     ],
     "FixedEquipment": [
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
+
     ],
     "ChassisTags": {
         "items": [

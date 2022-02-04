@@ -1,9 +1,9 @@
 {
-    "DissipationCapacity" : 30,
+    "DissipationCapacity" : 0,
     "Description" : {
-        "Cost" : 1000,
+        "Cost" : 1,
         "Rarity" : 100,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Double Heat Sinks",
         "UIName" : "Engine HS (D)",
@@ -12,7 +12,7 @@
         "Details" : "This item converts a fusion engine to use Double Heat sinks that provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "- 30 Heat / Turn",
+    "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",

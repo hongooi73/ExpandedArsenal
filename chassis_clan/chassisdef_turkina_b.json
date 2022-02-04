@@ -15,7 +15,7 @@
     "StockRole": "Juggernaut",
     "YangsThoughts": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
     "Tonnage": 95,
-    "InitialTonnage": 35,
+    "InitialTonnage": 29,
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -190,90 +190,7 @@
         }
     ],
     "FixedEquipment": [
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -2,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
-        }
+
     ],
     "ChassisTags": {
         "items": "unit_mechtool",
