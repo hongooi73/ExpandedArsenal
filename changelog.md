@@ -77,6 +77,7 @@ The full list of planets with the new gear is as follows (not every item is avai
 - Targeting Computer Mk II renamed to Targeting Computer +, to match the vanilla convention of +/++/+++ variants representing upgrades; ignores 2 evasion pips; reduced to 2 tons
 - IS Artemis IV ignores 2 evasion pips with missile weapons, rather than giving an accuracy bonus
 - Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
+- Fix heatsinks and jumpjets for Hauptmann
 
 ## Initial changes (v1.3)
 
