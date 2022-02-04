@@ -11,20 +11,9 @@
         "Details": "This redesign actually addresses the ammunition-dependency of the earlier Banes. In this upgrade, Clan Jade Falcon scientists changed many elements of the Bane slightly, resulting in a 'Mech with a different appearance than its predecessors. Its focus is also short range, as evidenced by twin Model SH Ultra Autocannon/20s. Six tons of ammunition is adequate, though only barely. Three System 4 ATM 6s, along with four tons of ammunition, give the design great flexibility at all ranges. A single Series 7K ER Large Laser allows the 'Mech to stay in the fight in the event its ammunition bins have run dry. Seventeen double heat sinks are unequal to the task assigned them. The Falcons first deployed this multi-use design between 3065 and 3067.",
         "Icon": "uixTxrIcon_bane"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_bane",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_bane",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -83,7 +74,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
@@ -94,17 +85,19 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -129,10 +122,10 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -150,14 +143,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -166,7 +161,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -220,9 +217,12 @@
     ],
     "VariantName": "BAN-4",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
     "YangsThoughts": "This redesign actually addresses the ammunition-dependency of the earlier Banes. In this upgrade, Clan Jade Falcon scientists changed many elements of the Bane slightly, resulting in a 'Mech with a different appearance than its predecessors. Its focus is also short range, as evidenced by twin Model SH Ultra Autocannon/20s. Six tons of ammunition is adequate, though only barely. Three System 4 ATM 6s, along with four tons of ammunition, give the design great flexibility at all ranges. A single Series 7K ER Large Laser allows the 'Mech to stay in the fight in the event its ammunition bins have run dry. Seventeen double heat sinks are unequal to the task assigned them. The Falcons first deployed this multi-use design between 3065 and 3067."
 }
+

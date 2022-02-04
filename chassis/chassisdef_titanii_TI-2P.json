@@ -11,32 +11,20 @@
         "Details": "While the Titan II is effective at all ranges, it is still reminiscent of its antecedent's role as a brawler. Its main long-range fire comes from a Blankenburg Divine Wrath Heavy PPC. This is supplemented by a pair of Helga MML-9s, though they are more effective up close. In addition to those missiles, when it closes with an enemy, the Titan II can cut loose with a ZT Triple Fire Streak SRM-6, four Diplan M3-XR ER Medium Lasers and a single Kressly Premiere Optics ER Small Laser. Eighteen double heat sinks are usually up to the task of keeping the 'Mech cool.",
         "Icon": "uixTxrIcon_titanii"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		},
-		{
-			"ComponentDefID": "Gear_HeatSink_Internal_Engine_2",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+        {
+            "ComponentDefID": "Gear_HeatSink_Internal_Engine_2",
+            "ComponentDefType": "HeatSink",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "MountedLocation": "CenterTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        }
+    ],
     "MovementCapDefID": "movedef_titanii",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_titanii",
@@ -46,7 +34,7 @@
     "InitialTonnage": 34,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -83,8 +71,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -215,7 +203,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -224,7 +214,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -278,9 +270,12 @@
     ],
     "VariantName": "TI-2P",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
     "YangsThoughts": "While the Titan II is effective at all ranges, it is still reminiscent of its antecedent's role as a brawler. Its main long-range fire comes from a Blankenburg Divine Wrath Heavy PPC. This is supplemented by a pair of Helga MML-9s, though they are more effective up close. In addition to those missiles, when it closes with an enemy, the Titan II can cut loose with a ZT Triple Fire Streak SRM-6, four Diplan M3-XR ER Medium Lasers and a single Kressly Premiere Optics ER Small Laser. Eighteen double heat sinks are usually up to the task of keeping the 'Mech cool."
 }
+

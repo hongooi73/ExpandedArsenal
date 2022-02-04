@@ -11,20 +11,9 @@
         "Details": "This variant of the Piranha is fielded by Clan Ice Hellion and upgrades to double heat sinks so that the Machine Guns can be effectively swapped out for ER Micro Lasers. The other lasers were upgraded to heavy models.",
         "Icon": "uixTxrIcon_piranha"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_piranha",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_piranha",
@@ -34,7 +23,7 @@
     "InitialTonnage": 6.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 140,
     "TurnRadius": 90,
     "MaxJumpjets": 9,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -138,7 +129,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -242,7 +233,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 40,
@@ -251,7 +244,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 40,
@@ -305,9 +300,12 @@
     ],
     "VariantName": "PIR-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
     "YangsThoughts": "This variant of the Piranha is fielded by Clan Ice Hellion and upgrades to double heat sinks so that the Machine Guns can be effectively swapped out for ER Micro Lasers. The other lasers were upgraded to heavy models."
 }
+

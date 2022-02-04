@@ -11,20 +11,9 @@
         "Details": "In order to plug holes in their touman, Clan Goliath Scorpion scientists revisited the Behemoth. Like Clan Smoke Jaguar before them, they upgraded and improved upon the design. This version used an Extra-light Engine to mount a pair of Thunderstroke Series 2b Gauss Rifles along the top of the 'Mech. Each arm carried a Series 4D-2 Heavy Large Laser, a Series 22a Heavy Medium Laser, and a General Systems Heavy Small Laser. It retained the shock-absorbing cowls of the original. Another pair of Heavy Mediums protected the rear of the 'Mech. A head-mounted Shield-3 Anti-Missile System defended against missiles, while an Anti-Personnel Pod in each leg discouraged unarmored infantry. This design had jump jets, nineteen tons of armor, and a meager sixteen double heat sinks.",
         "Icon": "uixTxrIcon_stonerhino"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 7718000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,8 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [				
+            "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -85,7 +75,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -93,8 +83,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 170,
@@ -119,7 +109,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -127,7 +117,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -137,8 +127,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [		
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -163,7 +154,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -171,7 +162,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -193,7 +184,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -201,7 +192,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -211,7 +202,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -220,7 +213,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -274,9 +269,12 @@
     ],
     "VariantName": "STR-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Slow Juggernaut",
     "YangsThoughts": "In order to plug holes in their touman, Clan Goliath Scorpion scientists revisited the Behemoth. Like Clan Smoke Jaguar before them, they upgraded and improved upon the design. This version used an Extra-light Engine to mount a pair of Thunderstroke Series 2b Gauss Rifles along the top of the 'Mech. Each arm carried a Series 4D-2 Heavy Large Laser, a Series 22a Heavy Medium Laser, and a General Systems Heavy Small Laser. It retained the shock-absorbing cowls of the original. Another pair of Heavy Mediums protected the rear of the 'Mech. A head-mounted Shield-3 Anti-Missile System defended against missiles, while an Anti-Personnel Pod in each leg discouraged unarmored infantry. This design had jump jets, nineteen tons of armor, and a meager sixteen double heat sinks."
 }
+

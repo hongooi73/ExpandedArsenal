@@ -11,20 +11,9 @@
         "Details": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing.",
         "Icon": "uixTxrIcon_sunspider"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_sunspider",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_sunspider",
@@ -34,7 +23,7 @@
     "InitialTonnage": 24,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -104,7 +95,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -118,7 +111,7 @@
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
-            ],				
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 150,
@@ -145,7 +138,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -154,7 +149,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -208,9 +205,12 @@
     ],
     "VariantName": "SNS-C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Lurm Boat",
     "YangsThoughts": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing."
 }
+

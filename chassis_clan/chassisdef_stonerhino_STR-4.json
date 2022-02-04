@@ -11,20 +11,9 @@
         "Details": "A variable range variant, the Stone Rhino 4 uses an XL Engine to provide weight savings for four LRM 10s to lay down impressive long range fire. Backing these up are a pair of Ultra AC-10s for mid-range engagements. From there, four ER Medium Lasers provide a solid short range punch. Lastly, four Machine Guns provide anti-infantry support. These combine to make a solid and well rounded configuration.",
         "Icon": "uixTxrIcon_stonerhino"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 7718000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -61,9 +50,10 @@
     "DFASelfDamage": 100,
     "DFAInstability": 100,
     "Locations": [
-         {
+        {
             "Location": "Head",
-            "Hardpoints": [				
+            "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -85,7 +75,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -93,8 +83,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 170,
@@ -115,7 +105,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },	
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -123,7 +113,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -133,8 +123,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [		
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -155,7 +146,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -163,7 +154,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -185,7 +176,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -193,7 +184,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -203,7 +194,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -212,7 +205,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -266,9 +261,12 @@
     ],
     "VariantName": "STR-4",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Slow Juggernaut",
     "YangsThoughts": "A variable range variant, the Stone Rhino 4 uses an XL Engine to provide weight savings for four LRM 10s to lay down impressive long range fire. Backing these up are a pair of Ultra AC-10s for mid-range engagements. From there, four ER Medium Lasers provide a solid short range punch. Lastly, four Machine Guns provide anti-infantry support. These combine to make a solid and well rounded configuration."
 }
+

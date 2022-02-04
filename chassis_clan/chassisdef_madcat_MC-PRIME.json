@@ -1,266 +1,259 @@
-{ 
-  "Description": {
-    "Cost": 15000000,
-    "Rarity": 1,
-    "Purchasable": true,
-    "Manufacturer": "Clan Wolf",
-    "Model": "Uber",
-    "UIName": "Mad Cat PRIME",
-    "Id": "chassisdef_madcat_MC-PRIME",
-    "Name": "Mad Cat",
-    "Details": "The default configuration of the Timber Wolf features a well blended mix of energy and missile weaponry; primarily extended-range lasers and long range missile racks that give the Timber Wolf considerable firepower at medium and long range. A pair of LRM-20 racks supplemented by two Extended Range Large Lasers make up the bulk of the Timber Wolf's firepower. The Timber Wolf also has an array of lighter, shorter ranged weaponry for use once the 'Mech draws closer to its prey: two ER Medium Lasers and a Medium Pulse Laser. Finally, it has two Machine Guns for point defense against infantry. Even on the modern battlefield the primary configuration of the Timber Wolf is a force to be reckoned with.",
-    "Icon": "uixTxrIcon_madcat"
+{
+    "Description": {
+        "Cost": 15000000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Clan Wolf",
+        "Model": "Uber",
+        "UIName": "Mad Cat PRIME",
+        "Id": "chassisdef_madcat_MC-PRIME",
+        "Name": "Mad Cat",
+        "Details": "The default configuration of the Timber Wolf features a well blended mix of energy and missile weaponry; primarily extended-range lasers and long range missile racks that give the Timber Wolf considerable firepower at medium and long range. A pair of LRM-20 racks supplemented by two Extended Range Large Lasers make up the bulk of the Timber Wolf's firepower. The Timber Wolf also has an array of lighter, shorter ranged weaponry for use once the 'Mech draws closer to its prey: two ER Medium Lasers and a Medium Pulse Laser. Finally, it has two Machine Guns for point defense against infantry. Even on the modern battlefield the primary configuration of the Timber Wolf is a force to be reckoned with.",
+        "Icon": "uixTxrIcon_madcat"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
-  "MovementCapDefID": "movedef_madcat",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_madcat",
-  "PrefabIdentifier": "chrprfmech_madcatbase-001",
-  "PrefabBase": "madcat",
-  "Tonnage": 75,
-  "InitialTonnage": 29,
-  "weightClass": "HEAVY",
-  "BattleValue": 8144000,
-  "Heatsinks": 0,
-  "TopSpeed": 76,
-  "TurnRadius": 180,
-  "MaxJumpjets": 5,
-  "Stability": 100,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 75,
-  "MeleeInstability": 19,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 75,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 75,
-  "DFAInstability": 38,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }		
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }		
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }	  
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 230,
-      "MaxRearArmor": 115,
-      "InternalStructure": 115
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }		
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }	
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [
+    "FixedEquipment": [
 
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [
+    ],
+    "MovementCapDefID": "movedef_madcat",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_madcat",
+    "PrefabIdentifier": "chrprfmech_madcatbase-001",
+    "PrefabBase": "madcat",
+    "Tonnage": 75,
+    "InitialTonnage": 29,
+    "weightClass": "HEAVY",
+    "BattleValue": 8144000,
+    "Heatsinks": 30,
+    "TopSpeed": 76,
+    "TurnRadius": 180,
+    "MaxJumpjets": 5,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 75,
+    "MeleeInstability": 19,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 75,
+    "DFAInstability": 38,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
 
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 160,
-      "MaxRearArmor": -1,
-      "InternalStructure": 80
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "MC-PRIME",
+    "ChassisTags": {
+        "items": [
+
+        ],
+        "tagSetSourceFile": ""
     },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": -2,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 2,
-      "y": 3,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "MC-PRIME",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Clan Heavy Mech",
-  "YangsThoughts": "The default configuration of the Timber Wolf features a well blended mix of energy and missile weaponry; primarily extended-range lasers and long range missile racks that give the Timber Wolf considerable firepower at medium and long range. A pair of LRM-20 racks supplemented by two Extended Range Large Lasers make up the bulk of the Timber Wolf's firepower. The Timber Wolf also has an array of lighter, shorter ranged weaponry for use once the 'Mech draws closer to its prey: two ER Medium Lasers and a Medium Pulse Laser. Finally, it has two Machine Guns for point defense against infantry. Even on the modern battlefield the primary configuration of the Timber Wolf is a force to be reckoned with."
+    "StockRole": "Clan Heavy Mech",
+    "YangsThoughts": "The default configuration of the Timber Wolf features a well blended mix of energy and missile weaponry; primarily extended-range lasers and long range missile racks that give the Timber Wolf considerable firepower at medium and long range. A pair of LRM-20 racks supplemented by two Extended Range Large Lasers make up the bulk of the Timber Wolf's firepower. The Timber Wolf also has an array of lighter, shorter ranged weaponry for use once the 'Mech draws closer to its prey: two ER Medium Lasers and a Medium Pulse Laser. Finally, it has two Machine Guns for point defense against infantry. Even on the modern battlefield the primary configuration of the Timber Wolf is a force to be reckoned with."
 }
+

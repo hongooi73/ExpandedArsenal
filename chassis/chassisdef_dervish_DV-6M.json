@@ -50,6 +50,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -71,8 +72,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 90,
@@ -89,7 +90,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -99,7 +100,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -116,8 +119,8 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 130,
@@ -148,7 +151,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -157,7 +162,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -211,9 +218,12 @@
     ],
     "VariantName": "DV-6M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
     "YangsThoughts": "The Dervish carries as its main weapons two Federated 10-Shot LRM launchers. These missile launchers give the Dervish the long-range capability needed to provide fire support to friendly units and are safely embedded in the torso as opposed to the exposed launchers on other 'Mechs. A ton of ammunition per launcher provides sufficient endurance for any but the most prolonged battles. For close combat, the Dervish carries two Federated 2-Shot SRM launchers and two ChisComp 39 Medium Lasers. The SRM launchers are completely self-contained within the forearms, allowing them to be aimed quickly, and fed by a ton of ammunition each. The lasers are placed just above the launchers and ensure the 'Mech is still capable of fighting should it run out of missiles. The Dervish is capable of jumping 150 meters and is protected by seven and a half tons of armor."
 }
+

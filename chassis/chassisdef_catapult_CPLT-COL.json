@@ -11,20 +11,9 @@
         "Details": "A custom AC2 Sniper Catapult based off the K2 Variant, with endo steel and a 325XL Engine.",
         "Icon": "uixTxrIcon_k2pult"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_catapult_CPLT-COL",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_k2pult",
@@ -34,7 +23,7 @@
     "InitialTonnage": 21.5,
     "weightClass": "HEAVY",
     "BattleValue": 7150000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -124,7 +115,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -185,7 +178,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -194,7 +189,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -248,9 +245,12 @@
     ],
     "VariantName": "CPLT-COL",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
     "YangsThoughts": "First catapult I've seen with Ballistics on the arms boss"
 }
+

@@ -11,20 +11,9 @@
         "Details": "A mixed-range combatant, the Sun Spider B is built around a right-torso mounted Gauss Rifle, supported by a left-torso ER Large Laser and matched Streak SRM-6 and ER Medium Lasers in each arm. An Anti-Missile System and a Light Active Probe in the left torso prevent the B from being caught unaware, carrying two tons of Gauss and Streak reloads along with a single ton of AMS ammo and an extra double heat sink.",
         "Icon": "uixTxrIcon_sunspider"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_sunspider",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_sunspider",
@@ -34,7 +23,7 @@
     "InitialTonnage": 24,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -108,7 +99,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -153,7 +146,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -162,7 +157,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -216,9 +213,12 @@
     ],
     "VariantName": "SNS-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "A mixed-range combatant, the Sun Spider B is built around a right-torso mounted Gauss Rifle, supported by a left-torso ER Large Laser and matched Streak SRM-6 and ER Medium Lasers in each arm. An Anti-Missile System and a Light Active Probe in the left torso prevent the B from being caught unaware, carrying two tons of Gauss and Streak reloads along with a single ton of AMS ammo and an extra double heat sink."
 }
+

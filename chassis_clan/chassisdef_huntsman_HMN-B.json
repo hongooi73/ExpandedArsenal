@@ -11,20 +11,9 @@
         "Details": "The Huntsman B uses an ER PPC at long range. Close in, it can call upon an LB-X Autocannon/10 and a pair of Medium Pulse Lasers. Two Machine Guns can make short work of unarmored infantry.",
         "Icon": "uixTxrIcon_huntsman"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_huntsman",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_huntsman",
@@ -34,7 +23,7 @@
     "InitialTonnage": 14,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -87,6 +78,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -96,7 +88,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -121,8 +115,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 120,
@@ -153,7 +147,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 120,
@@ -162,7 +158,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 120,
@@ -216,9 +214,12 @@
     ],
     "VariantName": "HMN-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Multi-Role Omnimech",
     "YangsThoughts": "The Huntsman B uses an ER PPC at long range. Close in, it can call upon an LB-X Autocannon/10 and a pair of Medium Pulse Lasers. Two Machine Guns can make short work of unarmored infantry."
 }
+

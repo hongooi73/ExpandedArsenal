@@ -67,7 +67,9 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 120,
@@ -94,7 +96,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 230,
@@ -121,7 +125,9 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 120,
@@ -130,7 +136,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -139,12 +147,14 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure":80
+            "InternalStructure": 80
         }
     ],
     "LOSSourcePositions": [
@@ -193,9 +203,12 @@
     ],
     "VariantName": "CGR-PB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Scout & Brawler",
     "YangsThoughts": "An interesting departure from standard 'Mech design, deciding to use the Chargers speed and dedicate it to beating heavy and assault 'Mechs into scrap with it's fists."
 }
+

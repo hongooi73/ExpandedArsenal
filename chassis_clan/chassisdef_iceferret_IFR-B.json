@@ -11,20 +11,9 @@
         "Details": "The Ice Ferret B has an ER Large Laser as its only long-range weapon. For close combat, the B configuration carries an SRM-4 and an SRM-6 launcher as well as a highly accurate Small Pulse Laser.",
         "Icon": "uixTxrIcon_iceferret"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_iceferret",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_iceferret",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25,
     "weightClass": "MEDIUM",
     "BattleValue": 4252000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 8,
@@ -64,6 +53,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -82,10 +72,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -96,6 +86,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -114,15 +105,15 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }			
-			],
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -131,7 +122,9 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 110,
@@ -158,7 +151,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 110,
@@ -167,7 +162,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 110,
@@ -221,9 +218,12 @@
     ],
     "VariantName": "IFR-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fast Scout",
     "YangsThoughts": "The Ice Ferret B has an ER Large Laser as its only long-range weapon. For close combat, the B configuration carries an SRM-4 and an SRM-6 launcher as well as a highly accurate Small Pulse Laser."
 }
+

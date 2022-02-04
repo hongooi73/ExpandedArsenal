@@ -11,20 +11,9 @@
         "Details": "The cavernous amount of space in the Blitzkrieg allows it to carry a massive Defiance Thunder Ultra Autocannon/20 that can fire at twice the rate as a standard autocannon. This powerful weapon combined with the 'Mechs high speed lets the Blitzkrieg truly live up to its name by bringing an immense amount of firepower to bear on a target and fading away just as quickly.",
         "Icon": "uixTxrIcon_blitzkrieg"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],	
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_blitzkrieg",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_blitzkrieg",
@@ -34,7 +23,7 @@
     "InitialTonnage": 23.75,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -72,7 +63,9 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 80,
@@ -107,7 +100,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -116,7 +111,9 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 120,
@@ -125,7 +122,9 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 80,
@@ -134,7 +133,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 120,
@@ -143,7 +144,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 120,
@@ -197,9 +200,12 @@
     ],
     "VariantName": "BTZ-3F",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fast Skirmisher",
     "YangsThoughts": "The cavernous amount of space in the Blitzkrieg allows it to carry a massive Defiance Thunder Ultra Autocannon/20 that can fire at twice the rate as a standard autocannon. This powerful weapon combined with the 'Mechs high speed lets the Blitzkrieg truly live up to its name by bringing an immense amount of firepower to bear on a target and fading away just as quickly."
 }
+

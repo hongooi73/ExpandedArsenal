@@ -11,20 +11,9 @@
         "Details": "Similar to the previous variants, the Orion IIC C retains the SRM-4 and ER Large Lasers of the standard Orion IIC while downgrading the LRM rack for a LRM-15 and swapping the Gauss Rifle for a pair of Ultra Autocannon/10s. Built around an XL engine, the C variant mounts three extra double heat sinks and carries three tons of Ultra Autocannon rounds, two of LRM missiles and one single ton of SRM reloads.",
         "Icon": "uixTxrIcon_orioniic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_orioniic",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_orioniic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 18,
     "weightClass": "HEAVY",
     "BattleValue": 7124000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -116,7 +107,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 230,
@@ -133,7 +126,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -169,7 +162,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -178,7 +173,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -232,9 +229,12 @@
     ],
     "VariantName": "ON1-IIC-C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "Similar to the previous variants, the Orion IIC C retains the SRM-4 and ER Large Lasers of the standard Orion IIC while downgrading the LRM rack for a LRM-15 and swapping the Gauss Rifle for a pair of Ultra Autocannon/10s. Built around an XL engine, the C variant mounts three extra double heat sinks and carries three tons of Ultra Autocannon rounds, two of LRM missiles and one single ton of SRM reloads."
 }
+

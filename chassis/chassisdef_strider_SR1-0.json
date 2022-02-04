@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -66,8 +68,8 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -138,7 +140,9 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -147,7 +151,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 100,
@@ -156,7 +162,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 100,
@@ -210,9 +218,12 @@
     ],
     "VariantName": "SR1-0",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Harasser",
     "YangsThoughts": "In all honesty, Cicadas as a rule are very fragile. The 2A model was designed to be as fast as any light 'Mech, but that massive engine leaves little room for much else. Still, if you use it cautiously, it can be a successful scout and diversion."
 }
+

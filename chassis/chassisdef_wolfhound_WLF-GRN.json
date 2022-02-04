@@ -11,20 +11,9 @@
         "Details": "Phelan Kell and his Wolfhound, nicknamed Grinner, were captured by the forces of Clan Wolf during Operation Revival. When Phelan was inducted into the Wolf Clan as a Warrior, Khan Ulric Kerensky ordered his 'Mech be upgraded using Clan technology.",
         "Icon": "uixTxrIcon_wolfhound"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],		
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_wolfhound_WLF-1",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_wolfhound",
@@ -34,7 +23,7 @@
     "InitialTonnage": 9.75,
     "weightClass": "LIGHT",
     "BattleValue": 3087000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 85,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 1,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -72,7 +63,9 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -94,11 +87,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }				
-			],
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 80,
@@ -116,10 +109,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }				
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -142,11 +135,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }			
-			],
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 80,
@@ -168,10 +161,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -181,7 +174,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 80,
@@ -190,7 +185,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 80,
@@ -244,9 +241,12 @@
     ],
     "VariantName": "WLF-GRN",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Light Brawler",
     "YangsThoughts": "Phelan Kell and his Wolfhound, nicknamed Grinner, were captured by the forces of Clan Wolf during Operation Revival. When Phelan was inducted into the Wolf Clan as a Warrior, Khan Ulric Kerensky ordered his 'Mech be upgraded using Clan technology."
 }
+

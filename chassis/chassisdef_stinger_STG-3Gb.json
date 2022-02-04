@@ -68,7 +68,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 30,
@@ -77,7 +77,9 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 50,
@@ -91,7 +93,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -100,7 +102,9 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 50,
@@ -123,7 +127,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 40,
@@ -132,7 +138,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 40,
@@ -186,9 +194,12 @@
     ],
     "VariantName": "STG-3Gb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Scout",
     "YangsThoughts": "The Royal Stinger introduced in 2720 used a XL Engine and Endo Steel chassis, to be able to mount a battery of three medium lasers and one Small Laser. The heat-sinks were upgraded to Double Heat Sinks and the speed and jumping distance of the Mech were also been improved slightly."
 }
+

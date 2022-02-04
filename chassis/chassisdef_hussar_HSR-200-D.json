@@ -11,20 +11,9 @@
         "Details": "The Hussar has a single weapon on its chassis in a unique turreted mount on the center torso, a Newhart Extended Range Large Laser. While the use of a single weapon limits the defensive capabilities of the Hussar, the superior reach of the ER laser allows the 'Mech to engage enemies at a standoff range and its speed means the Hussar can dictate the range of the engagement, forcing enemies to fight on its terms. If enemies do get too close the Hussar can still engage in physical combat with kicks and punches but this is less than ideal. Ten double heat sinks are enough to keep the 'Mech cool in combat, but only one and a half tons of Ferro-Fibrous armor makes the Hussar among the least-protected 'Mechs ever built.",
         "Icon": "uixTxrIcon_hussar"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_hussar",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_hussar",
@@ -34,7 +23,7 @@
     "InitialTonnage": 23.25,
     "weightClass": "LIGHT",
     "BattleValue": 3610000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 210,
     "TurnRadius": 90,
     "MaxJumpjets": 8,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -72,7 +63,9 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -82,6 +75,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -118,6 +112,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -127,7 +122,9 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -136,7 +133,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 100,
@@ -145,7 +144,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 100,
@@ -199,9 +200,12 @@
     ],
     "VariantName": "HSR-200-D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Harasser",
     "YangsThoughts": "The Hussar has a single weapon on its chassis in a unique turreted mount on the center torso, a Newhart Extended Range Large Laser. While the use of a single weapon limits the defensive capabilities of the Hussar, the superior reach of the ER laser allows the 'Mech to engage enemies at a standoff range and its speed means the Hussar can dictate the range of the engagement, forcing enemies to fight on its terms. If enemies do get too close the Hussar can still engage in physical combat with kicks and punches but this is less than ideal. Ten double heat sinks are enough to keep the 'Mech cool in combat, but only one and a half tons of Ferro-Fibrous armor makes the Hussar among the least-protected 'Mechs ever built."
 }
+

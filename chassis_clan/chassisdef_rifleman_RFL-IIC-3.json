@@ -11,20 +11,9 @@
         "Details": "Following the surprise invasion of Huntress, most of the Clans looked to upgrade the defenders of their homeworlds. In so doing, Clan Cloud Cobra decided to upgrade their aging Rifleman IICs. The IIC 3 first entered service in the early part of 3062. Based upon the original design, it nonetheless uses two Model HHC-30 Ultra Autocannon/2s to plink at a target from long range. Any opponent who believes he or she is facing a IIC 2 is quickly surprised, however, when the IIC 3 opens up with its paired Series 4D-2 Heavy Large Lasers. Twenty one double heat sinks keep this design cool-running. This rebuilt version still mounts the Active Probe.",
         "Icon": "uixTxrIcon_riflemaniic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_riflemaniic_195",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_riflemaniic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 13.5,
     "weightClass": "HEAVY",
     "BattleValue": 5514000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -64,8 +53,8 @@
         {
             "Location": "Head",
             "Hardpoints": [
-			
-			],
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -75,7 +64,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -83,11 +72,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },			
-				{
+                },
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -95,19 +84,19 @@
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-				{
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
-				{
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -121,6 +110,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -130,7 +120,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -140,6 +132,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -150,7 +143,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -158,11 +151,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },			
-				{
+                },
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -170,11 +163,11 @@
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
@@ -182,10 +175,10 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -195,7 +188,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -204,7 +199,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -258,9 +255,12 @@
     ],
     "VariantName": "RFL-IIC-3",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",
     "YangsThoughts": "Following the surprise invasion of Huntress, most of the Clans looked to upgrade the defenders of their homeworlds. In so doing, Clan Cloud Cobra decided to upgrade their aging Rifleman IICs. The IIC 3 first entered service in the early part of 3062. Based upon the original design, it nonetheless uses two Model HHC-30 Ultra Autocannon/2s to plink at a target from long range. Any opponent who believes he or she is facing a IIC 2 is quickly surprised, however, when the IIC 3 opens up with its paired Series 4D-2 Heavy Large Lasers. Twenty one double heat sinks keep this design cool-running. This rebuilt version still mounts the Active Probe."
 }
+

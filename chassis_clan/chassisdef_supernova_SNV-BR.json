@@ -11,20 +11,9 @@
         "Details": "While feared by the Inner Sphere, the Supernova design was born out of necessity in an attempt to address ammunition shortages by changing the original King Crab design to an all-energy loadout. The Boiler is a customized Supernova variant that seeks to re-engineer the Supernova back to the original King Crab loadout using Clan technology, essentially making the Boiler a “King Crab IIC”. It mounts an Ultra AC/20 in each arm supported by a Large Pulse Laser in the right torso and an LRM-15 rack in the left. As it was built upon the frame of the standard Supernova, it retains the jump jets but mounts only seventeen double heat sinks. Like its progenitor, the Boiler lacks field endurance, carrying only two tons of Ultra Autocannon rounds and one ton of LRM reloads.",
         "Icon": "uixTxrIcon_supernova"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_supernova",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_supernova",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -53,17 +42,19 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-  "MeleeDamage": 45,
-  "MeleeInstability": 23,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 90,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 90,
-  "DFAInstability": 45,
+    "MeleeDamage": 45,
+    "MeleeInstability": 23,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 90,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 90,
+    "DFAInstability": 45,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -99,7 +90,7 @@
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
@@ -112,8 +103,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [			
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 290,
@@ -152,7 +144,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -162,7 +154,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -171,7 +165,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -225,9 +221,12 @@
     ],
     "VariantName": "SNV-BR",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Heavy Cavalry",
     "YangsThoughts": "While feared by the Inner Sphere, the Supernova design was born out of necessity in an attempt to address ammunition shortages by changing the original King Crab design to an all-energy loadout. The Boiler is a customized Supernova variant that seeks to re-engineer the Supernova back to the original King Crab loadout using Clan technology, essentially making the Boiler a “King Crab IIC”. It mounts an Ultra AC/20 in each arm supported by a Large Pulse Laser in the right torso and an LRM-15 rack in the left. As it was built upon the frame of the standard Supernova, it retains the jump jets but mounts only seventeen double heat sinks. Like its progenitor, the Boiler lacks field endurance, carrying only two tons of Ultra Autocannon rounds and one ton of LRM reloads."
 }
+

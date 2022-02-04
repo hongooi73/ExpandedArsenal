@@ -57,8 +57,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -75,11 +75,11 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -116,6 +116,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -155,11 +156,11 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -173,7 +174,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -182,7 +185,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -236,9 +241,12 @@
     ],
     "VariantName": "LMT-4RC",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Fire Support",
     "YangsThoughts": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System."
 }
+

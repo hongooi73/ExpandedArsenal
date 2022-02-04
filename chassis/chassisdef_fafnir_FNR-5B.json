@@ -11,20 +11,9 @@
         "Details": "A lack of Thor's Hammers forced engineers to come up with a field modification that could be useful without the Heavy Gauss Rifles. The solution was to replace them with paired standard Gauss Rifles, ER Medium Lasers, and an ER Large Laser. The added energy weapons reduce the 5B's ammo dependency compared to the original, but even with extra heatsinks installed it can still run quite hot so MechWarriors must be mindful of their heat levels.",
         "Icon": "uixTxrIcon_fafnir"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_fafnir_FNR-5",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_fafnir",
@@ -34,7 +23,7 @@
     "InitialTonnage": 31,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -64,11 +53,11 @@
         {
             "Location": "Head",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -82,11 +71,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
@@ -114,7 +103,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-			
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -143,11 +132,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
@@ -160,7 +149,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -169,7 +160,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -223,9 +216,12 @@
     ],
     "VariantName": "FNR-5B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",
     "YangsThoughts": "A lack of Thor's Hammers forced engineers to come up with a field modification that could be useful without the Heavy Gauss Rifles. The solution was to replace them with paired standard Gauss Rifles, ER Medium Lasers, and an ER Large Laser. The added energy weapons reduce the 5B's ammo dependency compared to the original, but even with extra heatsinks installed it can still run quite hot so MechWarriors must be mindful of their heat levels."
 }
+

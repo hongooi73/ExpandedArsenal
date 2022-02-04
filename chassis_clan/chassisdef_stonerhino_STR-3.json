@@ -11,20 +11,9 @@
         "Details": "A Clan Hell's Horses variant made use of two Large Pulse Lasers in each arm and two ATM 9s with four tons of ammo in the torso. Two ER Micro Lasers to protect the 'Mech's rear arc, while the other equipment was removed to add heat sinks.",
         "Icon": "uixTxrIcon_stonerhino"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 7718000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,8 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [				
+            "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -89,8 +79,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 170,
@@ -115,7 +105,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -125,8 +115,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [		
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -151,7 +142,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }		
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -177,7 +168,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -187,7 +178,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -196,7 +189,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -250,9 +245,12 @@
     ],
     "VariantName": "STR-3",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Slow Juggernaut",
     "YangsThoughts": "A Clan Hell's Horses variant made use of two Large Pulse Lasers in each arm and two ATM 9s with four tons of ammo in the torso. Two ER Micro Lasers to protect the 'Mech's rear arc, while the other equipment was removed to add heat sinks."
 }
+

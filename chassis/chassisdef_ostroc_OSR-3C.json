@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -59,6 +61,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -84,7 +87,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -95,6 +98,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -131,6 +135,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -140,7 +145,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -149,7 +156,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -203,9 +212,12 @@
     ],
     "VariantName": "OSR-3C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",
     "YangsThoughts": "The 3C variant looks to improve the long-range direct firepower of the Ostroc. Introduced in 2876, the two medium lasers and the SRM-4 have been removed in order to add a third large laser mounted in the right torso."
 }
+

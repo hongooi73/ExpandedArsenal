@@ -16,7 +16,7 @@
     "YangsThoughts": "An early variant of the Imp and the first version to be seen by the Inner Sphere, the 2E model uses all non-Star League technology. The 'Mech is armed with a pair of PPCs and an LRM-15 launcher for long range combat. For close combat, the 'Mech carries five Medium Lasers.",
     "PrefabIdentifier": "chrprfmech_impbase-001",
     "PrefabBase": "imp",
-	"MovementCapDefID": "movedef_imp",
+    "MovementCapDefID": "movedef_imp",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_imp",
     "Tonnage": 100,
@@ -52,7 +52,9 @@
     "DFASelfDamage": 115,
     "DFAInstability": 90,
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "MechPartMax": 0,
@@ -104,7 +106,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -118,10 +122,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -140,10 +144,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -162,10 +166,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -184,10 +188,10 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -215,7 +219,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -224,7 +230,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -233,3 +241,4 @@
         }
     ]
 }
+

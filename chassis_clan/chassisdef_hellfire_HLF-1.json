@@ -11,20 +11,9 @@
         "Details": "Despite its initial success, the combat service of the Hellfire has not be flaw free. Aside from the sensor interference caused by firing its signature Heavy Lasers, a number of battlefield reports indicate the heavy laser tubes can violently rupture in the heat of battle. The 'Mech also experiences a fifteen percent higher rate of MASC failure than usual, though technicians have yet to determine whether this is due to the age of the Lupus chassis or if this is something caused by the Heavy Lasers.",
         "Icon": "uixTxrIcon_hellfire"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_hellfire_240",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_hellfire",
@@ -34,7 +23,7 @@
     "InitialTonnage": 22,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -117,6 +108,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -134,12 +126,12 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -174,7 +166,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -183,7 +177,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -237,9 +233,12 @@
     ],
     "VariantName": "HLF-1",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Support",
     "YangsThoughts": "Despite its initial success, the combat service of the Hellfire has not be flaw free. Aside from the sensor interference caused by firing its signature Heavy Lasers, a number of battlefield reports indicate the heavy laser tubes can violently rupture in the heat of battle. The 'Mech also experiences a fifteen percent higher rate of MASC failure than usual, though technicians have yet to determine whether this is due to the age of the Lupus chassis or if this is something caused by the Heavy Lasers."
 }
+

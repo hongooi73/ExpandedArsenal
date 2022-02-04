@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +90,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -98,7 +100,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 290,
@@ -147,7 +151,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -156,7 +162,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -210,9 +218,12 @@
     ],
     "VariantName": "MAL-DOB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Heavy Cavalry",
     "YangsThoughts": "The Daboku is armed with two Tronel VI-X Large Lasers, two Holly LRM-10s, and four Imperator Smoothie-2 Autocannon/2s, a layout that was intended to allow the pilot to snipe at enemies from well beyond conventional ranges. Unfortunately, the housing for the Large Lasers prevents proper cooling and as a result they often overheat and short circuit the Daboku's targeting circuits. The ammunition feed for the Imperator autocannons also tends to jam, depriving the 'Mech of its longest range weaponry. Only the Holly LRMs seem to work properly but are only equipped with a ton of ammunition each, limiting their usefulness in a drawn out fight."
 }
+

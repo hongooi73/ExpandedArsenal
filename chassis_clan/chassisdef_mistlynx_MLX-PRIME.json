@@ -11,20 +11,9 @@
         "Details": "In its primary configuration the Mist Lynx is armed to engage an enemy at any range. For long range combat, the Mist Lynx carries a single LRM-10 launcher, which is backed up by a Streak SRM-4 launcher for close combat. Finally, to protect itself from infantry, the Mist Lynx carries two Machine Guns.",
         "Icon": "uixTxrIcon_mistlynx"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_mistlynx",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_mistlynx",
@@ -34,7 +23,7 @@
     "InitialTonnage": 6.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 7,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -91,6 +82,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -101,6 +93,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -111,6 +104,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -140,7 +134,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -150,7 +144,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -159,7 +155,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -213,9 +211,12 @@
     ],
     "VariantName": "MLX-PRIME",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
     "YangsThoughts": "In its primary configuration the Mist Lynx is armed to engage an enemy at any range. For long range combat, the Mist Lynx carries a single LRM-10 launcher, which is backed up by a Streak SRM-4 launcher for close combat. Finally, to protect itself from infantry, the Mist Lynx carries two Machine Guns."
 }
+

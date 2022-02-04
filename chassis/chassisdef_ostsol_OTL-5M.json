@@ -11,20 +11,9 @@
         "Details": "The 5M variant of the Ostsol is an upgrade of the design using Star League technology and is built for close-range combat with production starting in 3050. The original engine, heat sinks, and weapons have been stripped from the chassis and replaced with a Hermes 300 XL engine and sixteen double heat sinks. Taking the place of its standard weapons, the 5M Ostsol carries two Tronel XIII Large Pulse Lasers and four Tronel XII Medium Pulse Lasers, two of which remain rear-mounted to discourage attacks against the 'Mech's weak rear armor. Finally, for added protection against missile attacks, the 5M carries a Lindblad Shotgun Anti-Missile System in its right torso with one ton of ammo in the left.",
         "Icon": "uixTxrIcon_ostsol"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_ostsol",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostsol",
@@ -34,7 +23,7 @@
     "InitialTonnage": 21.5,
     "weightClass": "HEAVY",
     "BattleValue": 6922000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,8 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [			
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -74,6 +64,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -162,6 +153,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -171,7 +163,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -180,7 +174,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -234,9 +230,12 @@
     ],
     "VariantName": "OTL-5M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",
     "YangsThoughts": "The 5M variant of the Ostsol is an upgrade of the design using Star League technology and is built for close-range combat with production starting in 3050. The original engine, heat sinks, and weapons have been stripped from the chassis and replaced with a Hermes 300 XL engine and sixteen double heat sinks. Taking the place of its standard weapons, the 5M Ostsol carries two Tronel XIII Large Pulse Lasers and four Tronel XII Medium Pulse Lasers, two of which remain rear-mounted to discourage attacks against the 'Mech's weak rear armor. Finally, for added protection against missile attacks, the 5M carries a Lindblad Shotgun Anti-Missile System in its right torso with one ton of ammo in the left."
 }
+

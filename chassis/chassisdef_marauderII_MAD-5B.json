@@ -11,42 +11,30 @@
         "Details": "This 3050 variant carries the same weaponry as the standard Marauder II, but replaces the LB 10-X autocannon with a Gauss Rifle. To make room for this weapon, the MAD-5B only carries sixteen Double Heat Sinks. ",
         "Icon": "uixTxrIcon_marauderii"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		},
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_General_Lance_Command_Module",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        }		
-	],
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_Lance_Command_Module",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
     "MovementCapDefID": "movedef_marauderII_MAD-4A",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_marauderii",
-	"PrefabIdentifier": "chrprfmech_marauderiibase-001",
-	"PrefabBase": "marauderii",
+    "PrefabIdentifier": "chrprfmech_marauderiibase-001",
+    "PrefabBase": "marauderii",
     "Tonnage": 100,
     "InitialTonnage": 34.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -76,7 +64,8 @@
         {
             "Location": "Head",
             "Hardpoints": [
-			],
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 45,
@@ -116,7 +105,8 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-			],
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 12,
             "MaxArmor": 210,
@@ -125,7 +115,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 16,
             "MaxArmor": 310,
@@ -135,15 +127,15 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -194,7 +186,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 210,
@@ -203,7 +197,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 6,
             "MaxArmor": 210,
@@ -257,9 +253,12 @@
     ],
     "VariantName": "MAD-5B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
     "YangsThoughts": "This 3050 variant carries the same weaponry as the standard Marauder II, but replaces the LB 10-X autocannon with a Gauss Rifle. To make room for this weapon, the MAD-5B only carries sixteen Double Heat Sinks. "
 }
+

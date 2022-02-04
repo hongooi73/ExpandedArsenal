@@ -11,20 +11,9 @@
         "Details": "This version also used an autocannon, but it was a massive LB 20-X AC with three tons of ammunition. This was supported by a pair each of Medium Pulse Lasers, ER Small Lasers, and ER Medium Lasers. This variant carried eleven double heat sinks.",
         "Icon": "uixTxrIcon_lupus"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_lupus",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_lupus",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -102,7 +93,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -134,8 +125,8 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -162,7 +153,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -171,7 +164,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -225,9 +220,12 @@
     ],
     "VariantName": "LUPUS-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Brawler",
     "YangsThoughts": "This version also used an autocannon, but it was a massive LB 20-X AC with three tons of ammunition. This was supported by a pair each of Medium Pulse Lasers, ER Small Lasers, and ER Medium Lasers. This variant carried eleven double heat sinks."
 }
+

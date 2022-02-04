@@ -11,20 +11,9 @@
         "Details": "Simple, straightforward, and accurate; the Rifleman IIC is armed with four Large Pulse Lasers. This allows it to pick apart enemies from a respectable range, as well as easily target incoming aircraft. A single ER Small Laser is installed, seemingly as an afterthought. Nineteen double heat sinks keep heat mostly in check, though volley fire should be used.",
         "Icon": "uixTxrIcon_riflemaniic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_riflemaniic_195",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_riflemaniic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 12,
     "weightClass": "HEAVY",
     "BattleValue": 5514000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -64,15 +53,15 @@
         {
             "Location": "Head",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -82,7 +71,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -90,11 +79,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
@@ -102,10 +91,10 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -116,6 +105,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -125,7 +115,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -135,6 +127,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -145,7 +138,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -153,11 +146,11 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
@@ -165,10 +158,10 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -178,7 +171,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -187,7 +182,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -241,9 +238,12 @@
     ],
     "VariantName": "RFL-IIC",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",
     "YangsThoughts": "Simple, straightforward, and accurate; the Rifleman IIC is armed with four Large Pulse Lasers. This allows it to pick apart enemies from a respectable range, as well as easily target incoming aircraft. A single ER Small Laser is installed, seemingly as an afterthought. Nineteen double heat sinks keep heat mostly in check, though volley fire should be used."
 }
+

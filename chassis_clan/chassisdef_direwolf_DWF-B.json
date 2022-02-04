@@ -11,20 +11,9 @@
         "Details": "The B configuration is armed for long range engagements with four Ultra Autocannon/2s which have a reach of 810 meters and are backed up by a pair of ER PPCs for even greater punch. An LB-X Autocannon/10 provides excellent medium to long range firepower and allows the Dire Wolf B to act in a variety of roles including vehicle hunting and anti-aircraft. For close combat, the B configuration has two Medium Pulse Lasers and an ER Small Laser.",
         "Icon": "uixTxrIcon_direwolf"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_direwhale",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_direwhale",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -92,7 +83,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -136,7 +127,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -190,7 +181,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -199,7 +192,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -253,9 +248,12 @@
     ],
     "VariantName": "DWF-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
     "YangsThoughts": "The B configuration is armed for long range engagements with four Ultra Autocannon/2s which have a reach of 810 meters and are backed up by a pair of ER PPCs for even greater punch. An LB-X Autocannon/10 provides excellent medium to long range firepower and allows the Dire Wolf B to act in a variety of roles including vehicle hunting and anti-aircraft. For close combat, the B configuration has two Medium Pulse Lasers and an ER Small Laser."
 }
+

@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +90,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -98,7 +100,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 290,
@@ -147,7 +151,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -156,7 +162,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -210,9 +218,12 @@
     ],
     "VariantName": "MAL-1PT5",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Heavy Cavalry",
     "YangsThoughts": "A low-tech version of the Mauler for the arenas of the Solaris Games that is built completely from stock Succession Wars era technology. It mounts only standard heat sinks instead of double heat sinks, standard armor instead of ferro-fibrous armor, and no CASE. Most importantly, it has a standard engine instead of an XL engine. The increased mass of the engine neccessitates the downgrading of the lasers to Medium Lasers on both arms. To make good for the downgraded technology level, a twelfth standard heat sink was added as well as an additional ton of armor. The armor was also rearranged to provide even better protection to the front torso sections, at the cost of armor to the rear torso sections and arms. The MAL-1PT5 is identical to the Linesman in all but name."
 }
+

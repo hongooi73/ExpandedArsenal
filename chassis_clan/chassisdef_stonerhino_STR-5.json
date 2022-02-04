@@ -11,20 +11,9 @@
         "Details": "A design based off of early specifications for Amaris's Folly, the Stone Rhino 5 uses a 400XL engine to reach speeds up up to 64.8kph. It is armed with four LB-5X Autocannons mounted in the torsos backed up by six ER Medium Lasers in the arms.",
         "Icon": "uixTxrIcon_stonerhino"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_stonerhino_400",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -34,7 +23,7 @@
     "InitialTonnage": 43.5,
     "weightClass": "ASSAULT",
     "BattleValue": 7718000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,8 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [					
+            "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -85,7 +75,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -93,8 +83,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 170,
@@ -119,7 +109,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -129,8 +119,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [		
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -155,7 +146,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -177,7 +168,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -185,7 +176,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -195,7 +186,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -204,7 +197,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -258,9 +253,12 @@
     ],
     "VariantName": "STR-5",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Slow Juggernaut",
     "YangsThoughts": "A design based off of early specifications for Amaris's Folly, the Stone Rhino 5 uses a 400XL engine to reach speeds up up to 64.8kph. It is armed with four LB-5X Autocannons mounted in the torsos backed up by six ER Medium Lasers in the arms."
 }
+

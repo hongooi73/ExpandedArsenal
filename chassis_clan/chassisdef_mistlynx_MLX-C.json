@@ -11,20 +11,9 @@
         "Details": "The C configuration of the Mist Lynx is armed with a single ER Large Laser as its primary weapon backed up by an ER Medium Laser for close combat. For added protection, the Mist Lynx C has an Anti-Missile System for protection from missile fire and an ECM Suite to protect it from enemy electronic warfare systems.",
         "Icon": "uixTxrIcon_mistlynx"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_mistlynx",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_mistlynx",
@@ -34,7 +23,7 @@
     "InitialTonnage": 6.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 7,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -73,6 +64,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -83,6 +75,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -93,6 +86,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -103,6 +97,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -128,7 +123,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -138,7 +133,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -147,7 +144,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -201,9 +200,12 @@
     ],
     "VariantName": "MLX-C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
     "YangsThoughts": "The C configuration of the Mist Lynx is armed with a single ER Large Laser as its primary weapon backed up by an ER Medium Laser for close combat. For added protection, the Mist Lynx C has an Anti-Missile System for protection from missile fire and an ECM Suite to protect it from enemy electronic warfare systems."
 }
+

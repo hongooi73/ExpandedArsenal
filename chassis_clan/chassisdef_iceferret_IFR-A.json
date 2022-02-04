@@ -11,20 +11,9 @@
         "Details": "The A configuration carries a single LB-X Autocannon/2 for its excellent long range sniping capabilities. This is backed up by two ER Medium Lasers for close combat capabilities and a single Anti-Missile System for added defense against missile weapons.",
         "Icon": "uixTxrIcon_iceferret"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_iceferret",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_iceferret",
@@ -34,7 +23,7 @@
     "InitialTonnage": 24,
     "weightClass": "MEDIUM",
     "BattleValue": 4252000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 8,
@@ -64,6 +53,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -92,6 +82,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -110,15 +101,15 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }			
-			],
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -127,7 +118,9 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 110,
@@ -154,7 +147,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 110,
@@ -163,7 +158,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 110,
@@ -217,9 +214,12 @@
     ],
     "VariantName": "IFR-A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fast Scout",
     "YangsThoughts": "The A configuration carries a single LB-X Autocannon/2 for its excellent long range sniping capabilities. This is backed up by two ER Medium Lasers for close combat capabilities and a single Anti-Missile System for added defense against missile weapons."
 }
+

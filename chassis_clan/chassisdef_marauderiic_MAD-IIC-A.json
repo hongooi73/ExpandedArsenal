@@ -11,20 +11,9 @@
         "Details": "A modern Clan take on the classic Succession Wars era MAR-3R Marauder, the A variant retains the arm-mounted weaponry of the standard Marauder IIC, removing the torso-mounted ER PPC and ER Small Lasers in exchange for a LB 5-X AC in its right torso supplied with single ton of ammo.",
         "Icon": "uixTxrIcon_marauderiic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_marauderiic340",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_marauderiic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 37,
     "weightClass": "ASSAULT",
     "BattleValue": 8821000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -99,6 +90,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -108,8 +100,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [			
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 270,
@@ -130,10 +123,6 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
@@ -142,7 +131,11 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -178,7 +171,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -187,7 +182,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -241,9 +238,12 @@
     ],
     "VariantName": "MAD-IIC-A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Ranged Assault",
     "YangsThoughts": "A modern Clan take on the classic Succession Wars era MAR-3R Marauder, the A variant retains the arm-mounted weaponry of the standard Marauder IIC, removing the torso-mounted ER PPC and ER Small Lasers in exchange for a LB 5-X AC in its right torso supplied with single ton of ammo."
 }
+

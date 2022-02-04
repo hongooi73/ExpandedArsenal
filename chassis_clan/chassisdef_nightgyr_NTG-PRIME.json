@@ -11,20 +11,9 @@
         "Details": "The primary configuration is hard-hitting, mounting a pair of ER PPCs located in the left arm and an Ultra Autocannon/10 in the right. This blistering firepower can often take down an opponent before they are in range. Three Medium Pulse Lasers serve as accurate backups. Eight additional double heat sinks keep the 'Mech fairly cool.",
         "Icon": "uixTxrIcon_nightgyr"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_nightgyr",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_nightgyr",
@@ -34,7 +23,7 @@
     "InitialTonnage": 18,
     "weightClass": "HEAVY",
     "BattleValue": 7124000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -71,8 +60,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -97,7 +86,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -125,7 +114,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 230,
@@ -170,7 +161,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -179,7 +172,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -233,9 +228,12 @@
     ],
     "VariantName": "NTG-PRIME",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "The primary configuration is hard-hitting, mounting a pair of ER PPCs located in the left arm and an Ultra Autocannon/10 in the right. This blistering firepower can often take down an opponent before they are in range. Three Medium Pulse Lasers serve as accurate backups. Eight additional double heat sinks keep the 'Mech fairly cool."
 }
+

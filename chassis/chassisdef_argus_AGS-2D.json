@@ -1,18 +1,7 @@
 {
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}	
-	],
+    "FixedEquipment": [
+
+    ],
     "Description": {
         "Cost": 5900000,
         "Rarity": 2,
@@ -34,7 +23,7 @@
     "InitialTonnage": 22,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -109,6 +100,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -118,7 +110,9 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -153,7 +147,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -162,7 +158,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -216,9 +214,12 @@
     ],
     "VariantName": "AGS-2D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
     "YangsThoughts": "The 2D variant of the Argus was the originally planned primary configuration of the OmniMech version. The 2D removes the entire 'Mech's arsenal and is outfitted for long range combat. For direct fire the 2D has a single ER PPC capable of striking down opponents at extreme ranges. The 2D also has two LRM-15 launchers with Artemis IV fire control for greater missile accuracy."
 }
+

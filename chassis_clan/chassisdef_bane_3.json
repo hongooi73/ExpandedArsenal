@@ -1,4 +1,4 @@
-{ 
+{
     "Description": {
         "Cost": 10800000,
         "Rarity": 5,
@@ -11,20 +11,9 @@
         "Details": "This design changes the weapons configuration totally. Eight LRM-15 provide fire support, while sixteen tons of ammunition proves sufficient for the design. A One-Shot Streak SRM-4 provides one-time close support. Nineteen double heat sinks are up to the task of keeping the design cool.",
         "Icon": "uixTxrIcon_bane"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_bane",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_bane",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -67,8 +56,8 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -100,23 +89,27 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -125,9 +118,11 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -157,14 +152,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -173,7 +170,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -227,9 +226,12 @@
     ],
     "VariantName": "BAN-3",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
     "YangsThoughts": "This design changes the weapons configuration totally. Eight LRM-15 provide fire support, while sixteen tons of ammunition proves sufficient for the design. A One-Shot Streak SRM-4 provides one-time close support. Nineteen double heat sinks are up to the task of keeping the design cool."
 }
+

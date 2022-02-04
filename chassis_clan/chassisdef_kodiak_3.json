@@ -1,58 +1,47 @@
 {
-  "Description": {
-    "Cost": 7873010,
-    "Rarity": 2,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Kodiak",
-    "Id": "chassisdef_kodiak_3",
-    "Name": "Kodiak",
-    "Details": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched.",
-    "Icon": "uixTxrIcon_kodiak"
+    "Description": {
+        "Cost": 7873010,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Kodiak",
+        "Id": "chassisdef_kodiak_3",
+        "Name": "Kodiak",
+        "Details": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched.",
+        "Icon": "uixTxrIcon_kodiak"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
-  "MovementCapDefID": "movedef_kodiak",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_kodiak",
-  "PrefabIdentifier": "chrprfmech_kodiakbase-001",
-  "PrefabBase": "kodiak",
-  "Tonnage": 100,
-  "InitialTonnage": 36.5,
-  "weightClass": "ASSAULT",
-  "BattleValue": 3749000,
-  "Heatsinks": 0,
-  "TopSpeed": 85,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 100,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 4,
-  "PunchesWithLeftArm": true,
+    "FixedEquipment": [
+
+    ],
+    "MovementCapDefID": "movedef_kodiak",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_kodiak",
+    "PrefabIdentifier": "chrprfmech_kodiakbase-001",
+    "PrefabBase": "kodiak",
+    "Tonnage": 100,
+    "InitialTonnage": 36.5,
+    "weightClass": "ASSAULT",
+    "BattleValue": 3749000,
+    "Heatsinks": 30,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": true,
     "MeleeDamage": 140,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
@@ -60,240 +49,243 @@
     "DFAToHitModifier": 0,
     "DFASelfDamage": 125,
     "DFAInstability": 125,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
 
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": true
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": true
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
         },
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 310,
-      "MaxRearArmor": 155,
-      "InternalStructure": 155
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [
+            "Location": "LeftLeg",
+            "Hardpoints": [
 
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 210,
-      "MaxRearArmor": -1,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
 
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 210,
-      "MaxRearArmor": -1,
-      "InternalStructure": 105
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "KDK-3",
+    "ChassisTags": {
+        "items": [
+
+        ],
+        "tagSetSourceFile": ""
     },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": -2,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 2,
-      "y": 3,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "KDK-3",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Fast Assault",
-  "YangsThoughts": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched."
+    "StockRole": "Fast Assault",
+    "YangsThoughts": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched."
 }
+

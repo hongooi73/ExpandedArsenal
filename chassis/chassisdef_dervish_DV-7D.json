@@ -11,20 +11,9 @@
         "Details": "The 7D Dervish is a 3047 upgrade of the design using Star League technology. The 'Mech is built with an Endo Steel chassis and also uses eight tons of Ferro-Fibrous armor with CASE for protection against ammunition explosions. With the saved weight, the SRM-2s have been upgraded to Federated SuperStreak SRMs and the 'Mech uses double heat sinks. This variant was first produced by Achernar BattleMechs on New Avalon.",
         "Icon": "uixTxrIcon_dervish"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_dervish",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_dervish",
@@ -34,7 +23,7 @@
     "InitialTonnage": 19.5,
     "weightClass": "MEDIUM",
     "BattleValue": 5897000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -64,6 +53,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -85,8 +75,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 90,
@@ -113,7 +103,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -130,8 +122,8 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 130,
@@ -162,7 +154,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -171,7 +165,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -225,9 +221,12 @@
     ],
     "VariantName": "DV-7D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
     "YangsThoughts": "The 7D Dervish is a 3047 upgrade of the design using Star League technology. The 'Mech is built with an Endo Steel chassis and also uses eight tons of Ferro-Fibrous armor with CASE for protection against ammunition explosions. With the saved weight, the SRM-2s have been upgraded to Federated SuperStreak SRMs and the 'Mech uses double heat sinks. This variant was first produced by Achernar BattleMechs on New Avalon."
 }
+

@@ -11,20 +11,9 @@
         "Details": "A short-ranged brawler, the Sun Spider D carries a mammoth Ultra AC/20 in each arm, with just a pair of Heavy Machine Guns in the right torso as supporting weapons. Lacking in ranged weapons, an ECM Suite is fitted in the left torso to try and assist in closing with its foes so it can make full use of the four tons of Ultra ammunition and single ton HMG bin.",
         "Icon": "uixTxrIcon_sunspider"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_sunspider",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_sunspider",
@@ -34,7 +23,7 @@
     "InitialTonnage": 24,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -98,7 +89,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -108,7 +99,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -153,7 +146,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -162,7 +157,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -216,9 +213,12 @@
     ],
     "VariantName": "SNS-D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "A short-ranged brawler, the Sun Spider D carries a mammoth Ultra AC/20 in each arm, with just a pair of Heavy Machine Guns in the right torso as supporting weapons. Lacking in ranged weapons, an ECM Suite is fitted in the left torso to try and assist in closing with its foes so it can make full use of the four tons of Ultra ammunition and single ton HMG bin."
 }
+

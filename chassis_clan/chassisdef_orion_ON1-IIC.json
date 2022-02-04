@@ -11,20 +11,9 @@
         "Details": "Not a radical reworking of the design, as some Clan upgrades are, the Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout. The only weapon that is preserved from the original Orion is the SRM-4, though that is upgraded to a lighter-weight Offset Pattern K4 model. The autocannon and long-range missile launcher were upgraded to an Omega 12-Coil Gauss Rifle and a Type XX Great Bow LRM-20, respectively. The arm-mounted lasers were replaced with a pair of ER Large Lasers, one an older Series 6W and the other a newer Series 7W, the mismatched lasers stemming from late design change with the 7W replacing a Pulse Laser. Carrying two tons of Gauss reloads, three of LRM missiles and a single tons of SRM reloads, these upgrades have transformed the Orion from a close-range brawler to a fire support 'Mech.",
         "Icon": "uixTxrIcon_orioniic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_orioniic",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_orioniic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27.5,
     "weightClass": "HEAVY",
     "BattleValue": 7124000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -116,7 +107,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 230,
@@ -165,7 +158,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -174,7 +169,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -228,9 +225,12 @@
     ],
     "VariantName": "ON1-IIC",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "Not a radical reworking of the design, as some Clan upgrades are, the Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout. The only weapon that is preserved from the original Orion is the SRM-4, though that is upgraded to a lighter-weight Offset Pattern K4 model. The autocannon and long-range missile launcher were upgraded to an Omega 12-Coil Gauss Rifle and a Type XX Great Bow LRM-20, respectively. The arm-mounted lasers were replaced with a pair of ER Large Lasers, one an older Series 6W and the other a newer Series 7W, the mismatched lasers stemming from late design change with the 7W replacing a Pulse Laser. Carrying two tons of Gauss reloads, three of LRM missiles and a single tons of SRM reloads, these upgrades have transformed the Orion from a close-range brawler to a fire support 'Mech."
 }
+

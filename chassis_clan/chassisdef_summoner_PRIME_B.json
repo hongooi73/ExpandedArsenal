@@ -11,20 +11,9 @@
         "Details": "A missile bombardment configuration, the B configuration carries a pair of LRM-20 launchers for long range engagements. For close combat, the Summoner B has two SRM-4 launchers. A Narc Missile Beacon allows the Summoner to designate targets for missile fire from other friendly units. The Summoner B has further protection through the use of an Anti-Missile System which gives it increased protection from missile attacks.",
         "Icon": "uixTxrIcon_summoner"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_summoner",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_summoner",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -108,7 +99,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -153,7 +146,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -162,7 +157,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -216,9 +213,12 @@
     ],
     "VariantName": "SMN-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "LRM Support",
     "YangsThoughts": "A missile bombardment configuration, the B configuration carries a pair of LRM-20 launchers for long range engagements. For close combat, the Summoner B has two SRM-4 launchers. A Narc Missile Beacon allows the Summoner to designate targets for missile fire from other friendly units. The Summoner B has further protection through the use of an Anti-Missile System which gives it increased protection from missile attacks."
 }
+

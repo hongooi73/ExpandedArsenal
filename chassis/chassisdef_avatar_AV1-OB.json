@@ -11,20 +11,9 @@
         "Details": "A fire support variant, the B configuration carries two LRM-15 racks and two LRM-10 racks. These are all mated to an Artemis IV Fire Control System. The only short range weaponry on the B configuration consists wholly of the two Medium Lasers mounted on the base chassis. ",
         "Icon": "uixTxrIcon_avatar"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_avatar_AV1-O",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_avatar",
@@ -34,7 +23,7 @@
     "InitialTonnage": 24,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -124,8 +115,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 15,
             "MaxArmor": 220,
@@ -170,7 +161,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -179,7 +172,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -233,9 +228,12 @@
     ],
     "VariantName": "AV1-OB",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "First Generation Omnimech",
     "YangsThoughts": "A fire support variant, the B configuration carries two LRM-15 racks and two LRM-10 racks. These are all mated to an Artemis IV Fire Control System. The only short range weaponry on the B configuration consists wholly of the two Medium Lasers mounted on the base chassis. "
 }
+

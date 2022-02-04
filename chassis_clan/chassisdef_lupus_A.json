@@ -11,20 +11,9 @@
         "Details": "This configuration was used for direct fire support roles. A Large Pulse Laser in one arm supported an Ultra AC/10 in the other. A pair of ER Medium Lasers gave the Lupus A additional firepower in case the 'Mech went through all 30 reloads for the autocannon. Twelve double heat sinks kept the heat manageable.",
         "Icon": "uixTxrIcon_lupus"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_lupus",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_lupus",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -112,7 +103,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -130,8 +121,8 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -158,7 +149,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -167,7 +160,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -221,9 +216,12 @@
     ],
     "VariantName": "LUPUS-A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Brawler",
     "YangsThoughts": "This configuration was used for direct fire support roles. A Large Pulse Laser in one arm supported an Ultra AC/10 in the other. A pair of ER Medium Lasers gave the Lupus A additional firepower in case the 'Mech went through all 30 reloads for the autocannon. Twelve double heat sinks kept the heat manageable."
 }
+

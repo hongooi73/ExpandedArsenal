@@ -11,20 +11,9 @@
         "Details": "This long-range, direct-fire support 'Mech is armed with ten Ultra Autocannon/2s. This weapon has one of the longest ranges in the Clan arsenal, so the Bane can stand back at extreme range and pepper an enemy unit with impunity. Four tons of ammunition keep the 'Mech well-supplied. It runs into problems up close, however, stemming from the minimum range of the autocannons. To keep enemies at bay, especially unarmored infantry, the Bane mounts four Machine Guns. Ten double heat sinks are sufficient to keep the 'Mech cool.",
         "Icon": "uixTxrIcon_bane"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_bane",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_bane",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -95,23 +86,27 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -136,10 +131,10 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -169,14 +164,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -185,7 +182,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -239,9 +238,12 @@
     ],
     "VariantName": "BAN-1",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
     "YangsThoughts": "This long-range, direct-fire support 'Mech is armed with ten Ultra Autocannon/2s. This weapon has one of the longest ranges in the Clan arsenal, so the Bane can stand back at extreme range and pepper an enemy unit with impunity. Four tons of ammunition keep the 'Mech well-supplied. It runs into problems up close, however, stemming from the minimum range of the autocannons. To keep enemies at bay, especially unarmored infantry, the Bane mounts four Machine Guns. Ten double heat sinks are sufficient to keep the 'Mech cool."
 }
+

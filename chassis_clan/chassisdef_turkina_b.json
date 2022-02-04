@@ -1,344 +1,335 @@
 {
-  "description": {
-    "Cost": 1.219856E+07,
-    "Rarity": 1.0,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "Name": "Turkina",
-    "Details": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
-    "UIName": "Turkina",
-    "Id": "chassisdef_turkina_b",
-    "Icon": "uixTxrIcon_turkina"
-  },
-  "VariantName": "TKN-B",
-  "StockRole": "Juggernaut",
-  "YangsThoughts": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
-  "Tonnage": 95.0,
-  "InitialTonnage": 35.0,
-  "weightClass": "ASSAULT",
-  "Heatsinks": 0.0,
-  "MaxJumpjets": 4.0,
-  "Stability": 100.0,
-  "SpotterDistanceMultiplier": 1.0,
-  "VisibilityMultiplier": 1.0,
-  "SensorRangeMultiplier": 1.0,
-  "Signature": 0.0,
-  "Radius": 4.0,
-  "HardpointDataDefID": "hardpointdatadef_turkina",
-  "PrefabIdentifier": "chrprfmech_turkinabase-001",
-  "PrefabBase": "turkina",
-  "BattleValue": 17997756.0,
-  "TopSpeed": 65.0,
-  "TurnRadius": 90.0,
-  "MovementCapDefID": "movedef_turkina",
-  "PathingCapDefID": "pathingdef_assault",
-  "MeleeDamage": 90.0,
-  "MeleeInstability": 24.0,
-  "MeleeToHitModifier": 0.0,
-  "DFADamage": 95.0,
-  "DFAToHitModifier": 0.0,
-  "DFASelfDamage": 95.0,
-  "DFAInstability": 47.0,
-  "PunchesWithLeftArm": true,
-  "Locations": [
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 3.0,
-      "MaxArmor": 45.0,
-      "MaxRearArmor": -1.0,
-      "InternalStructure": 16.0,
-      "Location": "Head",
-      "Hardpoints": [
+    "description": {
+        "Cost": 12198560,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "Name": "Turkina",
+        "Details": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
+        "UIName": "Turkina",
+        "Id": "chassisdef_turkina_b",
+        "Icon": "uixTxrIcon_turkina"
+    },
+    "VariantName": "TKN-B",
+    "StockRole": "Juggernaut",
+    "YangsThoughts": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
+    "Tonnage": 95,
+    "InitialTonnage": 35,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 4,
+    "Stability": 100,
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "HardpointDataDefID": "hardpointdatadef_turkina",
+    "PrefabIdentifier": "chrprfmech_turkinabase-001",
+    "PrefabBase": "turkina",
+    "BattleValue": 17997756,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MovementCapDefID": "movedef_turkina",
+    "PathingCapDefID": "pathingdef_assault",
+    "MeleeDamage": 90,
+    "MeleeInstability": 24,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 47,
+    "PunchesWithLeftArm": true,
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "Tonnage": 0,
+            "InventorySlots": 3,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16,
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80,
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 50,
+            "InternalStructure": 100,
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 225,
+            "MaxRearArmor": 75,
+            "InternalStructure": 150,
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 50,
+            "InternalStructure": 100,
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80,
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100,
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100,
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ]
         }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 8.0,
-      "MaxArmor": 160.0,
-      "MaxRearArmor": -1.0,
-      "InternalStructure": 80.0,
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 10.0,
-      "MaxArmor": 150.0,
-      "MaxRearArmor": 50.0,
-      "InternalStructure": 100.0,
-      "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 4.0,
-      "MaxArmor": 225.0,
-      "MaxRearArmor": 75.0,
-      "InternalStructure": 150.0,
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 10.0,
-      "MaxArmor": 150.0,
-      "MaxRearArmor": 50.0,
-      "InternalStructure": 100.0,
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 8.0,
-      "MaxArmor": 160.0,
-      "MaxRearArmor": -1.0,
-      "InternalStructure": 80.0,
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ]
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 4.0,
-      "MaxArmor": 200.0,
-      "MaxRearArmor": -1.0,
-      "InternalStructure": 100.0,
-      "Location": "LeftLeg",
-      "Hardpoints": []
-    },
-    {
-      "Tonnage": 0.0,
-      "InventorySlots": 4.0,
-      "MaxArmor": 200.0,
-      "MaxRearArmor": -1.0,
-      "InternalStructure": 100.0,
-      "Location": "RightLeg",
-      "Hardpoints": []
-    }
-  ],
-  "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -2.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -2.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -2.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -2.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-      "SimGameUID": "",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-      "SimGameUID": "",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
-      "SimGameUID": "",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1.0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    }
-  ],
-  "ChassisTags": {
-    "items": [
-      "unit_mechtool"
     ],
-    "tagSetSourceFile": ""
-  },
-  "LOSSourcePositions": [
-    {
-      "x": 0.0,
-      "y": 12.5,
-      "z": 0.5
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -2,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -2,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -2,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Fixed_Double_Clan",
+            "SimGameUID": "",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -2,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Fixed_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        }
+    ],
+    "ChassisTags": {
+        "items": "unit_mechtool",
+        "tagSetSourceFile": ""
     },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0.0,
-      "y": 12.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": -2.0,
-      "y": 3.0,
-      "z": 0.5
-    },
-    {
-      "x": 2.0,
-      "y": 3.0,
-      "z": 0.5
-    }
-  ],
-  "StabilityDefenses": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0
-  ]
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
 }
+

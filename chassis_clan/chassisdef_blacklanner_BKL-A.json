@@ -11,20 +11,9 @@
         "Details": "The Black Lanner A is configured for electronic warfare and scouting. It uses an Active Probe to find hidden units, an ECM Suite to counteract enemy electronics, and a TAG spotting laser to designate targets for homing artillery. Offensively, it can call upon an ER PPC and a pair of Medium Pulse Lasers.",
         "Icon": "uixTxrIcon_blacklanner"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_blacklanner",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_blacklanner",
@@ -34,7 +23,7 @@
     "InitialTonnage": 31,
     "weightClass": "MEDIUM",
     "BattleValue": 4067000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 7,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -116,7 +107,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -126,6 +119,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -153,7 +147,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -162,7 +158,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -216,9 +214,12 @@
     ],
     "VariantName": "BKL-A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
     "YangsThoughts": "The Black Lanner A is configured for electronic warfare and scouting. It uses an Active Probe to find hidden units, an ECM Suite to counteract enemy electronics, and a TAG spotting laser to designate targets for homing artillery. Offensively, it can call upon an ER PPC and a pair of Medium Pulse Lasers."
 }
+

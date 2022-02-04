@@ -11,20 +11,9 @@
         "Details": "The Night Gyr B seeks to destroy opponents before they can return fire. A pair of Gauss Rifles and LB-X Autocannon/2s carry out that mandate. Ammo is somewhat lacking, however, so this design cannot stray far from supply, especially as it has no backup energy weapons.",
         "Icon": "uixTxrIcon_nightgyr"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_nightgyr",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_nightgyr",
@@ -34,7 +23,7 @@
     "InitialTonnage": 18,
     "weightClass": "HEAVY",
     "BattleValue": 7124000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 64,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,8 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [		
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -81,7 +71,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -99,7 +89,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -109,7 +99,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 230,
@@ -126,7 +118,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -154,7 +146,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -163,7 +157,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 160,
@@ -217,9 +213,12 @@
     ],
     "VariantName": "NTG-B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "The Night Gyr B seeks to destroy opponents before they can return fire. A pair of Gauss Rifles and LB-X Autocannon/2s carry out that mandate. Ammo is somewhat lacking, however, so this design cannot stray far from supply, especially as it has no backup energy weapons."
 }
+

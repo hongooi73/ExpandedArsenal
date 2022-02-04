@@ -11,20 +11,9 @@
         "Details": "The primary configuration of the Black Lanner is effective at all ranges. At long range, it can make use of an ER Large Laser and LRM-10. When it closes in, it can attack with a pair of ER Medium Lasers and an SRM-6 that can exploit holes in its opponent's armor. An ECM Suite protects it from many forms of electronics.",
         "Icon": "uixTxrIcon_blacklanner"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_blacklanner",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_blacklanner",
@@ -34,7 +23,7 @@
     "InitialTonnage": 30.5,
     "weightClass": "MEDIUM",
     "BattleValue": 4067000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 7,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 45,
@@ -112,7 +103,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -161,7 +154,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -170,7 +165,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -224,9 +221,12 @@
     ],
     "VariantName": "BKL-PRIME",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
     "YangsThoughts": "The primary configuration of the Black Lanner is effective at all ranges. At long range, it can make use of an ER Large Laser and LRM-10. When it closes in, it can attack with a pair of ER Medium Lasers and an SRM-6 that can exploit holes in its opponent's armor. An ECM Suite protects it from many forms of electronics."
 }
+

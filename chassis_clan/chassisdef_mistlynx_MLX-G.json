@@ -11,20 +11,9 @@
         "Details": "A fearsome anti-infantry configuration, the Mist Lynx G carries eight Heavy Machine Guns that are linked to two Machine Gun Arrays. In addition to this, the 'Mech has four ER Small Lasers for use against hard targets.",
         "Icon": "uixTxrIcon_mistlynx"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_mistlynx",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_mistlynx",
@@ -34,7 +23,7 @@
     "InitialTonnage": 6.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 7,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -92,10 +83,6 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
@@ -116,7 +103,11 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -150,7 +141,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -161,6 +152,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -178,7 +170,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -208,7 +200,7 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
-                },				
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -242,7 +234,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -251,7 +245,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 60,
@@ -305,9 +301,12 @@
     ],
     "VariantName": "MLX-G",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
     "YangsThoughts": "A fearsome anti-infantry configuration, the Mist Lynx G carries eight Heavy Machine Guns that are linked to two Machine Gun Arrays. In addition to this, the 'Mech has four ER Small Lasers for use against hard targets."
 }
+

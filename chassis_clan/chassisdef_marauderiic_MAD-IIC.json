@@ -11,20 +11,9 @@
         "Details": "Built around the Extended Range Particle Projector Cannon, one of the most powerful weapons in the Clan arsenal, the Marauder IIC's weapon layout is typical of the standard Marauder, each pod-like forearm carrying an ER PPC paired with Medium Pulse Lasers. Where the Marauder IIC differs is with its torso weaponry, replacing the top-mounted autocannon and its vulnerable ammunition-feed linkage with another ER PPC, and adding a set of four ER Small Lasers. Twenty-one double heat sinks keep heat levels manageable, with an enterprising MechWarrior able to use volley fire to keep up a steady barrage of fire.",
         "Icon": "uixTxrIcon_marauderiic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_marauderiic340",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_marauderiic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 37,
     "weightClass": "ASSAULT",
     "BattleValue": 8821000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -140,8 +131,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 270,
@@ -194,7 +185,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -203,7 +196,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -257,9 +252,12 @@
     ],
     "VariantName": "MAD-IIC",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Ranged Assault",
     "YangsThoughts": "Built around the Extended Range Particle Projector Cannon, one of the most powerful weapons in the Clan arsenal, the Marauder IIC's weapon layout is typical of the standard Marauder, each pod-like forearm carrying an ER PPC paired with Medium Pulse Lasers. Where the Marauder IIC differs is with its torso weaponry, replacing the top-mounted autocannon and its vulnerable ammunition-feed linkage with another ER PPC, and adding a set of four ER Small Lasers. Twenty-one double heat sinks keep heat levels manageable, with an enterprising MechWarrior able to use volley fire to keep up a steady barrage of fire."
 }
+

@@ -11,20 +11,9 @@
         "Details": "This variant is effective at both medium and short range. It trades out the autocannon for four Ultra Autocannon/10s. In addition, it is capable of spitting out almost twice the damage of the original. Fourteen tons of ammunition allow the Bane 2 to stay in the fight for a long time.",
         "Icon": "uixTxrIcon_bane"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_bane",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_bane",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -87,23 +78,27 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -128,10 +123,10 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots":10,
+            "InventorySlots": 10,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -153,14 +148,16 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots":8,
+            "InventorySlots": 8,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -169,7 +166,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -223,9 +222,12 @@
     ],
     "VariantName": "BAN-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
     "YangsThoughts": "This variant is effective at both medium and short range. It trades out the autocannon for four Ultra Autocannon/10s. In addition, it is capable of spitting out almost twice the damage of the original. Fourteen tons of ammunition allow the Bane 2 to stay in the fight for a long time."
 }
+

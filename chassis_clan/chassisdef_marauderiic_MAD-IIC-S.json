@@ -11,20 +11,9 @@
         "Details": "A customized variant of the Marauder IIC, the Scorch mounts a Large Pulse Laser and Ultra AC/5 in each arm supported by four Streak SRM-6 launchers split between each side torso. Twelve tons of Ferro-Fibrous armor protect Scorch and the two-tons each of Streak and Ultra Autocannon ammo and fifteen double heat-sinks it carries.",
         "Icon": "uixTxrIcon_marauderiic"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_marauderiic340",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_marauderiic",
@@ -34,7 +23,7 @@
     "InitialTonnage": 23.5,
     "weightClass": "ASSAULT",
     "BattleValue": 8821000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -88,7 +79,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -116,8 +107,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [			
-			],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 270,
@@ -170,7 +162,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -179,7 +173,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -233,9 +229,12 @@
     ],
     "VariantName": "MAD-IIC-S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Ranged Assault",
     "YangsThoughts": "A customized variant of the Marauder IIC, the Scorch mounts a Large Pulse Laser and Ultra AC/5 in each arm supported by four Streak SRM-6 launchers split between each side torso. Twelve tons of Ferro-Fibrous armor protect Scorch and the two-tons each of Streak and Ultra Autocannon ammo and fifteen double heat-sinks it carries."
 }
+

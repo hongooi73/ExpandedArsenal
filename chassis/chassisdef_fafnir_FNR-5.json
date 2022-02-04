@@ -11,20 +11,9 @@
         "Details": "The Fafnir was intended to become Defiance Industries of Hesperus' flagship BattleMech. The slow assault design serves as a platform for the pair of 'Thor's Hammers', the brand new Heavy Gauss Rifles, the largest non-artillery 'Mech weapon in existence. The Fafnir can lay out an incredible amount of firepower at extreme ranges, so take it seriously.",
         "Icon": "uixTxrIcon_fafnir"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_fafnir_FNR-5",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_fafnir",
@@ -34,7 +23,7 @@
     "InitialTonnage": 31,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -64,11 +53,11 @@
         {
             "Location": "Head",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -82,7 +71,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 }
@@ -100,7 +89,7 @@
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 }
@@ -114,7 +103,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-			
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -129,7 +118,7 @@
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 }
@@ -147,7 +136,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 }
@@ -160,7 +149,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -169,7 +160,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 210,
@@ -223,9 +216,12 @@
     ],
     "VariantName": "FNR-5",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Incredible Direct-Fire Support",
     "YangsThoughts": "The Fafnir was intended to become Defiance Industries of Hesperus' flagship BattleMech. The slow assault design serves as a platform for the pair of 'Thor's Hammers', the brand new Heavy Gauss Rifles, the largest non-artillery 'Mech weapon in existence. The Fafnir can lay out an incredible amount of firepower at extreme ranges, so take it seriously."
 }
+

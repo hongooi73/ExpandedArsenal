@@ -11,20 +11,9 @@
         "Details": "The primary configuration of the Lupus replaces the Archer and Bombardier 'Mechs. A pair of LRM-20 launchers with improved Artemis IV guidance systems allows the warrior to destroy a foe before they can reach close range. The Lupus Prime also carries a set of jump jets which allowed a smart warrior the opportunity to hold the range open, bombarding the enemy with heavy missile barrages. The only drawback is the limited ammunition supply: A mere three tons of ammunition allows for only a brief engagement. Should the enemy close with the Lupus all is not lost. The ER Medium Laser in each arm allow the Lupus to slice off armor, and the ECM Suite makes the Lupus Prime more difficult to target.",
         "Icon": "uixTxrIcon_lupus"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_lupus",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_lupus",
@@ -34,7 +23,7 @@
     "InitialTonnage": 27,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -63,7 +52,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -105,6 +96,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -118,8 +110,8 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -146,7 +138,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -155,7 +149,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 140,
@@ -209,9 +205,12 @@
     ],
     "VariantName": "LUPUS-PRIME",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Brawler",
     "YangsThoughts": "The primary configuration of the Lupus replaces the Archer and Bombardier 'Mechs. A pair of LRM-20 launchers with improved Artemis IV guidance systems allows the warrior to destroy a foe before they can reach close range. The Lupus Prime also carries a set of jump jets which allowed a smart warrior the opportunity to hold the range open, bombarding the enemy with heavy missile barrages. The only drawback is the limited ammunition supply: A mere three tons of ammunition allows for only a brief engagement. Should the enemy close with the Lupus all is not lost. The ER Medium Laser in each arm allow the Lupus to slice off armor, and the ECM Suite makes the Lupus Prime more difficult to target."
 }
+

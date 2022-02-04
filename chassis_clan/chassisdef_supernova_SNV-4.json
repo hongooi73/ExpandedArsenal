@@ -11,20 +11,9 @@
         "Details": "This variant strips out all the lasers and replaces them with four Large Pulse Lasers, two Heavy Medium Lasers, and a Targeting Computer. This variant retains enough additional double heat sinks to help with heat management.",
         "Icon": "uixTxrIcon_supernova"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_supernova",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_supernova",
@@ -34,7 +23,7 @@
     "InitialTonnage": 25,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 105,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -53,13 +42,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-  "MeleeDamage": 45,
-  "MeleeInstability": 23,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 90,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 90,
-  "DFAInstability": 45,
+    "MeleeDamage": 45,
+    "MeleeInstability": 23,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 90,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 90,
+    "DFAInstability": 45,
     "Locations": [
         {
             "Location": "Head",
@@ -67,8 +56,8 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }			
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -93,7 +82,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }				
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -104,6 +93,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -121,8 +111,8 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }		
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 290,
@@ -132,6 +122,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -157,7 +148,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }	
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -167,7 +158,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -176,7 +169,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 190,
@@ -230,9 +225,12 @@
     ],
     "VariantName": "SNV-4",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Heavy Cavalry",
     "YangsThoughts": "This variant strips out all the lasers and replaces them with four Large Pulse Lasers, two Heavy Medium Lasers, and a Targeting Computer. This variant retains enough additional double heat sinks to help with heat management."
 }
+
