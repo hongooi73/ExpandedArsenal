@@ -12,18 +12,7 @@
         "Icon": "uixTxrIcon_titanii"
     },
     "FixedEquipment": [
-        {
-            "ComponentDefID": "Gear_HeatSink_Internal_Engine_2",
-            "ComponentDefType": "HeatSink",
-            "DamageLevel": "Functional",
-            "GUID": null,
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "MountedLocation": "CenterTorso",
-            "SimGameUID": "",
-            "hasPrefabName": false,
-            "prefabName": null
-        }
+
     ],
     "MovementCapDefID": "movedef_titanii",
     "PathingCapDefID": "pathingdef_assault",
