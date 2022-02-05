@@ -78,6 +78,7 @@ The full list of planets with the new gear is as follows (not every item is avai
 - IS Artemis IV ignores 2 evasion pips with missile weapons, rather than giving an accuracy bonus
 - Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
 - Fix heatsinks and jumpjets for Hauptmann
+- Fix movedef for Archer 2R
 
 ## Initial changes (v1.3)
 
