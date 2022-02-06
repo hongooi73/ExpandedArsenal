@@ -38,10 +38,10 @@
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
-        "Model": "H Large Laser IMP",
-        "UIName": "H Large Laser IMP (C)",
+        "Model": "Heavy L Laser IMP",
+        "UIName": "Imp Heavy L Laser (C)",
         "Id": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED",
-        "Name": "H Large Laser IMP (C)",
+        "Name": "Imp Heavy L Laser (C)",
         "Details": "The Improved Heavy Large Laser is Clan Goliath Scorpion's most powerful Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Large Laser. Unlike the Star Adder's weapon, it doesn't interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },

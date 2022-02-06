@@ -39,9 +39,9 @@
         "Purchasable": true,
         "Manufacturer": "CLAN",
         "Model": "Heavy Small Laser",
-        "UIName": "Heavy S Laser IMP (C)",
+        "UIName": "Imp Heavy S Laser (C)",
         "Id": "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED",
-        "Name": "Heavy S Laser IMP (C)",
+        "Name": "Imp Heavy S Laser (C)",
         "Details": "The Improved Heavy Small Laser is Clan Goliath Scorpion's smallest Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Small Laser. Unlike the Star Adder's weapon, it doesn't interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },

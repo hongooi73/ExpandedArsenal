@@ -34,9 +34,9 @@
         "Purchasable": true,
         "Manufacturer": "CLAN",
         "Model": "Medium Laser",
-        "UIName": "Imp H Medium Laser (C)",
+        "UIName": "Imp Heavy M Laser (C)",
         "Id": "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED",
-        "Name": "Imp H Medium Laser (C)",
+        "Name": "Imp Heavy M Laser (C)",
         "Details": "The Improved Heavy Medium Laser is Clan Goliath Scorpion's workhorse Heavy Laser design. Like the version introduced by Clan Star Adder, it can inflict twice the damage of a standard Medium Laser. Unlike the Star Adders' weapon, it does not interfere with targeting systems, so Scorpion Warriors have a better chance of hitting their target.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
