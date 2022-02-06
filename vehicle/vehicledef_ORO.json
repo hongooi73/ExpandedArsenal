@@ -1,0 +1,97 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_ORO",
+      "Name" : "ORO",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_ORO",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_assault",
+         "unit_tracks",
+		 "unit_range_short",
+		 "unit_role_brawler"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 150,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 150,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 150,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 150,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 100,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 100,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_Autocannon_AC20_LBX_CLAN",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_LargeLaserPulse_CLAN",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaserER_CLAN",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 2,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}

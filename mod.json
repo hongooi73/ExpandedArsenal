@@ -1,8 +1,8 @@
 {
     "Name": "Expanded Arsenal",
     "Enabled": true,
-    "Description": "Uses the CAB to add new mechs.",	
-    "Version": "1.01",
+    "Description": "Uses the CAB to add new mechs and vehicles.",	
+    "Version": "2.0.0",
     "Author": "Z06Frank/hongooi2",
     "DependsOn": [
         "AdvancedWeapons",
@@ -27,6 +27,9 @@
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MechDef", "Path": "mech_clan" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement_vehicle" },
+        { "Type": "VehicleDef", "Path": "vehicle" },
+        { "Type": "VehicleChassisDef", "Path": "chassis_vehicle" },
         { "Type": "Sprite", "Path": "portraits" },
         {
             "Type": "AdvancedJSONMerge",
