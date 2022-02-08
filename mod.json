@@ -20,7 +20,6 @@
         { "Type": "JumpJetDef", "Path": "jumpjets" },
         { "Type": "UpgradeDef", "Path": "internals" },
         { "Type": "WeaponDef", "Path": "weapons" },
-        { "Type": "WeaponDef", "Path": "weapon_legacy" },
         { "Type": "ItemCollectionDef", "Path": "itemcol" },
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "ChassisDef", "Path": "chassis_clan" },
@@ -30,6 +29,8 @@
         { "Type": "MovementCapabilitiesDef", "Path": "movement_vehicle" },
         { "Type": "VehicleDef", "Path": "vehicle" },
         { "Type": "VehicleChassisDef", "Path": "chassis_vehicle" },
+        { "Type": "TurretDef", "Path": "turret" },
+        { "Type": "TurretChassisDef", "Path": "chassis_turret" },
         { "Type": "Sprite", "Path": "portraits" },
         {
             "Type": "AdvancedJSONMerge",

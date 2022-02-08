@@ -1,14 +1,15 @@
 ## v2.0
 
 This is a **major refactoring** that includes the following changes:
+
+- Add vehicles and turrets from Vanilla Plus
+
 - Reuse gear and weapon definitions from Haakon's mods:
   - Items are now available for sale only in specific star systems; see below for the list
   - Some item IDs have changed (eg clan lasers, LRMs and SRMs)
   - Legacy weapons have been moved into the `weapon_legacy` directory; they are still present ingame to allow loading existing saves, but are not used on mechs and should not appear in stores
 
 The reason for using Haakon's mods is mostly that buying the enhanced gear in this mod was a little bit too easy, since they were available on every planet. The Haakon mods provide almost exactly the same items, but are only available for sale on specific planets. Reusing these mods was the easiest and fastest way of restricting availability; no need to write a completely new set of item collections. On the upside, they give you even more toys to play with! (I recommend the VSM Pulse Laser.)
-
-In addition, some item names have been modified to follow the vanilla convention of using +/++/+++ for upgrades.
 
 The full list of planets with the new gear is as follows (not every item is available on every planet, if you can't find the item you're after, try a different one):
 
@@ -72,6 +73,7 @@ The full list of planets with the new gear is as follows (not every item is avai
 
 ### Other changes
 
+- Some item names have been modified for consistency, and to follow the vanilla convention of using +/++/+++ for upgrades
 - Targeting Computer Mk I now ignores 2 evasion pips with ballistic and energy weapons, rather than giving +2 accuracy
   - Ignoring evasion should be much more powerful than accuracy, and appropriate for an item weighing 3 tons (more than a +++TTS)
 - Targeting Computer Mk II renamed to Targeting Computer +, to match the vanilla convention of +/++/+++ variants representing upgrades; ignores 2 evasion pips; reduced to 2 tons
