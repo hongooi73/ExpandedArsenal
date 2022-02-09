@@ -81,7 +81,9 @@ The full list of planets with the new gear is as follows (not every item is avai
 - Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
 - Fix heatsinks and jumpjets for Hauptmann
 - Fix movedef for Archer 2R
-- Add the King Crab KGC-001, a 3052 ComStar variant
+- Add 2 new mechs:
+  - King Crab KGC-001, a 3052 ComStar variant designed to fight the Clans
+  - Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
 
 ## Initial changes (v1.3)
 
