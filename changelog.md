@@ -2,16 +2,16 @@
 
 This is a **major refactoring** that includes the following changes:
 
-- Add vehicles and turrets from Vanilla Plus
+- Add vehicles and turrets from Vanilla Plus. With this change, EA now includes 99% of the contents of VP (the Xenorauder and catgirls are unlikely to make it back, sorry).
 
 - Reuse gear and weapon definitions from Haakon's mods:
   - Items are now available for sale only in specific star systems; see below for the list
   - Some item IDs have changed (eg clan lasers, LRMs and SRMs)
-  - Legacy weapons have been moved into the `weapon_legacy` directory; they are still present ingame to allow loading existing saves, but are not used on mechs and should not appear in stores
+  - Legacy weapons have been moved into the `weapon_legacy` directory; they are still present in-game to allow loading existing saves, but are not used on mechs and should not appear in stores
 
-The reason for using Haakon's mods is mostly that buying the enhanced gear in this mod was a little bit too easy, since they were available on every planet. The Haakon mods provide almost exactly the same items, but are only available for sale on specific planets. Reusing these mods was the easiest and fastest way of restricting availability; no need to write a completely new set of item collections. On the upside, they give you even more toys to play with! (I recommend the VSM Pulse Laser.)
+There are a few reasons for using Haakon's mods: to help integrate EA into the broader mod ecosystem; to make shopping more interesting than simply having everything available everywhere; and to make more toys available. (I recommend the variable speed pulse lasers.)
 
-The full list of planets with the new gear is as follows (not every item is available on every planet, if you can't find the item you're after, try a different one):
+The full list of planets with the new gear is as follows. Not every item is available on every planet, if you can't find the item you're after, try a different one.
 
 - Addasar
 - Ahlat
@@ -76,14 +76,21 @@ The full list of planets with the new gear is as follows (not every item is avai
 - Some item names have been modified for consistency, and to follow the vanilla convention of using +/++/+++ for upgrades
 - Targeting Computer Mk I now ignores 2 evasion pips with ballistic and energy weapons, rather than giving +2 accuracy
   - Ignoring evasion should be much more powerful than accuracy, and appropriate for an item weighing 3 tons (more than a +++TTS)
-- Targeting Computer Mk II renamed to Targeting Computer +, to match the vanilla convention of +/++/+++ variants representing upgrades; ignores 2 evasion pips; reduced to 2 tons
+- Targeting Computer Mk II renamed to Targeting Computer +; ignores 2 evasion pips; reduced to 2 tons
 - IS Artemis IV ignores 2 evasion pips with missile weapons, rather than giving an accuracy bonus
 - Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
-- Fix heatsinks and jumpjets for Hauptmann
-- Fix movedef for Archer 2R
-- Add 2 new mechs:
+- The unremovable CT items representing engine DHS have been removed; they have been replaced with a straight +30 heatsinking capacity on the chassis, which is how the vanilla game works
+- Remove items representing internal endosteel and ferro-fibrous space. These were only used by 3 mechs, and it wasn't worth it to extend this approach to the entire mod.
+- Add some new mechs:
   - King Crab KGC-001, a 3052 ComStar variant designed to fight the Clans
   - Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
+- Reduce damage for heavy Gauss rifle to 140 damage + 25 structural damage, and 160 + 25 for the + variant; the existing 205 damage was just a little bit too extreme
+  - The good news is that you can get back to the original with the ++heavy Gauss rifle in the Elite Arsenal mod! You'll just have to kill its existing user first....
+
+### Bug fixes
+- Fix heatsinks and jumpjets for Hauptmann
+- Fix movedef for Archer 2R
+
 
 ## Initial changes (v1.3)
 
