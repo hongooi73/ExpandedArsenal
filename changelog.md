@@ -79,6 +79,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Targeting Computer Mk II renamed to Targeting Computer +; ignores 2 evasion pips; reduced to 2 tons
 - IS Artemis IV ignores 2 evasion pips with missile weapons, rather than giving an accuracy bonus
 - Clan Artemis IV ignores 2 evasion pips, and also grants +50% crit chance
+- Revert stats for melee mods back to vanilla
 - The unremovable CT items representing engine DHS have been removed; they have been replaced with a straight +30 heatsinking capacity on the chassis, which is how the vanilla game works
 - Remove items representing internal endosteel and ferro-fibrous space. These were only used by 3 mechs, and it wasn't worth it to extend this approach to the entire mod.
 - Add some new mechs:
@@ -91,6 +92,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix heatsinks and jumpjets for Hauptmann
 - Fix movedef for Archer 2R
 - Fix movedef for Incubus
+- Fix heat generation for MASC (IS and Clan)
 
 
 ## Initial changes (v1.3)
