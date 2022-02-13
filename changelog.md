@@ -89,10 +89,12 @@ The full list of planets with the new gear is as follows. Not every item is avai
   - The good news is that you can get back to the original with the ++heavy Gauss rifle in the Elite Arsenal mod! You'll just have to kill its existing user first....
 
 ### Bug fixes
+
 - Fix heatsinks and jumpjets for Hauptmann
 - Fix movedef for Archer 2R
 - Fix movedef for Incubus
 - Fix heat generation for MASC (IS and Clan)
+- Fix stats for vibrosword and Valiant hatchet
 
 
 ## Initial changes (v1.3)

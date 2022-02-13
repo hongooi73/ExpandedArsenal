@@ -98,7 +98,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "DamagePerShot",
                 "operation": "Float_Add",
-                "modValue": "66.0",
+                "modValue": "70.0",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "Weapon",
@@ -140,7 +140,7 @@
             "Description": {
                 "Id": "StatusEffect-EliteSword",
                 "Name": "Solaris ChainSword",
-                "Details": "Melee attacks have +2 Accuracy.",
+                "Details": "Melee attacks have +1 Accuracy.",
                 "Icon": "uixSvgIcon_run_n_gun"
             },
             "nature": "Buff",

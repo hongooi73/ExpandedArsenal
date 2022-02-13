@@ -14,7 +14,7 @@
         "Details": "The BattleMech Vibroblade was developed by Draconis Combine engineers. Using their Sword as a foundation, they were able to incorporate the same technology that makes the personal vibroblade and vibrokatana so effective. This Sword prototype is affixed permanently to the 'Mech\u2019s arm. It may be damaged and disabled, but it can be repaired.",
         "Icon": "uixSvgIcon_special_Equipment"
     },
-    "BonusValueA": "+ 70 Melee Dmg.",
+    "BonusValueA": "+ 90 Melee Dmg.",
     "BonusValueB": "",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
@@ -41,7 +41,7 @@
             "Description": {
                 "Id": "StatusEffect-HandMelee",
                 "Name": "Hand Melee Damage",
-                "Details": "Melee attacks deal 50% Extra damage.",
+                "Details": "Melee attacks deal 20% Extra damage.",
                 "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
@@ -69,7 +69,7 @@
             "Description": {
                 "Id": "StatusEffect-HandMeleeStab",
                 "Name": "Hand Melee Damage",
-                "Details": "Melee attacks deal 20% Extra stab damage.",
+                "Details": "Melee attacks deal 15% Extra stab damage.",
                 "Icon": "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature": "Buff",
@@ -196,7 +196,7 @@
             "Description": {
                 "Id": "StatusEffect-EliteSword",
                 "Name": "Solaris ChainSword",
-                "Details": "Melee attacks have +2 Accuracy.",
+                "Details": "Melee attacks have +3 Accuracy.",
                 "Icon": "uixSvgIcon_run_n_gun"
             },
             "nature": "Buff",
