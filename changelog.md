@@ -93,8 +93,10 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix heatsinks and jumpjets for Hauptmann
 - Fix movedef for Archer 2R
 - Fix movedef for Incubus
+- Fix movedef for Kodiak
 - Fix heat generation for MASC (IS and Clan)
 - Fix stats for vibrosword and Valiant hatchet
+- Fix jumpjets for Arctic Cheetah
 
 
 ## Initial changes (v1.3)
