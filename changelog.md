@@ -53,7 +53,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Merope
 - Midale
 - New Vandenburg
-- Niamede
+- Niomede
 - Paf
 - Payia
 - Piriapolis
@@ -83,7 +83,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - The unremovable CT items representing engine DHS have been removed; they have been replaced with a straight +30 heatsinking capacity on the chassis, which is how the vanilla game works
 - Remove items representing internal endosteel and ferro-fibrous space. These were only used by 3 mechs, and it wasn't worth it to extend this approach to the entire mod.
 - Add some new mechs:
-  - King Crab KGC-001, a 3052 ComStar variant designed to fight the Clans
+  - King Crab KGC-001, a 3052 ComStar clanbuster variant
   - Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
 - Reduce damage for heavy Gauss rifle to 140 damage + 25 structural damage, and 160 + 25 for the + variant; the existing 205 damage was just a little bit too extreme
   - The good news is that you can get back to the original with the ++heavy Gauss rifle in the Elite Arsenal mod! You'll just have to kill its existing user first....
