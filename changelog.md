@@ -4,7 +4,7 @@ This is a **major refactoring** that includes the following changes:
 
 - Add vehicles and turrets from Vanilla Plus. With this change, EA now includes 99% of the contents of VP (the Xenorauder and catgirls are unlikely to make it back, sorry).
 
-- Reuse gear and weapon definitions from Haakon's mods:
+- Reuse gear and weapon definitions from Haakon's Tons of Guns:
   - Items are now available for sale only in specific star systems; see below for the list
   - Some item IDs have changed (eg clan lasers, LRMs and SRMs)
   - Legacy weapons have been moved into the `weapon_legacy` directory; they are still present in-game to allow loading existing saves, but are not used on mechs and should not appear in stores
@@ -90,6 +90,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 ### Bug fixes
 - Fix heatsinks and jumpjets for Hauptmann
 - Fix movedef for Archer 2R
+- Fix movedef for Incubus
 
 
 ## Initial changes (v1.3)
