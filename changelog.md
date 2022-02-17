@@ -98,6 +98,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix stats for vibrosword and Valiant hatchet
 - Fix jumpjets for Arctic Cheetah
 - Fix maximum armour for Turkina
+- Fix engine heatsinks for Lament (should be DHS)
 
 
 ## Initial changes (v1.3)
