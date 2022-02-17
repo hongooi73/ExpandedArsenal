@@ -1,13 +1,13 @@
 {
-    "description": {
+    "Description": {
         "Cost": 12198560,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "Name": "Turkina",
+        "Name": "Turkina X",
         "Details": "Continuing with the paired weapons theme, the B uses two Large Pulse Lasers, ER Large Lasers, Medium Pulse Lasers, and ER Medium Lasers. All of these are linked to an advanced Targeting Computer. Ten extra double heat sinks still struggle to keep heat levels down.[6] The impetus for this variant seems to lie in the Battle of Tukayyid and the ComGuard's strategy of bleeding them of supplies by fighting a protracted campaign. With no weapons that need ammunition, this configuration can stay in the field as long as its MechWarrior can.",
-        "UIName": "Turkina",
+        "UIName": "Turkina X",
         "Id": "chassisdef_turkina_b",
         "Icon": "uixTxrIcon_turkina"
     },
@@ -93,8 +93,8 @@
         {
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 50,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
             "InternalStructure": 100,
             "Location": "LeftTorso",
             "Hardpoints": [
@@ -107,8 +107,8 @@
         {
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 225,
-            "MaxRearArmor": 75,
+            "MaxArmor": 300,
+            "MaxRearArmor": 150,
             "InternalStructure": 150,
             "Location": "CenterTorso",
             "Hardpoints": [
@@ -121,8 +121,8 @@
         {
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 50,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
             "InternalStructure": 100,
             "Location": "RightTorso",
             "Hardpoints": [

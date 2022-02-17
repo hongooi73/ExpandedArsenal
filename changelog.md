@@ -97,6 +97,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix heat generation for MASC (IS and Clan)
 - Fix stats for vibrosword and Valiant hatchet
 - Fix jumpjets for Arctic Cheetah
+- Fix maximum armour for Turkina
 
 
 ## Initial changes (v1.3)
