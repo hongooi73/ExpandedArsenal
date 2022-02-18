@@ -71,6 +71,15 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Villanueva
 
 
+### New mechs
+
+- King Crab KGC-001, a 3052 ComStar clanbuster variant
+- Cataphract CTF-3L, a 3050 Liao variant based on Davion plans
+- Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
+- Wolverine WVR-7K, a 3050 Kurita lostech upgrade
+- Griffin GRF-3M, a 3049 Marik upgrade, also used by Davion
+
+
 ### Other changes
 
 - Some item names have been modified for consistency, and to follow the vanilla convention of using +/++/+++ for upgrades
@@ -82,11 +91,9 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Revert stats for melee mods back to vanilla
 - The unremovable CT items representing engine DHS have been removed; they have been replaced with a straight +30 heatsinking capacity on the chassis, which is how the vanilla game works
 - Remove items representing internal endosteel and ferro-fibrous space. These were only used by 3 mechs, and it wasn't worth it to extend this approach to the entire mod.
-- Add some new mechs:
-  - King Crab KGC-001, a 3052 ComStar clanbuster variant
-  - Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
 - Reduce damage for heavy Gauss rifle to 140 damage + 25 structural damage, and 160 + 25 for the + variant; the existing 205 damage was just a little bit too extreme
-  - The good news is that you can get back to the original with the ++heavy Gauss rifle in the Elite Arsenal mod! You'll just have to kill its existing user first....
+  - The good news is that you can get back to the original with the ++heavy Gauss rifle in the Elite Arsenal mod! You'll just have to kill the current user first....
+
 
 ### Bug fixes
 
