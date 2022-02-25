@@ -30,7 +30,7 @@
     "Instability": 60,
     "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
     "Description": {
-        "Cost": 2900000,
+        "Cost": 4000000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Imperator",
