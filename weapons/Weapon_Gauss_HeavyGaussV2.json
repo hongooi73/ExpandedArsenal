@@ -30,7 +30,7 @@
     "Instability": 70,
     "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
     "Description": {
-        "Cost": 275000,
+        "Cost": 7000000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Viking Arms",
@@ -52,12 +52,17 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "Arms",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1",
             "range_extreme"
         ],
         "tagSetSourceFile": ""
     }
 }
+

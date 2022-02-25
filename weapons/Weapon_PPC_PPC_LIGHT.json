@@ -1,57 +1,57 @@
 {
-  "Category": "Energy",
-  "Type": "PPC",
-  "WeaponSubType": "PPC",
-  "MinRange": 90,
-  "MaxRange": 720,
-  "RangeSplit": [
-    180,
-    360,
-    540
-  ],
-  "AmmoCategory": "NotSet",
-  "StartingAmmoCapacity": 0,
-  "HeatGenerated": 15,
-  "Damage": 25,
-  "OverheatedDamageMultiplier": 0,
-  "EvasiveDamageMultiplier": 0,
-  "EvasivePipsIgnored": 1,
-  "DamageVariance": 0,
-  "HeatDamage": 0,
-  "AccuracyModifier": 0,
-  "CriticalChanceMultiplier": 1,
-  "AOECapable": false,
-  "IndirectFireCapable": false,
-  "RefireModifier": 1,
-  "ShotsWhenFired": 1,
-  "ProjectilesPerShot": 1,
-  "AttackRecoil": 3,
-  "Instability": 6,
-  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
-  "Description": {
-    "Cost": 580000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "Fusigon",
-    "Model": "Light Particle Projector Cannon",
-    "UIName": "Light PPC",
-    "Id": "Weapon_PPC_PPC_LIGHT",
-    "Name": "Light PPC",
-    "Details": "The Light PPC is a lighter version of the Particle Projector Cannon. Researched by the Draconis Combine, it does less damage and has shorter range than a PPC, but comes in at less than half the weight.",
-    "Icon": "uixSvgIcon_weapon_Energy"
-  },
-  "BonusValueA": "1 Evasion Ignore",
-  "BonusValueB": "No Recoil",
-  "ComponentType": "Weapon",
-  "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "PPC",
-  "BattleValue": 0,
-  "InventorySize": 2,
-  "Tonnage": 3,
-  "AllowedLocations": "All",
-  "DisallowedLocations": "All",
-  "CriticalComponent": false,
-  "statusEffects": [
+    "Category": "Energy",
+    "Type": "PPC",
+    "WeaponSubType": "PPC",
+    "MinRange": 90,
+    "MaxRange": 720,
+    "RangeSplit": [
+        180,
+        360,
+        540
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 15,
+    "Damage": 25,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 1,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 1,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 3,
+    "Instability": 6,
+    "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+    "Description": {
+        "Cost": 135000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Fusigon",
+        "Model": "Light Particle Projector Cannon",
+        "UIName": "Light PPC",
+        "Id": "Weapon_PPC_PPC_LIGHT",
+        "Name": "Light PPC",
+        "Details": "The Light PPC is a lighter version of the Particle Projector Cannon. Researched by the Draconis Combine, it does less damage and has shorter range than a PPC, but comes in at less than half the weight.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "1 Evasion Ignore",
+    "BonusValueB": "No Recoil",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "PPC",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 3,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
         {
             "durationData": {
                 "duration": 2,
@@ -104,11 +104,12 @@
             "poorlyMaintainedEffectData": null
         }
     ],
-  "ComponentTags": {
-    "items": [
-      "component_type_stock",
-      "range_very-long"
-    ],
-    "tagSetSourceFile": ""
-  }
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_very-long"
+        ],
+        "tagSetSourceFile": ""
+    }
 }
+
