@@ -1,9 +1,9 @@
 {
-	"Custom": {
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 75
-		}
-	},
+    "Custom": {
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 75
+        }
+    },
     "Category": "Energy",
     "Type": "Laser",
     "WeaponSubType": "LargeLaserER",
@@ -14,7 +14,7 @@
         300,
         450
     ],
-    "ammoCategoryID" : "NotSet",
+    "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 35,
     "Damage": 75,
@@ -34,7 +34,7 @@
     "Instability": 0,
     "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
     "Description": {
-        "Cost": 250000,
+        "Cost": 732000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
@@ -56,7 +56,9 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
@@ -65,3 +67,4 @@
         "tagSetSourceFile": ""
     }
 }
+

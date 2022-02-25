@@ -1,9 +1,9 @@
 {
-	"Custom": {
-		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 40
-		}
-	},
+    "Custom": {
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 40
+        }
+    },
     "Category": "AntiPersonnel",
     "Type": "Laser",
     "WeaponSubType": "SmallLaserER",
@@ -14,7 +14,7 @@
         60,
         90
     ],
-    "ammoCategoryID" : "NotSet",
+    "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 15,
     "Damage": 40,
@@ -34,7 +34,7 @@
     "Instability": 0,
     "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
     "Description": {
-        "Cost": 20000,
+        "Cost": 264000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
@@ -56,7 +56,9 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
@@ -65,3 +67,4 @@
         "tagSetSourceFile": ""
     }
 }
+
