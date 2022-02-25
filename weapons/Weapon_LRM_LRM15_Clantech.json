@@ -29,7 +29,7 @@
     "Instability": 2,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
     "Description": {
-        "Cost": 175000,
+        "Cost": 330000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "CLAN",
@@ -51,7 +51,9 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
@@ -60,3 +62,4 @@
         "tagSetSourceFile": ""
     }
 }
+

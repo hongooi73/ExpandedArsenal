@@ -29,7 +29,7 @@
     "Instability": 4.6,
     "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Medium",
     "Description": {
-        "Cost": 750000,
+        "Cost": 615000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Clan Tech",
@@ -51,7 +51,9 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [],
+    "statusEffects": [
+
+    ],
     "ComponentTags": {
         "items": [
             "component_type_stock",
@@ -62,3 +64,4 @@
         "tagSetSourceFile": ""
     }
 }
+
