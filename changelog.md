@@ -82,6 +82,8 @@ The full list of planets with the new gear is as follows. Not every item is avai
 
 ### Other changes
 
+- Prices have been revised to be more consistent with each other, and also with vanilla items. In particular, Clan weapons should now always be more expensive than their IS counterparts.
+- Make Gauss ammo and IS double heatsinks available as loot
 - Some item names have been modified for consistency, and to follow the vanilla convention of using +/++/+++ for upgrades
 - Targeting Computer Mk I now ignores 2 evasion pips with ballistic and energy weapons, rather than giving +2 accuracy
   - Ignoring evasion should be much more powerful than accuracy, and appropriate for an item weighing 3 tons (more than a +++TTS)
