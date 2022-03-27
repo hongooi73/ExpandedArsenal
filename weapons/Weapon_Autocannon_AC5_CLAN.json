@@ -45,7 +45,7 @@
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
-    "PrefabIdentifier": "AC5",
+    "PrefabIdentifier": "uac5",
     "InventorySize": 2,
     "Tonnage": 7,
     "AllowedLocations": "All",
