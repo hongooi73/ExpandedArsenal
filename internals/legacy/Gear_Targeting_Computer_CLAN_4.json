@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 500000,
-        "Rarity" : 0,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "CLAN",
         "Model" : "Mongoose",

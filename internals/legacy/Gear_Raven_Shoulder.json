@@ -4,7 +4,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 230000,
-        "Rarity" : 3,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Unknown",
         "Model" : "Raven Shoulder ECM",
