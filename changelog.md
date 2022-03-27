@@ -108,6 +108,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix jumpjets for Arctic Cheetah
 - Fix maximum armour for Turkina
 - Fix engine heatsinks for Lament (should be DHS)
+- Fix AC/5 ammunition for Kanga
 
 
 ## Initial changes (v1.3)
