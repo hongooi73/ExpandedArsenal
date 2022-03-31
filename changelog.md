@@ -74,6 +74,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 ### New mechs
 
 - King Crab KGC-001, a 3052 ComStar clanbuster variant
+- Mauler MAL-1R, the standard 3048 version that replaced the Daboku
 - Cataphract CTF-3L, a 3050 Liao variant based on Davion plans
 - Shadow Hawk SHD-5M, a 3048 Marik overhaul and upgrade
 - Wolverine WVR-7K, a 3050 Kurita lostech upgrade
