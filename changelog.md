@@ -110,6 +110,7 @@ The full list of planets with the new gear is as follows. Not every item is avai
 - Fix maximum armour for Turkina
 - Fix engine heatsinks for Lament (should be DHS)
 - Fix AC/5 ammunition for Kanga
+- Fix LB20-X ammunition for Oro
 - Adjust mech and chassis prices for Medusa
 
 
