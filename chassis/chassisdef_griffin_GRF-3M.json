@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -86,7 +88,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -139,7 +143,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -148,7 +154,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 130,
@@ -202,9 +210,12 @@
     ],
     "VariantName": "GRF-3M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Fire Support",
     "YangsThoughts": "The 3M Griffin was an upgraded version of the design built for House Marik by Earthwerks and Brigadier Corps starting in 3049. With production lines on Keystone and Oliver this variant sought to enhance the original's long-range capabilities. While intended for the Free Worlds League Military, the capture of Oliver by FedCom forces meant the 3M also appeared in large numbers in the Armed Forces of the Federated Commonwealth."
 }
+

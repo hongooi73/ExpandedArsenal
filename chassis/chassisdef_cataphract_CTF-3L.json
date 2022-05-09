@@ -49,7 +49,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -94,7 +96,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -139,7 +143,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -148,7 +154,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 150,
@@ -202,9 +210,12 @@
     ],
     "VariantName": "CTF-3L",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
     "YangsThoughts": "Produced by the Capellans based on stolen Davion designs, the 3L is an upgraded version of the Cataphract that follows more in line with the prototype 1X model. It is propelled by an XL Engine with MASC instead of jump jets allowing it to reach speeds of 86.4 km/h in short bursts. While it is also armed with an LB-X Autocannon/10 as its primary weapon this is instead matched with a Ceres Arms Warrior ER PPC for powerful striking capabilities at long range. Other differences include the use of four Ceres Arms Model W Medium Pulse Lasers and double heat sinks in place of the standard models."
 }
+

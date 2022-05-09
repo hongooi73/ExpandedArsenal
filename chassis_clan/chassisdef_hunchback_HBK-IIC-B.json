@@ -27,7 +27,7 @@
     "TopSpeed": 65,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
-    "Stability": 80,
+    "Stability": 130,
     "StabilityDefenses": [
         0,
         0,

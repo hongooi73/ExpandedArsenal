@@ -1,3 +1,8 @@
+## v2.0.1
+
+- Fix stability values for several mechs
+
+
 ## v2.0
 
 This is a **major refactoring** that includes the following changes:

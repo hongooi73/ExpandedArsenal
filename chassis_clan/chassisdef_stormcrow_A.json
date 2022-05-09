@@ -19,7 +19,7 @@
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
-    "Stability": 100,
+    "Stability": 130,
     "SpotterDistanceMultiplier": 1.25,
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1.25,

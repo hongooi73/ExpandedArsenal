@@ -19,7 +19,7 @@
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
-    "Stability": 100,
+    "Stability": 200,
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
