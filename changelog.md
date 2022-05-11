@@ -1,6 +1,8 @@
 ## v2.0.1
 
 - Fix stability values for several mechs
+- Fix overweight Imp chassisdefs, remove 10 heatsinks from mechdefs
+- Fix Yeoman weight and heatsink values (1 heatsink removed)
 
 
 ## v2.0

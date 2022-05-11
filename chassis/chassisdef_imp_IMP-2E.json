@@ -20,7 +20,7 @@
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_imp",
     "Tonnage": 100,
-    "InitialTonnage": 26,
+    "InitialTonnage": 36,
     "weightClass": "ASSAULT",
     "BattleValue": 1892000,
     "Heatsinks": 0,

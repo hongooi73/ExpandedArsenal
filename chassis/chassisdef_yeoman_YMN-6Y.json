@@ -20,7 +20,7 @@
     "PrefabIdentifier": "chrprfmech_yeomanbase-001",
     "PrefabBase": "yeoman",
     "Tonnage": 60,
-    "InitialTonnage": 15.5,
+    "InitialTonnage": 16.5,
     "weightClass": "HEAVY",
     "BattleValue": 5514000,
     "Heatsinks": 30,
