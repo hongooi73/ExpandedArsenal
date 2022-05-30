@@ -3,7 +3,7 @@
 - Fix stability values for several mechs
 - Fix overweight Imp chassisdefs, remove 10 heatsinks from mechdefs
 - Fix Yeoman weight and heatsink values (1 heatsink removed)
-
+- Fix an issue with the vanilla game where you could sometimes get a lance of turrets as allies
 
 ## v2.0
 

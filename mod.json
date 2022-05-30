@@ -33,6 +33,11 @@
         { "Type": "TurretChassisDef", "Path": "chassis_turret" },
         { "Type": "Sprite", "Path": "portraits" },
         {
+            "Type": "LanceDef",
+            "Path": "lance",
+            "AddToDB": true
+        },
+        {
             "Type": "AdvancedJSONMerge",
             "Path": "starsystems"
         }
