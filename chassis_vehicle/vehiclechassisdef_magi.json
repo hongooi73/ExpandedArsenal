@@ -91,7 +91,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 220,
-			"InternalStructure" : 4
+			"InternalStructure" : 35
 		},
 		{
 			"Location" : "Left",
@@ -100,7 +100,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 215,
-			"InternalStructure" : 4
+			"InternalStructure" : 35
 		},
 		{
 			"Location" : "Right",
@@ -109,7 +109,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 215,
-			"InternalStructure" : 4
+			"InternalStructure" : 35
 		},		
 		{
 			"Location" : "Rear",
@@ -118,7 +118,7 @@
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 200,
-			"InternalStructure" : 4
+			"InternalStructure" : 35
 		}
 	]
 }
