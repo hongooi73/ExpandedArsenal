@@ -1,0 +1,230 @@
+{
+    "MechTags": {
+        "items": [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_archangel_C-ANG-OB_infernus",
+    "Description": {
+        "Cost": 12000000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Archangel C-ANG-OB Infernus",
+        "Id": "mechdef_archangel_C-ANG-OB_infernus",
+        "Name": "Archangel C-ANG-OB",
+        "Details": "Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops. The Archangel is the largest of these. Designed to be an anchor for Word formations, the 'Mech is known as a zombie because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.",
+        "Icon": "uixTxrIcon_archangel"
+    },
+    "simGameMechPartCost": 4500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 185,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 185,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 200,
+            "CurrentRearArmor": 65,
+            "CurrentInternalStructure": 160,
+            "AssignedArmor": 200,
+            "AssignedRearArmor": 65
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 185,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 185,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_ARCH",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPC_HEAVY",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": ""
+        }
+    ]
+}
+

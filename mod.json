@@ -23,8 +23,10 @@
         { "Type": "ItemCollectionDef", "Path": "itemcol" },
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "ChassisDef", "Path": "chassis_clan" },
+        { "Type": "ChassisDef", "Path": "chassis_vp" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MechDef", "Path": "mech_clan" },
+        { "Type": "MechDef", "Path": "mech_vp" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement_vehicle" },
         { "Type": "VehicleDef", "Path": "vehicle" },
@@ -32,6 +34,7 @@
         { "Type": "TurretDef", "Path": "turret" },
         { "Type": "TurretChassisDef", "Path": "chassis_turret" },
         { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "Sprite", "Path": "sprite" },
         {
             "Type": "LanceDef",
             "Path": "lance",

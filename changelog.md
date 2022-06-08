@@ -1,10 +1,20 @@
 ## v2.0.1
 
+This version includes the remaining legacy content from Vanilla Plus, to allow for a smooth upgrade from VP to EA:
+
+- LAMs, Jihad-era and easter egg mechs
+- Portrait files for the ronin pilots
+
+These mechs and pilots won't appear in missions or for hire, but you'll be able to load a saved game that contains them.
+
+### Other changes
+
 - Fix stability values for several mechs
 - Fix overweight Imp chassisdefs, remove 10 heatsinks from mechdefs
 - Fix Yeoman weight and heatsink values (1 heatsink removed)
 - Fix an issue with the vanilla game where you could sometimes get a lance of turrets as allies
 - Fix internal structure values for several vehicles
+
 
 ## v2.0
 

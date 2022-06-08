@@ -1,0 +1,280 @@
+{
+    "MechTags": {
+        "items": [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_juggernaut_JG-R9T1",
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Juggernaut JG-R9T1",
+        "Id": "mechdef_juggernaut_JG-R9T1",
+        "Name": "Juggernaut JG-R9T1",
+        "Details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. While not a flashy design, Solaris Arms kept up steady production of the design since the early 3050s. Sixteen and half tons of Valiant Chainmail armor protect a GM 270 Fusion Engine, propelling the 'Mech at fairly standard assault 'Mech speed of 54 kph.\n",
+        "Icon": "uixTxrIcon_juggernaut"
+    },
+    "simGameMechPartCost": 2000000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 85,
+            "CurrentInternalStructure": 145,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 85
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MachineGun_JUGG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MachineGun_JUGG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MachineGun_JUGG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MachineGun_JUGG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false,
+            "SimGameUID": "",
+            "IsFixed": false
+        }
+    ]
+}
+
