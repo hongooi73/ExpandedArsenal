@@ -18,6 +18,8 @@ These mechs and pilots won't appear in missions or for hire, but you'll be able 
 - Fix Yeoman weight and heatsink values (1 heatsink removed)
 - Fix an issue with the vanilla game where you could sometimes get a lance of turrets as allies
 - Fix internal structure values for several vehicles
+- Fix Hellhound 2 to move at 7/11
+- Fix number of jumpjets for Hellhound
 
 
 ## v2.0
