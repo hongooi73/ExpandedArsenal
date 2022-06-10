@@ -7,6 +7,10 @@ This version includes the remaining legacy content from Vanilla Plus, to allow f
 
 These mechs and pilots won't appear in missions or for hire, but you'll be able to load a saved game that contains them.
 
+### New mechs
+
+- King Crab KGB-000B, the SLDF version of the vanilla King Crab
+
 ### Other changes
 
 - Fix stability values for several mechs
