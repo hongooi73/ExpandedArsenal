@@ -1,0 +1,214 @@
+{
+    "Description": {
+        "Cost": 5250000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Talos",
+        "Id": "chassisdef_talosx_TLS-X",
+        "Name": "Talos",
+        "Details": "Drawing upon experiences made with the older Toro and studying related Inner Sphere designs, Vandenberg Heavy Industries finally delivered the Talos to the TDF in 2532 after almost a decade of development and prototype trials. The mature design emphasized easy production and logistics, and was popular with pilots due to its easy handling, improved heat management and solid 8.5 tons of standard armor.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_talos"
+    },
+    "MovementCapDefID": "movedef_talos_TLS-1B",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_talos",
+    "PrefabIdentifier": "chrprfmech_talosbase-001",
+    "PrefabBase": "talos",
+    "Tonnage": 50,
+    "InitialTonnage": 18.5,
+    "weightClass": "MEDIUM",
+    "BattleValue": 4124000,
+    "Heatsinks": 0,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 60,
+    "MeleeInstability": 50,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 65,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2
+        }
+    ],
+    "VariantName": "TLS-X",
+    "ChassisTags": {
+        "items": [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler & General Assault",
+    "YangsThoughts": "Drawing upon experiences made with the older Toro and studying related Inner Sphere designs, Vandenberg Heavy Industries finally delivered the Talos to the TDF in 2532 after almost a decade of development and prototype trials. The mature design emphasized easy production and logistics, and was popular with pilots due to its easy handling, improved heat management and solid 8.5 tons of standard armor.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield."
+}
+

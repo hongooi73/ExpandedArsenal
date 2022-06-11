@@ -1,0 +1,224 @@
+{
+    "Description": {
+        "Cost": 3255000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Mongoose",
+        "Id": "chassisdef_mongooses_MON-S",
+        "Name": "Mongoose",
+        "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust. The MON-66b is the variant used by the Star League's Royal regiments. Constructed around a powerful XL engine and using weight saving technologies, the Royal Mongoose is extremely fast while also carrying a heavy armament of an ER Large Laser, a pair of Medium Lasers, and a Small Laser for good measure.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_mongoose"
+    },
+    "FixedEquipment": [
+
+    ],
+    "MovementCapDefID": "movedef_mongoose_MON-67",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_mongoose",
+    "PrefabIdentifier": "chrprfmech_mongoosebase-001",
+    "PrefabBase": "mongoose",
+    "Tonnage": 25,
+    "InitialTonnage": 10.5,
+    "weightClass": "LIGHT",
+    "BattleValue": 2061000,
+    "Heatsinks": 45,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 35,
+    "MeleeInstability": 25,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "MON-S",
+    "ChassisTags": {
+        "items": [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Light Striker & Scout",
+    "YangsThoughts": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust. The MON-66b is the variant used by the Star League's Royal regiments. Constructed around a powerful XL engine and using weight saving technologies, the Royal Mongoose is extremely fast while also carrying a heavy armament of an ER Large Laser, a pair of Medium Lasers, and a Small Laser for good measure.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield."
+}
+

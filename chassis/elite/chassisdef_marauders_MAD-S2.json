@@ -1,0 +1,236 @@
+{
+    "Description": {
+        "Cost": 18900000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Marauder",
+        "Id": "chassisdef_marauders_MAD-S2",
+        "Name": "Marauder",
+        "Details": "The 5S variant of the Marauder dates to the Clan Invasion, introduced in 3051 by Bowie Industries after the Draconis Combine captured plans for the 5D design. The variant was built around an XL engine to save weight and upgraded the heat sinks to double-strength models. Like the 5D, the 5S carried ER PPCs and medium pulse lasers, but replaced the autocannon with a Poland Main Model A Gauss Rifle.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_marauder"
+    },
+    "MovementCapDefID": "movedef_marauder_MAD-2R",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_marauder",
+    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
+    "PrefabBase": "marauder",
+    "Tonnage": 75,
+    "InitialTonnage": 23.5,
+    "weightClass": "HEAVY",
+    "Heatsinks": 45,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": -1
+        },
+        {
+            "x": 2.5,
+            "y": 7,
+            "z": -2.5
+        },
+        {
+            "x": -2.5,
+            "y": 7,
+            "z": -2.5
+        }
+    ],
+    "VariantName": "MAD-S2",
+    "ChassisTags": {
+        "items": [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Ranged Assault",
+    "YangsThoughts": "The 5S variant of the Marauder dates to the Clan Invasion, introduced in 3051 by Bowie Industries after the Draconis Combine captured plans for the 5D design. The variant was built around an XL engine to save weight and upgraded the heat sinks to double-strength models. Like the 5D, the 5S carried ER PPCs and medium pulse lasers, but replaced the autocannon with a Poland Main Model A Gauss Rifle.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_Lance_Command_Module",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
+}
+
