@@ -12,6 +12,8 @@ Elite Forces and Elite Arsenal can now be enabled and disabled freely in the mid
 ### New mechs
 
 - King Crab KGB-000B, the SLDF version of the vanilla King Crab
+- Axman AXM-1N, the big brother of the Hatchetman
+- Axman AXM-2N, variant with LRMs in place of the AC/20
 
 ### Other changes
 
