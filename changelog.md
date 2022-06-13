@@ -1,6 +1,6 @@
 ## v2.0.1
 
-This version includes the remaining legacy content from Vanilla Plus, to allow for a smooth upgrade from VP to EA:
+This version includes the remaining legacy content from Vanilla Plus, to allow for a smooth upgrade from VP to Expanded Arsenal:
 
 - LAMs, Jihad-era and easter egg mechs
 - Portrait files for the ronin pilots
@@ -11,7 +11,7 @@ Elite Forces and Elite Arsenal can now be enabled and disabled freely in the mid
 
 ### New mechs
 
-- King Crab KGB-000B, the SLDF version of the vanilla King Crab
+- King Crab KGB-000B, the SLDF version of the regular King Crab
 - Axman AXM-1N, the big brother of the Hatchetman
 - Axman AXM-2N, variant with LRMs in place of the AC/20
 
@@ -24,6 +24,7 @@ Elite Forces and Elite Arsenal can now be enabled and disabled freely in the mid
 - Fix internal structure values for several vehicles
 - Fix Hellhound 2 to move at 7/11
 - Fix number of jumpjets for Hellhound
+- Add more hardpoints to all the Gargoyle variants
 
 
 ## v2.0
