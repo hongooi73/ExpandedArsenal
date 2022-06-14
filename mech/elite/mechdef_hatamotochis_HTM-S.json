@@ -43,10 +43,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 145,
+            "CurrentArmor": 155,
             "CurrentRearArmor": 75,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 145,
+            "AssignedArmor": 155,
             "AssignedRearArmor": 75
         },
         {
@@ -61,10 +61,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 145,
+            "CurrentArmor": 155,
             "CurrentRearArmor": 75,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 145,
+            "AssignedArmor": 155,
             "AssignedRearArmor": 75
         },
         {
@@ -79,19 +79,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 135,
+            "CurrentArmor": 145,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 135,
+            "AssignedArmor": 145,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 135,
+            "CurrentArmor": 145,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 135,
+            "AssignedArmor": 145,
             "AssignedRearArmor": -1
         }
     ],
@@ -218,8 +218,19 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Shortrange_EW_Suite_1",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Heavy_Defensive_Suite_1",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

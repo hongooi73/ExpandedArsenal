@@ -136,7 +136,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_PPC_Capacitator",
+            "ComponentDefID": "Gear_PPC_Capacitator_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
