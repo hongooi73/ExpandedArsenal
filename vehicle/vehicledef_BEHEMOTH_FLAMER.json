@@ -99,45 +99,24 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
             "HardpointSlot": 2,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
             "HardpointSlot": 3,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
             "HardpointSlot": 4,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
-            "HardpointSlot": 5,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
-            "HardpointSlot": 6,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
-            "HardpointSlot": 7,
             "DamageLevel": "Functional"
         },
         {
