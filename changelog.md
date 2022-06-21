@@ -25,6 +25,7 @@ Elite Forces and Elite Arsenal can now be enabled and disabled freely in the mid
 - Fix Hellhound 2 to move at 7/11
 - Fix number of jumpjets for Hellhound
 - Add more hardpoints to all the Gargoyle variants
+- Modify the Behemoth Flamer loadout to improve performance (4 LRM5s consolidated to an LRM20)
 
 
 ## v2.0
