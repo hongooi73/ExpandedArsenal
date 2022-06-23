@@ -1,4 +1,4 @@
-## v2.0.1
+## v2.1.0
 
 This version includes the remaining legacy content from Vanilla Plus, to allow for a smooth upgrade from VP to Expanded Arsenal:
 
@@ -26,6 +26,14 @@ Elite Forces and Elite Arsenal can now be enabled and disabled freely in the mid
 - Fix number of jumpjets for Hellhound
 - Add more hardpoints to all the Gargoyle variants
 - Modify the Behemoth Flamer loadout to improve performance (4 LRM5s consolidated to an LRM20)
+- Disable the in-mission save, which is broken for modded games
+
+### Bundled mods
+
+- Update Panic System to version 4.2.0, from GitHub (the Nexus version was very old and buggy)
+- Update Mission Control to version 1.4.2
+- Include IRTweaks to support disabling in-mission saves, and extra health for base buildings in Elite Arsenal missions
+- See the Elite Arsenal changelog for changes to that mod
 
 
 ## v2.0
