@@ -7,12 +7,12 @@ This version includes the remaining legacy content from Vanilla Plus, to allow f
 
 These mechs and pilots won't appear in missions or for hire, but you'll be able to load a saved game that contains them.
 
-Elite Forces and Elite Arsenal can now be enabled and disabled freely in the middle of a game. (Previously, once these mods were enabled you couldn't disable them again without breaking your save.)
+Elite Forces and Elite Arsenal can now be enabled and disabled freely in the middle of a game. Previously, once these mods were enabled and you'd collected any loot, you couldn't disable them again without breaking your save.
 
 ### New mechs
 
-- King Crab KGB-000B, the SLDF version of the regular King Crab
-- Axman AXM-1N, the big brother of the Hatchetman
+- King Crab KGC-000B, the SLDF version of the regular King Crab
+- Axman AXM-1N, the big brother of the Hatchetman; reuses the Hatchetman model
 - Axman AXM-2N, variant with LRMs in place of the AC/20
 
 ### Other changes
