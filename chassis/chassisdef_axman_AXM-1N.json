@@ -206,7 +206,9 @@
     ],
     "VariantName": "AXM-1N",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.5"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Melee Specialist",
