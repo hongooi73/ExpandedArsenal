@@ -30,6 +30,7 @@
             "dynamicDifficulty": true,
             "unitTagSet": {
                 "items": [
+                    "unit_mech",
                     "Kurita"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
