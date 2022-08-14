@@ -1,3 +1,10 @@
+## v2.1.1
+
+### Bug fixes
+
+- Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip
+
+
 ## v2.1.0
 
 This version includes the remaining legacy content from Vanilla Plus, to allow for a smooth upgrade from VP to Expanded Arsenal:
