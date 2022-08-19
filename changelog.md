@@ -1,8 +1,7 @@
 ## v2.1.1
 
-### Bug fixes
-
-- Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip
+- Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip.
+- Instead of a called shot buff, the Company Command Module now grants +2 accuracy and +25% crit chance (lancewide).
 
 
 ## v2.1.0
