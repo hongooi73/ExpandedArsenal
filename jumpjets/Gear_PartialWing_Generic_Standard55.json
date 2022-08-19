@@ -15,7 +15,7 @@
         "Icon": "uixSvgIcon_action_jump"
     },
     "BonusValueA": "+ 30% Jump Jet Dist.",
-    "BonusValueB": "- 9 Heat / Turn",
+    "BonusValueB": "- 10 Heat / Turn",
     "ComponentType": "JumpJet",
     "ComponentSubType": "Functionality",
     "PrefabIdentifier": "JumpJet",
@@ -58,7 +58,7 @@
             "statisticData": {
                 "statName": "HeatSinkCapacity",
                 "operation": "Int_Add",
-                "modValue": "9",
+                "modValue": "10",
                 "modType": "System.Int32"
             },
             "nature": "Buff"

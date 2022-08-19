@@ -1,16 +1,16 @@
 {
     "JumpCapacity": 1,
-    "MinTonnage": 50,
-    "MaxTonnage": 50,
+    "MinTonnage": 40,
+    "MaxTonnage": 40,
     "Description": {
         "Cost": 175000,
         "Rarity": 3,
         "Purchasable": false,
         "Manufacturer": "Generic",
         "Model": "S",
-        "UIName": "Partial Wing System (50T)",
-        "Id": "Gear_PartialWing_Generic_Standard50",
-        "Name": "Partial Wing System (50T)",
+        "UIName": "Partial Wing System (40T)",
+        "Id": "Gear_PartialWing_Generic_Standard40",
+        "Name": "Partial Wing System (40T)",
         "Details": "The partial wing system offers increased jump capability. In addition, its large surface area allows a 'Mech to more efficiently radiate excess heat. For 50T 'Mechs.",
         "Icon": "uixSvgIcon_action_jump"
     },
@@ -118,7 +118,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "BLACKLISTED"	
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }
