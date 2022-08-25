@@ -1,5 +1,5 @@
 {
-    "DissipationCapacity": 0,
+    "DissipationCapacity": 10,
     "Description": {
         "Cost": 500000,
         "Rarity": 99,
@@ -9,10 +9,10 @@
         "UIName": "Engine (LAM)",
         "Id": "emod_Engine_LAM",
         "Name": "Land Air Mech Engine",
-        "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms. <b><color=#0066ff>Reserves 2 Slots and requires Partial Wings System</color></b>",
+        "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
         "Icon": "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA": "",
+    "BonusValueA": "+ 10% heatsinking",
     "BonusValueB": "",
     "ComponentType": "HeatSink",
     "ComponentSubType": "Heatsink",
@@ -37,36 +37,11 @@
             "Description": {
                 "Id": "MaxEvasion",
                 "Name": "EVASIVE MOVE",
-                "Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+                "Details": "This unit's maximum EVASIVE charges are increased.",
                 "Icon": "uixSvgIcon_action_evasivemove"
             },
             "statisticData": {
                 "statName": "MaxEvasivePips",
-                "operation": "Int_Add",
-                "modValue": "1",
-                "modType": "System.Int32"
-            },
-            "nature": "Buff"
-        },
-        {
-            "durationData": {
-                "duration": -1,
-                "stackLimit": -1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator",
-                "showInStatusPanel": false
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "GainEvasion",
-                "Name": "EVASIVE MOVE",
-                "Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
-                "Icon": "uixSvgIcon_action_evasivemove"
-            },
-            "statisticData": {
-                "statName": "EvasivePipsGainedAdditional",
                 "operation": "Int_Add",
                 "modValue": "1",
                 "modType": "System.Int32"
@@ -98,7 +73,7 @@
             "Description": {
                 "Id": "StatusEffect-Jump_Distance-T3",
                 "Name": "JUMP DISTANCE INCREASED",
-                "Details": "Conversion Gear increase Jump Distance by 10%",
+                "Details": "Conversion Gear increase Jump Distance by 20%",
                 "Icon": "uixSvgIcon_equipment_Gyro"
             },
             "nature": "Buff",

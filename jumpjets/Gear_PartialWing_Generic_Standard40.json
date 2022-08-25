@@ -4,18 +4,18 @@
     "MaxTonnage": 40,
     "Description": {
         "Cost": 175000,
-        "Rarity": 3,
+        "Rarity": 99,
         "Purchasable": false,
         "Manufacturer": "Generic",
         "Model": "S",
         "UIName": "Partial Wing System (40T)",
         "Id": "Gear_PartialWing_Generic_Standard40",
         "Name": "Partial Wing System (40T)",
-        "Details": "The partial wing system offers increased jump capability. In addition, its large surface area allows a 'Mech to more efficiently radiate excess heat. For 50T 'Mechs.",
+        "Details": "The partial wing system offers increased jump distance and maneuverability. For 50T 'Mechs.",
         "Icon": "uixSvgIcon_action_jump"
     },
     "BonusValueA": "+ 30% Jump Jet Dist.",
-    "BonusValueB": "- 10 Heat / Turn",
+    "BonusValueB": "+ 3 Hit Defense",
     "ComponentType": "JumpJet",
     "ComponentSubType": "Functionality",
     "PrefabIdentifier": "JumpJet",
@@ -33,7 +33,7 @@
                 "useActivationsOfTarget": false,
                 "ticksOnEndOfRound": false,
                 "ticksOnMovements": false,
-                "stackLimit": 1,
+                "stackLimit": -1,
                 "clearedWhenAttacked": false
             },
             "targetingData": {
@@ -50,18 +50,32 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "PartialWingSink",
-                "Name": "PARTIAL WING SYSTEM",
-                "Details": "The partial wing system's large surface area efficiently radiates excess heat.",
-                "Icon": "uixSvgIcon_designMask_mineral"
+                "Id": "StatusEffect-Defense_ToHit-T3",
+                "Name": "HARDER TO HIT",
+                "Details": "Provides a [AMT] penalty to all attacks against this unit.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
             },
+            "nature": "Buff",
             "statisticData": {
-                "statName": "HeatSinkCapacity",
-                "operation": "Int_Add",
-                "modValue": "10",
-                "modType": "System.Int32"
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "ToHitThisActor",
+                "operation": "Float_Add",
+                "modValue": "3.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
             },
-            "nature": "Buff"
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         },
         {
             "durationData": {
