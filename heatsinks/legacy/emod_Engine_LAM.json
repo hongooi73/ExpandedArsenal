@@ -13,7 +13,7 @@
         "Icon": "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA": "+ 20% Jump Distance",
-    "BonusValueB": "+ 10 Heatsinking",
+    "BonusValueB": "- 10 Heat / Turn",
     "ComponentType": "HeatSink",
     "ComponentSubType": "Heatsink",
     "PrefabIdentifier": "",
@@ -24,30 +24,6 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
-        {
-            "durationData": {
-                "duration": -1,
-                "stackLimit": -1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator"
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "MaxEvasion",
-                "Name": "EVASIVE MOVE",
-                "Details": "This unit's maximum EVASIVE charges are increased.",
-                "Icon": "uixSvgIcon_action_evasivemove"
-            },
-            "statisticData": {
-                "statName": "MaxEvasivePips",
-                "operation": "Int_Add",
-                "modValue": "1",
-                "modType": "System.Int32"
-            },
-            "nature": "Buff"
-        },
         {
             "durationData": {
                 "duration": -1,
