@@ -8,11 +8,11 @@
         "UIName": "LAM Structure",
         "Id": "emod_structureslots_LAM",
         "Name": "Land Air Mech Conversion Gear",
-        "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms. <b><color=#0066ff>Reserves 4 Slots and requires Partial Wings System<\/color><\/b>",
+        "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
         "Icon": "uixSvgIcon_quantity"
     },
-    "BonusValueA": "300% Jump Distance",
-    "BonusValueB": "Reserves 6 Slots",
+    "BonusValueA": "+ 30% Jump Distance",
+    "BonusValueB": "+ 10 Heatsinking",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -23,6 +23,43 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LAMArmorSink",
+                "Name": "PARTIAL WING SYSTEM",
+                "Details": "The partial wing system's large surface area efficiently radiates excess heat.",
+                "Icon": "uixSvgIcon_designMask_mineral"
+            },
+            "statisticData": {
+                "statName": "HeatSinkCapacity",
+                "operation": "Int_Add",
+                "modValue": "10",
+                "modType": "System.Int32"
+            },
+            "nature": "Buff"
+        },
         {
             "durationData": {
                 "duration": -1,
@@ -49,7 +86,7 @@
             "Description": {
                 "Id": "StatusEffect-Jump_Distance-T3",
                 "Name": "JUMP DISTANCE INCREASED",
-                "Details": "Conversion Gear increase Jump Distance by 10%",
+                "Details": "Conversion Gear increase Jump Distance by 30%",
                 "Icon": "uixSvgIcon_equipment_Gyro"
             },
             "nature": "Buff",

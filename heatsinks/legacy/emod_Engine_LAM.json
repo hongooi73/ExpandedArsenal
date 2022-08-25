@@ -12,8 +12,8 @@
         "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
         "Icon": "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA": "+ 10% heatsinking",
-    "BonusValueB": "",
+    "BonusValueA": "+ 20% Jump Distance",
+    "BonusValueB": "+ 10 Heatsinking",
     "ComponentType": "HeatSink",
     "ComponentSubType": "Heatsink",
     "PrefabIdentifier": "",
