@@ -5,9 +5,9 @@
         "Purchasable": false,
         "Manufacturer": "Allied Aerospace",
         "Model": "Armor Critical Slot",
-        "UIName": "LAM Aluminium Armor ++",
+        "UIName": "LAM Aluminium Armor + +",
         "Id": "emod_armorslots_LAM_2",
-        "Name": "Light Aluminium Armor ++",
+        "Name": "Light Aluminium Armor + +",
         "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
         "Icon": "uixSvgIcon_action_end"
     },
