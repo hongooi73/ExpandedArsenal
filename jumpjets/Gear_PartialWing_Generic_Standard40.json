@@ -11,7 +11,7 @@
         "UIName": "Partial Wing System (40T)",
         "Id": "Gear_PartialWing_Generic_Standard40",
         "Name": "Partial Wing System (40T)",
-        "Details": "The partial wing system offers increased jump distance and maneuverability. For 50T 'Mechs.",
+        "Details": "The partial wing system offers increased jump distance and maneuverability. For 40T 'Mechs.",
         "Icon": "uixSvgIcon_action_jump"
     },
     "BonusValueA": "+ 30% Jump Jet Dist.",
