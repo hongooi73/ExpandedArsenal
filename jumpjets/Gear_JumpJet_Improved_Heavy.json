@@ -4,18 +4,18 @@
     "MaxTonnage": 85,
     "Description": {
         "Cost": 225000,
-        "Rarity": 1,
+        "Rarity": 7,
         "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "Heavy-I",
         "UIName": "Jump Jet-I (H)",
         "Id": "Gear_JumpJet_Improved_Heavy",
         "Name": "Improved Jump Jet (H)",
-        "Details": "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Improved Jet's weight 50% more but increase jump distance by 15% each.",
+        "Details": "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Improved Jet's weight 50% more but increase jump distance by 15% each. Up to 2 Improved Jump Jets may be fitted to a 'Mech.",
         "Icon": "uixSvgIcon_action_jump"
     },
-    "BonusValueA": "10% Jump distance",
-    "BonusValueB": "50% Weight",
+    "BonusValueA": "+ 15% Jump distance",
+    "BonusValueB": "",
     "ComponentType": "JumpJet",
     "ComponentSubType": "Functionality",
     "PrefabIdentifier": "JumpJet",
@@ -28,7 +28,8 @@
     "statusEffects": [
         {
             "durationData": {
-                "duration": -1
+                "duration": -1,
+                "stacklimit": 2
             },
             "targetingData": {
                 "effectTriggerType": "Passive",
@@ -38,7 +39,7 @@
             "Description": {
                 "Id": "Improved Jump Jets",
                 "Name": "Jump Distance",
-                "Details": "Jump distance increased by 10%",
+                "Details": "Jump distance increased by 15%",
                 "Icon": "uixSvgIcon_ability_mastertactician"
             },
             "statisticData": {
@@ -60,7 +61,9 @@
     ],
     "ComponentTags": {
         "items": [
-            "component_type_stock"
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1"
         ],
         "tagSetSourceFile": ""
     }
