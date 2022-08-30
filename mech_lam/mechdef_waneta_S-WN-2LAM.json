@@ -9,11 +9,11 @@
     "HeraldryID": null,
     "Description": {
         "Cost": 6240000,
-        "Rarity": 2,
+        "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Waneta S-WN-2LAM",
+        "UIName": "Waneta",
         "Id": "mechdef_waneta_S-WN-2LAM",
         "Name": "Waneta",
         "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
@@ -98,7 +98,7 @@
     "inventory": [
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -109,7 +109,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -120,7 +120,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -131,7 +131,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -197,18 +197,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_JumpJet_Improved_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -230,18 +219,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_JumpJet_Improved_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Improved_Standard",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
