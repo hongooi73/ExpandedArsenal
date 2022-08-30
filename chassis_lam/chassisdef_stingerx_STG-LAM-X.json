@@ -1,62 +1,62 @@
 {
-	"FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_Engine_LAM",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "IsFixed": true	  
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_armorslots_LAM",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "IsFixed": true	 
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_structureslots_LAM",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "IsFixed": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_PartialWing_Generic_Standard30",
-      "SimGameUID": null,
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false,
-      "IsFixed": true
-    }	
-	], 
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_Engine_LAM",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "IsFixed": true
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_armorslots_LAM_1",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "IsFixed": true
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_structureslots_LAM",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "IsFixed": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_PartialWing_Generic_Standard30",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "IsFixed": true
+        }
+    ],
     "Description": {
         "Cost": 3400000,
-        "Rarity": 2,
+        "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Stinger LAM",
-        "Id": "chassisdef_stinger_STG-A1",
+        "Id": "chassisdef_stingerx_STG-LAM-X",
         "Name": "Stinger LAM",
         "Details": "Never produced in large numbers, there were still many in service during the Succession Wars due in part because the LexaTech facility on the Draconis Combine world of Irece, the last intact LAM factory in the Inner Sphere. LexaTech was able to construct new Stinger LAMs as well as new parts. The loss of the factory to the forces of Clan Nova Cat in 3050 during the Clan Invasion sounded the death knell for the Land Air 'Mech as a viable combat unit: the Nova Cats viewed Land Air 'Mechs as an abomination and utterly razed the LexaTech factory to the ground.",
         "Icon": "uixTxrIcon_stingerlam"
@@ -67,10 +67,10 @@
     "PrefabIdentifier": "chrprfmech_stingerlambase-001",
     "PrefabBase": "stingerlam",
     "Tonnage": 30,
-    "InitialTonnage": 13,
+    "InitialTonnage": 15,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 85,
     "TurnRadius": 90,
     "MaxJumpjets": 6,
@@ -99,7 +99,9 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -127,6 +129,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -137,6 +140,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -182,7 +186,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 80,
@@ -191,7 +197,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 80,
@@ -243,11 +251,14 @@
             "z": 0.5
         }
     ],
-    "VariantName": "STG-A1",
+    "VariantName": "STG-LAM-X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "BLACKLISTED"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Recon",
     "YangsThoughts": "Never produced in large numbers, there were still many in service during the Succession Wars due in part because the LexaTech facility on the Draconis Combine world of Irece, the last intact LAM factory in the Inner Sphere. LexaTech was able to construct new Stinger LAMs as well as new parts. The loss of the factory to the forces of Clan Nova Cat in 3050 during the Clan Invasion sounded the death knell for the Land Air 'Mech as a viable combat unit: the Nova Cats viewed Land Air 'Mechs as an abomination and utterly razed the LexaTech factory to the ground."
 }
+
