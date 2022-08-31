@@ -14,7 +14,7 @@
         "Manufacturer": null,
         "Model": null,
         "UIName": "Yurei S",
-        "Id": "mechdef_yureis-YR-LAM-S",
+        "Id": "mechdef_yureis_YR-LAM-S",
         "Name": "Yurei S",
         "Details": "Like the larger Waneta Spectral LAM, the Yurei mounts a weapons array comprised entirely of Clantech weaponry, although again the exact source of the various weapons is unknown. The weapons are almost all energy weapons, comprising an array of one ER Large Laser backed up by two ER Medium Lasers.",
         "Icon": "uixTxrIcon_waneta"

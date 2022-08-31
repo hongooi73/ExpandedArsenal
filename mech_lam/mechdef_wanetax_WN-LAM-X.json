@@ -14,7 +14,7 @@
         "Manufacturer": null,
         "Model": null,
         "UIName": "Waneta X",
-        "Id": "mechdef_wanetax-WN-LAM-X",
+        "Id": "mechdef_wanetax_WN-LAM-X",
         "Name": "Waneta X",
         "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
         "Icon": "uixTxrIcon_waneta"
