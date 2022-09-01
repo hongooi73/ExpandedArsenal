@@ -12,7 +12,7 @@
         "Icon": "uixSvgIcon_action_end"
     },
     "BonusValueA": "+ 20% Jump Distance",
-    "BonusValueB": "- 20% Dmg.",
+    "BonusValueB": "- 15% Dmg.",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -97,7 +97,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "DamageReductionMultiplierAll",
                 "operation": "Float_Multiply",
-                "modValue": "0.8",
+                "modValue": "0.85",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",
