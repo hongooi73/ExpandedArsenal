@@ -2,7 +2,7 @@
     "Version": 1,
     "Description": {
         "Id": "vehicledef_puma",
-        "Name": "Puma PAT-005b",
+        "Name": "Puma",
         "Details": "",
         "Icon": "",
         "Cost": 564,
@@ -103,7 +103,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_SRM_SRM2_STREAK",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 1,
@@ -155,6 +155,12 @@
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
