@@ -15,7 +15,7 @@
 
 - Some Elite Arsenal mechs have been modified to mount Guardian ECM.
 - Disable random spawning locations in Mission Control. With the damage output of Elite Arsenal mechs, it was a bit too easy to lose a mech purely due to bad luck.
-- Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield. Note that you can also identify aces by the presence of ace-only buffs, which have a spider symbol in the target preview pane.
+- Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield.
 - Add the following mods to the bundle:
   - **Mech Affinity**: encourages you to pair up pilots and mechs. After 15 missions with a given mech, a pilot gains a specific buff, eg +1 dodge, +3 resolve/turn, etc. This is currently implemented for all vanilla mechs, as well as those represented in Elite Arsenal.
   - **Repair Bays**: Each individual mech bay gets its own mechtech team, allowing you to overhaul or repair multiple mechs in parallel. This was part of the original Vanilla Plus modpack.
