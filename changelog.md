@@ -3,12 +3,28 @@
 ### Significant item changes
 
 - Remove the stealth aura from the Guardian ECM pod (both IS and Clan versions). This now grants a +2 defense bonus, an additional +4 defense against missiles, and indirect fire immunity to the unit mounting it; the latter two buffs can be removed via Sensor Lock. This is because the AI has problems using stealth well, often choosing to huddle inside the aura when attacking would be a better option.
-  - Some Elite Arsenal mechs have been modified to mount Guardian ECM.
 - Instead of a called shot buff, the Company Command Module now grants +2 accuracy and +25% crit chance (lancewide).
 
 ### Bug fixes
 
 - Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip.
+- Fix internal structure for vehicles (again).
+- Fix typo that prevented the Puma (95-ton vehicle) from showing up.
+
+### Bundled mods
+
+- Some Elite Arsenal mechs have been modified to mount Guardian ECM.
+- Disable random spawning locations in Mission Control. With the damage output of Elite Arsenal mechs, it was a bit too easy to lose a mech purely due to bad luck.
+- Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield. Note that you can also identify aces by the presence of ace-only buffs, which have a spider symbol in the target preview pane.
+- Add the following mods to the bundle:
+  - **Mech Affinity**: encourages you to pair up pilots and mechs. After 15 missions with a given mech, a pilot gains a specific buff, eg +1 dodge, +3 resolve/turn, etc. This is currently implemented for all vanilla mechs, as well as those represented in Elite Arsenal.
+  - **Repair Bays**: Each individual mech bay gets its own mechtech team, allowing you to overhaul or repair multiple mechs in parallel. This was part of the original Vanilla Plus modpack.
+  - **Pilot Fatigue**: Pilots will now be fatigued after taking a mission, and need a few days rest to regain full capacity. You can force a pilot into action while they are fatigued, but they will be treated as having low morale (extra resolve required for Vigilance and Precision Shot), and will be injured afterwards.
+  - **Drop Tonnage Reward and Limit on Difficulty**: Implements a C-bill penalty for taking excessive tonnage into a mission.
+    - The rating of your lance can be up to 1 skull higher than the skull rating of the mission. Going beyond that imposes a cost of 5000 C-bills per excess ton. Be warned that this means you can make a _loss_ if your lance is heavy enough.
+    - In-game, we can assume that the employer normally covers various expenses associated with a mission behind the scenes. Normally these expenses go unmentioned, but if the company tries to drop too much tonnage above what's considered reasonable, the employer will now refuse to pay an excessive amount.
+    - Out-of-game, this is to discourage taking an all-assault lance into a low-skull mission and stomping the opfor.
+    - This is only enabled if Elite Arsenal is turned on, as part of the reason for that mod is to increase the challenge. Otherwise, feel free to drop 400 tons into a 1-skull mission.
 
 
 ## v2.1.0
