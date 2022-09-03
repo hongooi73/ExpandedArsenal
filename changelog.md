@@ -1,7 +1,14 @@
 ## v2.1.1
 
-- Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip.
+### Significant item changes
+
+- Remove the stealth aura from the Guardian ECM pod (both IS and Clan versions). This now grants a +2 defense bonus, an additional +4 defense against missiles, and indirect fire immunity to the unit mounting it; the latter two buffs can be removed via Sensor Lock. This is because the AI has problems using stealth well, often choosing to huddle inside the aura when attacking would be a better option.
+  - Some Elite Arsenal mechs have been modified to mount Guardian ECM.
 - Instead of a called shot buff, the Company Command Module now grants +2 accuracy and +25% crit chance (lancewide).
+
+### Bug fixes
+
+- Fix damage for heavy Gauss rifle +, should be 160 + 25 structural as implied by tooltip.
 
 
 ## v2.1.0
