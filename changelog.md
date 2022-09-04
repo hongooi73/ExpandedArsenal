@@ -18,7 +18,7 @@
 
 ### Bundled mods
 
-- Some Elite Arsenal mechs have been modified to mount Guardian ECM.
+- Some Elite Arsenal mechs have been modified to mount Guardian ECM and Thunderbolt missiles.
 - Disable random spawning locations in Mission Control. With the damage output of Elite Arsenal mechs, it was a bit too easy to lose a mech purely due to bad luck.
 - Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield.
 - Add the following mods to the bundle:

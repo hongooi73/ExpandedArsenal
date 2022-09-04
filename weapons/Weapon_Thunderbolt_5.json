@@ -11,7 +11,7 @@
     ],
     "ammoCategoryID" : "Flamer",
     "StartingAmmoCapacity": 12,
-    "HeatGenerated": 3,
+    "HeatGenerated": 9,
     "Damage": 50,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
