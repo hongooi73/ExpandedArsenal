@@ -4,7 +4,9 @@
 
 - Remove the stealth aura from the Guardian ECM pod (both IS and Clan versions). This now grants a +2 defense bonus, an additional +4 defense against missiles, and indirect fire immunity to the unit mounting it; the latter two buffs can be removed via Sensor Lock. This is because the AI has problems using stealth well, often choosing to huddle inside the aura when attacking would be a better option.
 - Instead of a called shot buff, the Company Command Module now grants +2 accuracy and +25% crit chance (lancewide).
-- Increase number of shots for all Thunderbolt missiles to 12. Their tonnage has also been increased to account for the fact that they don't require separate ammo bins, unlike in the tabletop game.
+- Buff Thunderbolt missiles:
+  - Increase number of shots for all Thunderbolts to 12, and stability damage to 10/20/30/40.
+  - Also increase their tonnage, to account for the fact that they don't require separate ammo bins unlike in the tabletop game.
 
 ### Bug fixes
 

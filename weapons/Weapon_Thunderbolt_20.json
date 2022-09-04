@@ -10,8 +10,8 @@
         580
     ],
     "ammoCategoryID" : "Flamer",
-    "StartingAmmoCapacity": 3,
-    "HeatGenerated": 3,
+    "StartingAmmoCapacity": 12,
+    "HeatGenerated": 8,
     "Damage": 125,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -27,7 +27,7 @@
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 5,
+    "Instability": 40,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
     "Description": {
         "Cost": 450000,
@@ -38,7 +38,7 @@
         "UIName": "Thunderbolt 20",
         "Id": "Weapon_Thunderbolt_20",
         "Name": "Thunderbolt 20",
-        "Details": "First developed by the Federated Commonwealth in the mid-3050s for the Solaris arenas, the Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing a group of twenty missiles, the Thunderbolt 20 launcher fires a single missile that inflicts as much damage as an Autocannon/20. This increased damage is made up for by the slightly reduced range and increases to the weapon's heat and weight. The Thunderbolt missile is also more vulnerable to anti-missile systems. Thunderbolt missile launchers cannot use Artemis IV or Narc guidance systems, but operate like LRMs in every other way. ",
+        "Details": "First developed by the Federated Commonwealth in the mid-3050s for the Solaris arenas, the Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing a group of twenty missiles, the Thunderbolt 20 launcher fires a single missile that inflicts as much damage as an Autocannon/20. This increased damage is made up for by the slightly reduced range and increases to the weapon's heat and weight.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA": "",
@@ -48,7 +48,7 @@
     "PrefabIdentifier": "srm6",
     "BattleValue": 0,
     "InventorySize": 5,
-    "Tonnage": 15,
+    "Tonnage": 17,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
