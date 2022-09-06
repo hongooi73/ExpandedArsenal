@@ -1,43 +1,29 @@
 {
     "Description": {
-        "Cost": 15000000,
+        "Cost": 9000000,
         "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Vapor Eagle",
-        "Id": "chassisdef_vaporeagles_VGL-S",
-        "Name": "Vapor Eagle",
-        "Details": "The Vapor Eagle features an eclectic and close-ranged weapons load-out, mounting a Large Pulse Laser in its right arm, supported by a single Machine Gun, two Streak SRM-2s and three Medium Pulse Lasers split between its side torsos and rounded out by a trio of Machine Guns in a handgun shaped housing in the left arm. The addition of a Targeting Computer makes its firepower even more deadly as long as it can get its weapons into range. Eleven Double Heat Sinks, half a ton of machine gun ammunition and one Streak missiles are more than adequate for the average Clan trial.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_vaporeagle"
+        "UIName": "Griffin",
+        "Id": "chassisdef_griffins_GRF-S",
+        "Name": "Griffin",
+        "Details": "The 3M Griffin was an upgraded version of the design built for House Marik by Earthwerks and Brigadier Corps starting in 3049. With production lines on Keystone and Oliver this variant sought to enhance the original's long-range capabilities. While intended for the Free Worlds League Military, the capture of Oliver by FedCom forces meant the 3M also appeared in large numbers in the Armed Forces of the Federated Commonwealth.",
+        "Icon": "uixTxrIcon_griffin"
     },
-    "FixedEquipment": [
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Intercept_System",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
-    ],
-    "MovementCapDefID": "movedef_vaporeagle",
+    "MovementCapDefID": "movedef_griffin_GRF-1N",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_vaporeagle",
-    "PrefabIdentifier": "chrPrfMech_vaporeagleBase-001",
-    "PrefabBase": "vaporeagle",
+    "HardpointDataDefID": "hardpointdatadef_griffin",
+    "PrefabIdentifier": "chrPrfMech_griffinBase-001",
+    "PrefabBase": "griffin",
     "Tonnage": 55,
-    "InitialTonnage": 21.25,
+    "InitialTonnage": 20,
     "weightClass": "MEDIUM",
-    "BattleValue": 5171000,
+    "BattleValue": 6088000,
     "Heatsinks": 45,
     "TopSpeed": 80,
     "TurnRadius": 90,
-    "MaxJumpjets": 6,
+    "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
         0,
@@ -53,13 +39,13 @@
     "Signature": 0,
     "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 55,
-    "MeleeInstability": 28,
+    "MeleeDamage": 70,
+    "MeleeInstability": 55,
     "MeleeToHitModifier": 0,
-    "DFADamage": 55,
+    "DFADamage": 70,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 55,
-    "DFAInstability": 28,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -76,27 +62,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -109,22 +75,6 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -151,11 +101,11 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -172,6 +122,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -244,24 +198,24 @@
             "z": 0
         },
         {
-            "x": 2.5,
-            "y": 6,
-            "z": 2.5
+            "x": 3,
+            "y": 5,
+            "z": 0
         },
         {
-            "x": -2.5,
-            "y": 6,
-            "z": 2.5
+            "x": -3,
+            "y": 5,
+            "z": 0
         }
     ],
-    "VariantName": "VGL-S",
+    "VariantName": "GRF-S",
     "ChassisTags": {
         "items": [
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher & Cavalry",
-    "YangsThoughts": "The Vapor Eagle features an eclectic and close-ranged weapons load-out, mounting a Large Pulse Laser in its right arm, supported by a single Machine Gun, two Streak SRM-2s and three Medium Pulse Lasers split between its side torsos and rounded out by a trio of Machine Guns in a handgun shaped housing in the left arm. The addition of a Targeting Computer makes its firepower even more deadly as long as it can get its weapons into range. Eleven Double Heat Sinks, half a ton of machine gun ammunition and one Streak missiles are more than adequate for the average Clan trial.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield."
+    "StockRole": "Sniper & Fire Support",
+    "YangsThoughts": "The 3M Griffin was an upgraded version of the design built for House Marik by Earthwerks and Brigadier Corps starting in 3049. With production lines on Keystone and Oliver this variant sought to enhance the original's long-range capabilities. While intended for the Free Worlds League Military, the capture of Oliver by FedCom forces meant the 3M also appeared in large numbers in the Armed Forces of the Federated Commonwealth."
 }
 

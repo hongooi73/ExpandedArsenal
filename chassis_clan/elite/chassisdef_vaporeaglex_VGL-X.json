@@ -13,7 +13,7 @@
     },
     "FixedEquipment": [
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_General_Intercept_System",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",

@@ -14,7 +14,7 @@
         "Details": "The PPC Capacitor is an extra component that can be added to any type of Projector Cannon. It enhances a PPC's damage capabilities at the cost of higher heat generation. When Destroyed Explodes.",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA": "+ 25% PPC Damage",
+    "BonusValueA": "+ 35% PPC Damage",
     "BonusValueB": "+ 10% PPC Heat",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "DamagePerShot",
                 "operation": "Float_Multiply",
-                "modValue": "1.25",
+                "modValue": "1.35",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "Weapon",
