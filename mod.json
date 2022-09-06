@@ -2,7 +2,7 @@
     "Name": "Expanded Arsenal",
     "Enabled": true,
     "Description": "Uses the CAB to add new mechs and vehicles.",	
-    "Version": "2.1.0",
+    "Version": "3.0.0",
     "Author": "Z06Frank/hongooi2",
     "DependsOn": [
         "AdvancedWeapons",

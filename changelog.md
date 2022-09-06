@@ -4,6 +4,8 @@
 
 - Remove the stealth aura from the Guardian ECM pod (both IS and Clan versions). This now grants a +2 defense bonus, an additional +4 defense against missiles, and indirect fire immunity to the unit mounting it; the latter two buffs can be removed via Sensor Lock. This is because the AI has problems using stealth well, often choosing to huddle inside the aura when attacking would be a better option.
 - Instead of a called shot buff, the Company Command Module now grants +2 accuracy and +25% crit chance (lancewide).
+- The buff from Improved Jump Jets now stacks to a maximum of 2. Note that this is actually still better than tabletop, as the multiplier applies to your full jumping distance, and not just the IJJs themselves.
+- The buff from Advanced Jump Jets no longer stacks.
 - Buff Thunderbolt missiles:
   - Increase number of shots for all Thunderbolts to 12, and stability damage to 10/20/30/40.
   - Also increase their tonnage, to account for the fact that they don't require separate ammo bins unlike in the tabletop game.
@@ -15,13 +17,13 @@
 - Fix typo that prevented the Puma (95-ton vehicle) from showing up.
 - Fix loadout for Puma by swapping an ER PPC for a Streak SRM.
 - Fix heat generation for Thunderbolt missiles to match tabletop.
-- Fix chassis double heatsinks for Griffin GRF-3M.
+- Fix chassis double heatsinks for GRF-3M Griffin.
 
 ### Bundled mods
 
-- Some Elite Arsenal mechs have been modified to mount Guardian ECM and Thunderbolt missiles.
 - Disable random spawning locations in Mission Control. With the damage output of Elite Arsenal mechs, it was a bit too easy to lose a mech purely due to bad luck.
 - Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield.
+- Remove Loot Magnet. This depends on Custom Components which has never been bundled with the modpack, and also makes it a little too easy to accumulate a vast hoard of upgraded gear when Elite Arsenal/Elite Forces is enabled.
 - Add the following mods to the bundle:
   - **Mech Affinity**: encourages you to pair up pilots and mechs. After 15 missions with a given mech, a pilot gains a specific buff, eg +1 dodge, +3 resolve/turn, etc. This is currently implemented for all vanilla mechs, as well as those represented in Elite Arsenal.
   - **Repair Bays**: Each individual mech bay gets its own mechtech team, allowing you to overhaul or repair multiple mechs in parallel. This was part of the original Vanilla Plus modpack.
@@ -31,7 +33,9 @@
     - In-game, we can assume that the employer normally covers various expenses associated with a mission behind the scenes. Normally these expenses go unmentioned, but if the company tries to drop too much tonnage above what's considered reasonable, the employer will now refuse to pay an excessive amount.
     - Out-of-game, this is to discourage taking an all-assault lance into a low-skull mission and stomping the opfor.
     - This is only enabled if Elite Arsenal is turned on, as part of the reason for that mod is to increase the challenge. Otherwise, feel free to drop 400 tons into a 1-skull mission.
+  - **LAMs**: Adds land-air mechs (LAMs) to the mix. This includes the LAMs that were part of Vanilla Plus, some new ones, and X- and S-tier variants. See the README for that mod for more details.
 
+See also the changelog.md file for Elite Arsenal to see the changes in that mod.
 
 ## v2.1.0
 
