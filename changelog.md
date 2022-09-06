@@ -15,6 +15,7 @@
 - Fix typo that prevented the Puma (95-ton vehicle) from showing up.
 - Fix loadout for Puma by swapping an ER PPC for a Streak SRM.
 - Fix heat generation for Thunderbolt missiles to match tabletop.
+- Fix chassis double heatsinks for Griffin GRF-3M.
 
 ### Bundled mods
 
