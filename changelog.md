@@ -1,4 +1,4 @@
-## v2.1.1
+## v3.0.0
 
 ### Significant item changes
 
@@ -9,6 +9,7 @@
 - Buff Thunderbolt missiles:
   - Increase number of shots for all Thunderbolts to 12, and stability damage to 10/20/30/40.
   - Also increase their tonnage, to account for the fact that they don't require separate ammo bins unlike in the tabletop game.
+- Reduce the number of shots fired for the ASC2 from 12 to 8.
 
 ### Bug fixes
 
@@ -21,9 +22,11 @@
 
 ### Bundled mods
 
+The changelog.md file for Elite Arsenal contains the changes specific to that mod.
+
 - Disable random spawning locations in Mission Control. With the damage output of Elite Arsenal mechs, it was a bit too easy to lose a mech purely due to bad luck.
 - Ace pilots from Elite Forces now have a `(+)` as part of their callsign, allowing you to identify them easily on the battlefield.
-- Remove Loot Magnet. This depends on Custom Components which has never been bundled with the modpack, and also makes it a little too easy to accumulate a vast hoard of upgraded gear when Elite Arsenal/Elite Forces is enabled.
+- Remove Loot Magnet. This depends on other mods which are not bundled with the modpack, and also makes it a little too easy to accumulate a vast hoard of upgraded gear when Elite Arsenal/Elite Forces is enabled.
 - Add the following mods to the bundle:
   - **Mech Affinity**: encourages you to pair up pilots and mechs. After 15 missions with a given mech, a pilot gains a specific buff, eg +1 dodge, +3 resolve/turn, etc. This is currently implemented for all vanilla mechs, as well as those represented in Elite Arsenal.
   - **Repair Bays**: Each individual mech bay gets its own mechtech team, allowing you to overhaul or repair multiple mechs in parallel. This was part of the original Vanilla Plus modpack.
@@ -35,7 +38,6 @@
     - This is only enabled if Elite Arsenal is turned on, as part of the reason for that mod is to increase the challenge. Otherwise, feel free to drop 400 tons into a 1-skull mission.
   - **LAMs**: Adds land-air mechs (LAMs) to the mix. This includes the LAMs that were part of Vanilla Plus, some new ones, and X- and S-tier variants. See the README for that mod for more details.
 
-See also the changelog.md file for Elite Arsenal to see the changes in that mod.
 
 ## v2.1.0
 

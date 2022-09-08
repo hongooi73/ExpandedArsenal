@@ -49,7 +49,7 @@ With the amount of new toys that EA provides, things can get a bit stale after a
 - \+ and ++ variants of Expanded Arsenal weapons and gear. If you've outfitted all your mechs with heavy gauss rifles, ER lasers and Streak SRMs, this is the upgrade path you're looking for.
 - 200 new variants of Expanded Arsenal mechs, which are deadlier and tougher than even those from Elite Forces.
 - Elite versions of all the regular missions.
-- Randomised drop locations and extra lances, courtesy of the Mission Control mod.
+- Soft restrictions on drop tonnage in contracts: pay for the privilege of dropping 400 tons on a 1-skull mission.
 - Tweaks to the AI that make it more aggressive and unpredictable, taken from the Better AI mod.
 
 Elite Arsenal mechs come in two varieties, X- and S-tier. X-tier mechs have more effective builds, + weapons and extra toughness compared to regular EA and vanilla mechs. S-tier mechs have ++ weapons, even more toughness, and added heatsinking capacity; in addition, they are always piloted by ace mechwarriors from Elite Forces. It's entirely feasible for an S-tier mech to destroy an enemy mech of equivalent tonnage in a single alpha strike. On the flipside though, once you do kill one of these mechs, you get to loot all its goodies.
@@ -62,12 +62,15 @@ In addition, the following included mods are optional: you don't have to use the
 
 - Panic System
 - Skip Intro
-- Loot Magnet
+- Repair Bays
+- Mech Affinity
+- Pilot Fatigue
+- LAMs (requires Elite Arsenal)
 
 
 ## Credits
 
-This modpack wouldn't have been possible without the contributions of many people, including: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (all the weapon and equipment mods), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix, FYLS), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI). THANK YOU for letting me include your work in Expanded Arsenal!
+This modpack wouldn't have been possible without the contributions of many people, including: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (all the weapon and equipment mods), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix, FYLS), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System, Mech Affinity), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI), Jamie Wolf (Mech Affinity), Don Zappo (Repair Bays, Mech Affinity), Asimov (Drop Tonnage Reward and Limit on Difficulty). THANK YOU for letting me include your work in Expanded Arsenal!
 
 
 ## Feedback/bug reports
