@@ -3,10 +3,10 @@
         "items": [
             "unit_release",
             "unit_mech",
-            "unit_medium",
             "unit_ready",
             "unit_lance_support",
-            "unit_role_sniper"
+            "unit_role_sniper",
+            "unit_light"
         ],
         "tagSetSourceFile": ""
     },

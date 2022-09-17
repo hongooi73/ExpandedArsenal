@@ -1,3 +1,10 @@
+## v3.1.0
+
+### Bug fixes
+
+- Fix tags for several Clan mechs to match their tonnage. This should result in fewer instances of heavy and assault mechs showing up in low-skull missions.
+
+
 ## v3.0.0
 
 ### Significant item changes
