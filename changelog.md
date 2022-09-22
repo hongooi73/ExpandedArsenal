@@ -1,5 +1,9 @@
 ## v3.1.0
 
+### Item changes
+
+- Change Guardian ECM (IS and Clan) so that sensor lock will remove the indirect fire immunity, but not the -4 penalty to missile attacks.
+
 ### Bug fixes
 
 - Fix tags for several Clan mechs to match their tonnage. This should result in fewer instances of heavy and assault mechs showing up in low-skull missions.

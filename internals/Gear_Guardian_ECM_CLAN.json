@@ -35,17 +35,18 @@
                 "effectTriggerType": "Passive",
                 "specialRules": "NotSet",
                 "effectTargetType": "Creator",
+                "auraEffectType": "ECM_GENERAL",
                 "range": 0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
                 "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "ECMEffect_IndirectImmunity",
                 "Name": "ECM MISSILE DEFENSE",
-                "Details": "This unit gains +[AMT] Difficulty to missile attacks and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                "Details": "This unit gains immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                 "Icon": "uixSvgIcon_status_ECM-missileDef"
             },
             "statisticData": {
@@ -69,13 +70,13 @@
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
                 "showInTargetPreview": false,
-                "showInStatusPanel": true
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "ECMEffect_MissileDefense",
                 "Name": "ECM MISSILE DEFENSE",
-                "Details": "This unit gains +[AMT] Difficulty to missile attacks and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                "Details": "This unit gains +[AMT] Difficulty to missile attacks.",
                 "Icon": "uixSvgIcon_status_ECM-missileDef"
             },
             "statisticData": {
@@ -112,7 +113,7 @@
             "Description": {
                 "Id": "ECMEffect_Defense",
                 "Name": "HARDER TO HIT",
-                "Details": "Provides a [AMT] penalty to all attacks against this unit.",
+                "Details": "Provides a +2 penalty to all attacks, and an additional +4 penalty to missile attacks, against this unit.",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
