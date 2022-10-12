@@ -14,8 +14,8 @@
         "Details": "The Guardian ECM Suite was introduced in 2597 by Johnston Industries of the Terran Hegemony. Designed to interfere with guided weaponry, targeting computers, and communication systems, the Guardian was typically used to shield allied units from such equipment by emitting a broad-band signal meant to confuse radar, infrared, ultraviolet, magscan and sonar sensors.",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA": "+ ECM Field",
-    "BonusValueB": "",
+    "BonusValueA": "+ 2 Defense",
+    "BonusValueB": "Indirect Fire Immunity",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -60,41 +60,11 @@
         {
             "durationData": {
                 "duration": -1,
-                "stackLimit": 1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "specialRules": "NotSet",
-                "effectTargetType": "Creator",
-                "range": 0,
-                "forcePathRebuild": false,
-                "forceVisRebuild": false,
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "ECMEffect_MissileDefense",
-                "Name": "ECM MISSILE DEFENSE",
-                "Details": "This unit gains +[AMT] Difficulty to missile attacks.",
-                "Icon": "uixSvgIcon_status_ECM-missileDef"
-            },
-            "statisticData": {
-                "statName": "ToHitThisActorMissile",
-                "operation": "Float_Add",
-                "modValue": "4.0",
-                "modType": "System.Single"
-            },
-            "nature": "Buff"
-        },
-        {
-            "durationData": {
-                "duration": -1,
                 "ticksOnActivations": false,
                 "useActivationsOfTarget": false,
                 "ticksOnEndOfRound": false,
                 "ticksOnMovements": false,
-                "stackLimit": -1,
+                "stackLimit": 1,
                 "clearedWhenAttacked": false
             },
             "targetingData": {
@@ -113,7 +83,7 @@
             "Description": {
                 "Id": "ECMEffect_Defense",
                 "Name": "HARDER TO HIT",
-                "Details": "Provides a +2 penalty to all attacks, and an additional +4 penalty to missile attacks, against this unit.",
+                "Details": "Provides a +2 penalty to all attacks against this unit.",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",

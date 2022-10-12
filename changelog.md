@@ -2,7 +2,19 @@
 
 ### Item changes
 
-- Change Guardian ECM (IS and Clan) so that sensor lock will remove the indirect fire immunity, but not the -4 penalty to missile attacks.
+Changes to the following upgrade items:
+
+- Active Probe (IS and Clan) removes a stealth charge from units within 100m (the same ability as on the vanilla X-1 EW Suite, as mounted on the Raven)
+- Remove the +4 missile defense bonus from the Guardian ECM; this is now on the Anti-Missile System
+- Add the following to the Void Signature System:
+  - +4 defense bonus (all attacks)
+  - -10% heat generated
+- Change the Nova CEWS Suite:
+  - Remove stealth effects
+  - Add +1 defense, +1 accuracy and indirect fire immunity
+  - This effectively makes it a combination of the ECM and Active Probe
+
+The effects of the Active Probe, Guardian ECM, VSS and Nova CEWS do not stack with each other.
 
 ### Bug fixes
 

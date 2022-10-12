@@ -15,7 +15,7 @@
         "Icon" : "uixSvgIcon_equipment_Comms"
     },
     "BonusValueA" : "+ Area Sensor Lock",
-    "BonusValueB" : "",
+    "BonusValueB" : "+ Stealth Detect",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -45,7 +45,39 @@
 			{
 				"abilityName" : "AbilityDef_ActiveProbe_Ping"
 			}
-		}
+		},
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1,
+                "uniqueEffectIdStackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "specialRules": "Aura",
+                "auraEffectType": "ECM_COUNTER",
+                "effectTargetType": "EnemiesWithinRange",
+                "range": 100.0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": true,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "ECMCounter_GhostSpotterEffect",
+                "Name": "STEALTH SPOTTER",
+                "Details": "This unit is spotting against an enemy ECM field, reducing Stealth Charges by 1 each round for all visible enemies within the field.",
+                "Icon": "uixSvgIcon_action_sensorlock"
+            },
+            "statisticData": {
+                "statName": "HasGhostSpotter",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Debuff"
+        }
     ],
     "ComponentTags" : {
         "items" : [
