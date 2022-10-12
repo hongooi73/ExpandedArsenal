@@ -15,7 +15,7 @@
         "Icon" : "uixSvgIcon_equipment_Comms"
     },
     "BonusValueA" : "+ Area Sensor Lock",
-    "BonusValueB" : "+ Stealth Detect",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
