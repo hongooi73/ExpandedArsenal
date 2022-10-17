@@ -45,14 +45,14 @@
                 "range": 0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "AMSDEFENSE-MISSME",
-                "Name": "Anti-Missile Defense",
-                "Details": "This unit is harder to hit with missile weapons.",
+                "Name": "ANTI-MISSILE SYSTEM",
+                "Details": "Increased defense and damage reduction vs. missiles",
                 "Icon": "uixSvgIcon_equipment_Gyro"
             },
             "nature": "Buff",

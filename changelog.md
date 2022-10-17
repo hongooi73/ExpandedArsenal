@@ -4,10 +4,11 @@
 
 Changes to the following upgrade items:
 
-- Remove the +4 missile defense bonus from the Guardian ECM; this is now on the Anti-Missile System
+- Guardian ECM now grants +2 defense and 5% damage reduction; these are unaffected by Sensor Lock
+- Buff Anti-Missile System to grant +4 defense and 15% damage reduction against missiles
 - Add the following to the Void Signature System:
-  - +4 defense bonus (all attacks)
-  - -10% heat generated
+  - +4 defense bonus (all attacks); this is removed by Sensor Lock
+  - -5% heat generated
 - Change the Nova CEWS Suite:
   - Remove stealth effects
   - Add +1 evasion, +1 accuracy and indirect fire immunity

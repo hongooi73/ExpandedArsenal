@@ -39,14 +39,14 @@
                 "range": 0.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "ECMEffect_IndirectImmunity",
                 "Name": "ECM MISSILE DEFENSE",
-                "Details": "Friendly units within an ECM field gain +[AMT] Difficulty to missile attacks against them and immunity to Indirect Fire. Being Sensor Locked removes this effect.",
+                "Details": "This unit gains immunity to Indirect Fire. Being Sensor Locked removes this effect.",
                 "Icon": "uixSvgIcon_status_ECM-missileDef"
             },
             "statisticData": {
@@ -76,14 +76,14 @@
                 "range": 0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": false,
+                "showInTargetPreview": true,
                 "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "ECMEffect_Defense",
                 "Name": "HARDER TO HIT",
-                "Details": "Provides a +4 penalty to all attacks against this unit.",
+                "Details": "Void Signature System: stealth, increased defense, reduced heat generation",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
@@ -151,8 +151,8 @@
                 "range": 0.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": true,
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
@@ -189,7 +189,7 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
