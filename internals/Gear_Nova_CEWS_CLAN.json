@@ -14,8 +14,8 @@
         "Details": "The rogue scientists of the Society developed the Nova CEWS after hearing about the C3 Systems used by the Inner Sphere. By combining elements of the Watchdog CEWS with a C3 system, they created a tool that could find enemy forces, hide the unit using it in an ECM bubble, and automatically provide targeting data to other friendly units. In addition, the Nova CEWS didn't require pre-configuration for the C3 capability; It could be programmed on the fly to respond to availability of friendly forces.",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA": "+ 1 Defense, Indirect Fire Immunity",
-    "BonusValueB": "+ 1 Acc.",
+    "BonusValueA": "+ 1 Evasion",
+    "BonusValueB": "- 5% Dmg.",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -29,33 +29,43 @@
         {
             "durationData": {
                 "duration": -1,
-                "stackLimit": 1
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
             },
             "targetingData": {
                 "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
                 "specialRules": "NotSet",
                 "effectTargetType": "Creator",
-                "auraEffectType": "ECM_GENERAL",
                 "range": 0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "ECMEffect_IndirectImmunity",
-                "Name": "ECM MISSILE DEFENSE",
-                "Details": "This unit gains immunity to Indirect Fire. Being Sensor Locked removes this effect.",
-                "Icon": "uixSvgIcon_status_ECM-missileDef"
+                "Id": "CEWSEffect_Evasion",
+                "Name": "NOVA CEWS",
+                "Details": "Enhanced evasion and damage reduction.",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
             },
+            "nature": "Buff",
             "statisticData": {
-                "statName": "IsIndirectImmune",
-                "operation": "Set",
-                "modValue": "true",
-                "modType": "System.Boolean"
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "EvasivePipsGainedAdditional",
+                "operation": "Int_Add",
+                "modValue": "1",
+                "modType": "System.Int32"
             },
-            "nature": "Buff"
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         },
         {
             "durationData": {
@@ -76,24 +86,30 @@
                 "range": 0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "CEWSEffect_Evasion",
-                "Name": "NOVA CEWS",
-                "Details": "Enhanced evasion and indirect fire immunity. Being sensor locked allows targeting by indirect fire.",
+                "Id": "ECMEffect_DamageReduction",
+                "Name": "GUARDIAN ECM",
+                "Details": "Increased defense and damage reduction",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
             "statisticData": {
                 "appliesEachTick": false,
                 "effectsPersistAfterDestruction": false,
-                "statName": "EvasivePipsGainedAdditional",
-                "operation": "Int_Add",
-                "modValue": "1",
-                "modType": "System.Int32"
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.95",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
             },
             "tagData": null,
             "floatieData": null,
