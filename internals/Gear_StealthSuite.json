@@ -15,7 +15,7 @@
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "Stealth, Indirect Fire Immunity",
-    "BonusValueB": "+ 3 Def., - 5% Weapon Heat",
+    "BonusValueB": "+ 4 Def., - 5% Dmg.",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -52,7 +52,7 @@
             "Description": {
                 "Id": "ECMEffect_Defense",
                 "Name": "VOID SIGNATURE SYSTEM",
-                "Details": "Stealth, enhanced defense, indirect fire immunity and reduced heat generation.",
+                "Details": "Stealth, enhanced defense and indirect fire immunity.",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "ToHitThisActor",
                 "operation": "Float_Add",
-                "modValue": "3.0",
+                "modValue": "4.0",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",
@@ -76,57 +76,6 @@
             "vfxData": null,
             "instantModData": null,
             "poorlyMaintainedEffectData": null
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "Stealth_HeatReduction",
-                "Name" : "HEAT GENERATION DECREASED",
-                "Details" : "Heat generation reduced by [AMT].",
-                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "HeatGenerated",
-                "operation" : "Float_Multiply",
-                "modValue" : "0.95",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
         },
         {
             "durationData": {
@@ -185,7 +134,7 @@
             "statisticData": {
                 "statName": "ToHitThisActorMissile",
                 "operation": "Float_Add",
-                "modValue": "2.0",
+                "modValue": "4.0",
                 "modType": "System.Single"
             },
             "nature": "Buff"
@@ -282,6 +231,57 @@
                 "modType": "System.Boolean"
             },
             "nature": "Debuff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "ECMEffect_DamageReduction",
+                "Name": "NA",
+                "Details": "NA",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.95",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         }
     ],
     "ComponentTags": {
