@@ -14,8 +14,8 @@
         "Details": "The rogue scientists of the Society developed the Nova CEWS after hearing about the C3 Systems used by the Inner Sphere. By combining elements of the Watchdog CEWS with a C3 system, they created a tool that could find enemy forces, hide the unit using it in an ECM bubble, and automatically provide targeting data to other friendly units. In addition, the Nova CEWS didn't require pre-configuration for the C3 capability; It could be programmed on the fly to respond to availability of friendly forces.",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA": "+ 1 Evasion",
-    "BonusValueB": "- 5% Dmg.",
+    "BonusValueA": "+ 1 Evasion, -5% Dmg",
+    "BonusValueB": "+ 15% Weapon Optimal Range",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -48,7 +48,7 @@
             "Description": {
                 "Id": "CEWSEffect_Evasion",
                 "Name": "NOVA CEWS",
-                "Details": "Enhanced evasion and damage reduction.",
+                "Details": "Enhanced evasion, damage reduction and weapon targeting.",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
@@ -93,7 +93,7 @@
             "Description": {
                 "Id": "ECMEffect_DamageReduction",
                 "Name": "GUARDIAN ECM",
-                "Details": "Increased defense and damage reduction",
+                "Details": "NA",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "nature": "Buff",
@@ -106,6 +106,53 @@
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "CEWSEffect_MediumRangeBuff",
+                "Name": "MEDIUM RANGE INCREASE",
+                "Details": "NA",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "MediumRange",
+                "operation": "Float_Multiply",
+                "modValue": "1.15",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
                 "targetWeaponCategory": "NotSet",
                 "targetWeaponType": "NotSet",
                 "targetAmmoCategory": "NotSet",

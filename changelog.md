@@ -6,13 +6,13 @@ Changes to the following upgrade items:
 
 - Guardian ECM now grants +2 defense and 5% damage reduction; these are unaffected by Sensor Lock
 - Buff Anti-Missile System to grant +4 defense and 15% damage reduction against missiles
+- Active Probe grants +10% passive sensor range in addition to the active ability
 - Add the following to the Void Signature System:
-  - +4 defense bonus (all attacks); this is removed by Sensor Lock
+  - +4 defense bonus and 5% damage reduction
   - -5% heat generated
 - Change the Nova CEWS Suite:
   - Remove stealth effects
-  - Add +1 evasion, +1 accuracy and indirect fire immunity
-  - This effectively makes it a combination of the ECM and Active Probe
+  - Add +1 evasion, 5% damage reduction and +15% weapon optimal range
 
 Any duplicate effects of the AMS, Active Probe, Guardian ECM, VSS and Nova CEWS do not stack with each other. Elite Arsenal also has + and ++ upgraded variants of these items.
 
