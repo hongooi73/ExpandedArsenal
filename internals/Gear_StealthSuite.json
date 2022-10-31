@@ -15,7 +15,7 @@
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "Stealth, Indirect Fire Immunity",
-    "BonusValueB": "+ 4 Def., - 5% Dmg.",
+    "BonusValueB": "+ 3 Def., - 5% Dmg.",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "ToHitThisActor",
                 "operation": "Float_Add",
-                "modValue": "4.0",
+                "modValue": "3.0",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",

@@ -2,19 +2,15 @@
 
 ### Item changes
 
-Changes to the following upgrade items:
+New in this release are significant changes to non-weapon items: Guardian ECM, active probe, anti-missile system, Nova CEWS, void signature system, and MASC. Elite Arsenal also has + and ++ upgraded variants of these items.
 
-- Guardian ECM now grants +2 defense and 5% damage reduction; these are unaffected by Sensor Lock
-- Buff Anti-Missile System to grant +4 defense and 15% damage reduction against missiles
-- Active Probe grants +10% passive sensor range in addition to the active ability
-- Add the following to the Void Signature System:
-  - +4 defense bonus and 5% damage reduction
-  - -5% heat generated
-- Change the Nova CEWS Suite:
-  - Remove stealth effects
-  - Add +1 evasion, 5% damage reduction and +15% weapon optimal range
+- The Guardian ECM confuses enemy targeting and tracking systems, thereby increasing a mech's hit defense and reducing incoming damage. Note that the Guardian ECM is a useful upgrade in isolation, rather than simply cancelling out enemy offensive electronics like in the tabletop game.
+- The active probe enhances a mech's ability to detect and track enemies. It increases passive and active sensor range, reduces active sensor cooldowns, and improves weapon accuracy.
+- The anti-missile system is a laser-based point-defense mechanism that targets and disables inbound missiles. Missiles that are not shot down are liable to have their fuzing and guidance systems scrambled, reducing their damage.
+- The void signature system combines a self-only form of the stealth capability of the X-1 EW suite with the enhanced defenses of the Guardian ECM suite.
+- The Nova CEWS gives a mech the ability to hook into the sensors of its lancemates. This greatly boosts situational awareness, allowing the pilot to more easily ancticipate enemy movements and attacks. More sophisticated variants (in Elite Arsenal) can feed the combined data back into the network, improving the weapon accuracy of the entire lance.
 
-Any duplicate effects of the AMS, Active Probe, Guardian ECM, VSS and Nova CEWS do not stack with each other. Elite Arsenal also has + and ++ upgraded variants of these items.
+Any duplicate effects of the AMS, Active Probe, Guardian ECM, VSS and Nova CEWS do not stack with each other.
 
 ### Bug fixes
 
