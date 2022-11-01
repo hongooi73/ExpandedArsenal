@@ -1,14 +1,26 @@
 ## v3.1.0
 
-### Item changes
+### Significant item changes
 
-New in this release are significant changes to non-weapon items: Guardian ECM, active probe, anti-missile system, Nova CEWS, void signature system, and MASC. Elite Arsenal also has + and ++ upgraded variants of these items.
+New in this release are significant changes to non-weapon items: Guardian ECM, active probe, anti-missile system, Nova CEWS, void signature system, and MASC. This includes upgraded + and ++ variants, which are part of Elite Arsenal.
 
-- The Guardian ECM confuses enemy targeting and tracking systems, thereby increasing a mech's hit defense and reducing incoming damage. Note that the Guardian ECM is a useful upgrade in isolation, rather than simply cancelling out enemy offensive electronics like in the tabletop game.
-- The active probe enhances a mech's ability to detect and track enemies. It increases passive and active sensor range, reduces active sensor cooldowns, and improves weapon accuracy.
-- The anti-missile system is a laser-based point-defense mechanism that targets and disables inbound missiles. Missiles that are not shot down are liable to have their fuzing and guidance systems scrambled, reducing their damage.
-- The void signature system combines a self-only form of the stealth capability of the X-1 EW suite with the enhanced defenses of the Guardian ECM suite.
-- The Nova CEWS gives a mech the ability to hook into the sensors of its lancemates. This greatly boosts situational awareness, allowing the pilot to more easily ancticipate enemy movements and attacks. More sophisticated variants (in Elite Arsenal) can feed the combined data back into the network, improving the weapon accuracy of the entire lance.
+The Guardian ECM pod confuses enemy targeting and tracking systems, thereby increasing a mech's hit defense and reducing incoming damage. Note that the Guardian ECM pod is a useful upgrade in isolation, rather than simply cancelling out enemy offensive electronics like in the tabletop game.
+- Grants +2 defense, 5% damage reduction
+- Removed from previous version: +4 missile defense and indirect fire immunity, which were glitched (was removed permanently by sensor lock)
+
+The active probe enhances a mech's ability to detect and track enemies. It increases passive and active sensor range, reduces active sensor cooldowns, and improves weapon accuracy.
+- Grants +10% sensor range, active probe ability
+
+The anti-missile system is a laser-based point-defense mechanism that targets and disables inbound missiles. Missiles that are not shot down outright are liable to have their fuzing and guidance systems scrambled, reducing their lethality.
+- Grants +4 defense and 15% damage reduction vs missiles
+
+The void signature system combines a self-only form of the stealth capability of the X-1 EW suite with the enhanced defenses of the Guardian ECM pod.
+- Grants stealth (self only), +3 defense, 5% damage reduction
+- Changes from previous version: fix issue where stealth was too easily removed; add defensive buffs
+
+The Nova CEWS gives a mech the ability to hook into the sensors of its lancemates. This greatly boosts situational awareness, allowing the pilot to more easily ancticipate enemy movements and attacks. More sophisticated variants (in Elite Arsenal) can feed the combined data back into the network, improving the weapon accuracy of the entire lance.
+- Grants +1 evasion on move, 5% damage reduction, +15% weapon optimal (short/medium) range
+- Changes from previous version: remove stealth and related buffs (missile defense bonus, indirect fire immmunity)
 
 Any duplicate effects of the AMS, Active Probe, Guardian ECM, VSS and Nova CEWS do not stack with each other.
 

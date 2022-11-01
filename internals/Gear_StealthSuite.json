@@ -134,7 +134,7 @@
             "statisticData": {
                 "statName": "ToHitThisActorMissile",
                 "operation": "Float_Add",
-                "modValue": "4.0",
+                "modValue": "2.0",
                 "modType": "System.Single"
             },
             "nature": "Buff"
