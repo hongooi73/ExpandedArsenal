@@ -14,8 +14,8 @@
         "Details": "The Void Signature System is a hybrid evolution of Star League era systems such as the Chameleon Light Polarization Shield and the Null Signature System. Essentially a scaled up version of the Word of Blake's Mimetic Armor, the Void Signature System shields a BattleMech's presence from both visual and electronic detection.",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA": "ECM",
-    "BonusValueB": "",
+    "BonusValueA": "Stealth, Indirect Fire Immunity",
+    "BonusValueB": "+ 3 Def., - 5% Dmg.",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -29,6 +29,57 @@
         {
             "durationData": {
                 "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "ECMEffect_Defense",
+                "Name": "VOID SIGNATURE SYSTEM",
+                "Details": "Stealth, enhanced defense and indirect fire immunity.",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "ToHitThisActor",
+                "operation": "Float_Add",
+                "modValue": "3.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
                 "stackLimit": 1
             },
             "targetingData": {
@@ -36,7 +87,7 @@
                 "specialRules": "Aura",
                 "auraEffectType": "ECM_GENERAL",
                 "effectTargetType": "AlliesWithinRange",
-                "range": 0.0,
+                "range": 5.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
                 "showInTargetPreview": false,
@@ -67,11 +118,11 @@
                 "specialRules": "Aura",
                 "auraEffectType": "ECM_GENERAL",
                 "effectTargetType": "AlliesWithinRange",
-                "range": 0.0,
+                "range": 5.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": false,
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
@@ -83,7 +134,7 @@
             "statisticData": {
                 "statName": "ToHitThisActorMissile",
                 "operation": "Float_Add",
-                "modValue": "4.0",
+                "modValue": "2.0",
                 "modType": "System.Single"
             },
             "nature": "Buff"
@@ -98,9 +149,9 @@
                 "specialRules": "Aura",
                 "auraEffectType": "ECM_GHOST",
                 "effectTargetType": "AlliesWithinRange",
-                "range": 0.0,
+                "range": 5.0,
                 "forcePathRebuild": false,
-                "forceVisRebuild": false,
+                "forceVisRebuild": true,
                 "showInTargetPreview": false,
                 "showInStatusPanel": false
             },
@@ -131,14 +182,14 @@
                 "range": 0.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": true,
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "ECMStealth_GhostEffect",
                 "Name": "ECM CARRIER",
-                "Details": "PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
+                "Details": "PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
                 "Icon": "uixSvgIcon_status_ECM-ghost"
             },
             "statisticData": {
@@ -160,7 +211,7 @@
                 "specialRules": "Aura",
                 "auraEffectType": "ECM_COUNTER",
                 "effectTargetType": "EnemiesWithinRange",
-                "range": 40.0,
+                "range": 100.0,
                 "forcePathRebuild": false,
                 "forceVisRebuild": true,
                 "showInTargetPreview": false,
@@ -180,6 +231,57 @@
                 "modType": "System.Boolean"
             },
             "nature": "Debuff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "ECMEffect_DamageReduction",
+                "Name": "NA",
+                "Details": "NA",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.95",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         }
     ],
     "ComponentTags": {

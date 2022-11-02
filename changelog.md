@@ -1,8 +1,30 @@
 ## v3.1.0
 
-### Item changes
+### Significant item changes
 
-- Change Guardian ECM (IS and Clan) so that sensor lock will remove the indirect fire immunity, but not the -4 penalty to missile attacks.
+New in this release are significant changes to electronic upgrades: Guardian ECM, active probe, anti-missile system, Nova CEWS, and void signature system. This includes new + and ++ variants, which are part of Elite Arsenal.
+
+The main aim is to make electronic upgrades interesting and desirable to obtain, so that fitting out mechs is more than simply a matter of choosing which guns to mount. The HBS Battletech engine has quirks and constraints that result in a different experience to the tabletop game, so these items should be considered as being inspired by their tabletop counterparts rather than direct copies.
+
+The Guardian ECM suite confuses enemy targeting and tracking systems, thereby increasing a mech's hit defense and reducing incoming damage. Note that the ECM suite is a useful upgrade in isolation, rather than simply cancelling out enemy offensive electronics like in the tabletop game.
+- Grants +2 defense, 5% damage reduction
+- Removed from previous version: +4 missile defense and indirect fire immunity, which were glitched (was removed permanently by sensor lock)
+
+The active probe enhances a mech's ability to detect and track enemies. It increases passive sensor range and improves weapon accuracy. More advanced variants (in Elite Arsenal) feature more effective active sensors with longer range and reduced cooldowns.
+- Grants +10% sensor range, active probe ability
+
+The anti-missile system is a laser-based point-defense mechanism that disables or destroys incoming missiles. Missiles that are not shot down outright are liable to have their fuzing and guidance systems scrambled, reducing their lethality.
+- Grants +4 defense and 15% damage reduction vs missiles
+
+The void signature system combines a self-only form of the stealth capability of the X-1 EW suite with the enhanced defenses of the Guardian ECM suite. The result is a sophisticated electronic warfare package that greatly enhances a mech's survivability. You can think of the VSS as representing all the various stealth-themed items in the tabletop game, including stealth armour, Chameleon light polarisation shield, and null signature system.
+- Grants stealth (self only), +3 defense, 5% damage reduction
+- Changes from previous version: fix issue where stealth was too easily removed; add defensive buffs
+
+The Nova CEWS gives a mech the ability to hook into the sensors of its lancemates. This improves situational awareness, allowing the pilot to more easily anticipate enemy movements and attacks. More advanced variants (in Elite Arsenal) can feed the combined data back into the network, boosting the weapon accuracy of the entire lance.
+- Grants +1 evasion on move, 5% damage reduction, +15% weapon optimal (short/medium) range
+- Changes from previous version: remove stealth and related buffs (missile defense bonus, indirect fire immmunity)
+
+Any duplicate effects of the AMS, active probe, Guardian ECM, VSS and Nova CEWS do not stack with each other.
 
 ### Bug fixes
 
