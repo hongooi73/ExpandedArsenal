@@ -26,9 +26,14 @@ The Nova CEWS gives a mech the ability to hook into the sensors of its lancemate
 
 Any duplicate effects of the AMS, active probe, Guardian ECM, VSS and Nova CEWS do not stack with each other.
 
+### Other changes
+
+- Tone down the CIC cockpit mod to grant +1 init and +2 resolve/turn.
+
 ### Bug fixes
 
 - Fix tags for several Clan mechs to match their tonnage. This should result in fewer instances of heavy and assault mechs showing up in low-skull missions.
+- Various database fixes.
 
 
 ## v3.0.0
