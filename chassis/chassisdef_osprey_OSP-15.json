@@ -5,36 +5,23 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Septicemia",
-        "Id": "chassisdef_septicemia_PRI-D",
-        "Name": "Septicemia",
-        "Details": "Devoid of the more experimental technology utilised by the Cephalus and Osteon to allow it to be built in higher volumes, the Septicemia saves weight with an XL Engine, Endo Steel chassis, and nine tons of Ferro-Fibrous armor. While the location of its weaponry in its torsos hampers its ability to carry Battle Armor, this was intentional to try and ensure hand actuators were retained to maximize its physical combat abilities.",
-        "Icon": "uixTxrIcon_septicemia"
+        "UIName": "Osprey",
+        "Id": "chassisdef_osprey_OSP-15",
+        "Name": "Osprey",
+        "Details": "Designed by Hollis Incorporated to fulfill a Star League Defense Force contract for a mobile, medium-weight fire support unit, when Blue Shot Weapons' Lynx design won the bid the Osprey was relegated to a limited contract for the SLDF's Royal units in an urban defense role. Rendered virtually extinct during the Succession Wars, the Word of Blake commissioned Skobel MechWorks to revive the design to bolster its own militia forces, resulting in massive production runs at Skobel and later Achernar BattleMechs during the Jihad. Impressed by the durability and effectiveness of the design during the brutal fighting to take Achernar and Terra, both the Republic of the Sphere and the Capellan Confederation placed a priority on restarting production for their own armed forces after the Jihad.",
+        "Icon": "uixTxrIcon_osprey"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
-    "MovementCapDefID": "movedef_septicemia",
+    "FixedEquipment": [],
+    "MovementCapDefID": "movedef_osprey",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_septicemia",
-    "PrefabIdentifier": "chrprfmech_septicemiabase-001",
-    "PrefabBase": "septicemia",
+    "HardpointDataDefID": "hardpointdatadef_osprey",
+    "PrefabIdentifier": "chrprfmech_ospreybase-001",
+    "PrefabBase": "osprey",
     "Tonnage": 55,
-    "InitialTonnage": 17,
+    "InitialTonnage": 13,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 80,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -72,15 +59,6 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 90,
-            "MaxRearArmor": -1,
-            "InternalStructure": 45
-        },
-        {
-            "Location": "LeftTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
@@ -91,21 +69,31 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
-                }			
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -142,7 +130,24 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 90,
@@ -212,11 +217,11 @@
             "z": 2.5
         }
     ],
-    "VariantName": "PRI-D",
+    "VariantName": "OSP-15",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",
-    "YangsThoughts": "A hard-hitting, command variant, the D was the least-commonly fielded of all the ones seen on Babylon. It mounts an ER PPC for distance. An Ultra Autocannon/20 can make short work of enemies up close, though ammunition is limited. Three ER Small Lasers are potent backups for the high-heat ER PPC. Jump jets enable the D to vault up to 150 meters at a time. Accuracy of all the weapons is aided by a Targeting Computer."
+    "YangsThoughts": "The original SLDF model created in 2738, the OSP-15 mounted the same M-7 Gauss Rifle as the modern models, but had an LRM 10 Launcher, three Medium Lasers and no special equipment. "
 }

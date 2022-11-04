@@ -11,20 +11,7 @@
         "Details": "Devoid of the more experimental technology utilised by the Cephalus and Osteon to allow it to be built in higher volumes, the Septicemia saves weight with an XL Engine, Endo Steel chassis, and nine tons of Ferro-Fibrous armor. While the location of its weaponry in its torsos hampers its ability to carry Battle Armor, this was intentional to try and ensure hand actuators were retained to maximize its physical combat abilities.",
         "Icon": "uixTxrIcon_septicemia"
     },
-	"FixedEquipment": [
-		{
-			"ComponentDefID": "Gear_HeatSink_Engine_Double_Clan",
-			"ComponentDefType": "HeatSink",
-			"DamageLevel": "Functional",
-			"GUID": null,
-			"HardpointSlot": -1,
-			"IsFixed": true,
-			"MountedLocation": "CenterTorso",
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"prefabName": null
-		}		
-	],
+    "FixedEquipment": [],
     "MovementCapDefID": "movedef_septicemia",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_septicemia",
@@ -34,7 +21,7 @@
     "InitialTonnage": 17,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "TopSpeed": 80,
     "TurnRadius": 90,
     "MaxJumpjets": 5,

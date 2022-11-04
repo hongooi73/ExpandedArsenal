@@ -1,7 +1,16 @@
 {
     "MechTags": {
         "items": [
-            "BLACKLISTED"
+            "unit_mech",
+            "unit_assault",
+            "unit_indirectFire",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_range_medium",
+            "unit_indirectFire",
+            "unit_hot",
+            "unit_speed_low"
         ],
         "tagSetSourceFile": ""
     },
@@ -153,7 +162,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Improved_Heavy",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -208,7 +217,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Improved_Heavy",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -263,7 +272,18 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_Targeting_Computer_CLAN_4",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
