@@ -41,7 +41,7 @@
             "Description": {
                 "Id": "TC-IgnoreEvasion-Ballistic",
                 "Name": "TARGET LOCK",
-                "Details": "This unit's ballistic weapons ignore [AMT] charges of EVASIVE.",
+                "Details": "Ballistic and energy weapons ignore [AMT] charges of EVASIVE.",
                 "Icon": "UixSvgIcon_specialEquip_System"
             },
             "statisticData": {
@@ -68,14 +68,14 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "TC-IgnoreEvasion-Energy",
                 "Name": "TARGET LOCK",
-                "Details": "This unit's energy weapons ignore [AMT] charges of EVASIVE.",
+                "Details": "NA",
                 "Icon": "UixSvgIcon_specialEquip_System"
             },
             "statisticData": {
