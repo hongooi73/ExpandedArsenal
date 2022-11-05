@@ -136,7 +136,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -157,8 +157,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -173,6 +173,17 @@
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_1",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

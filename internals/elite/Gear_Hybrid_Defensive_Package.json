@@ -40,8 +40,8 @@
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "StatusEffect-EA-DamageReduction",
-                "Name": "DAMAGE REDUCTION",
-                "Details": "This unit takes [AMT] less damage.",
+                "Name": "DEFENSIVE MODIFICATION",
+                "Details": "This unit takes less damage and has increased stability.",
                 "Icon": "uixSvgIcon_special_Equipment"
             },
             "statisticData": {
@@ -68,14 +68,14 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": true,
-                "showInStatusPanel": true
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
             "Description": {
                 "Id": "StatusEffect-EA-StabilityIncrease",
                 "Name": "STABILITY INCREASE",
-                "Details": "This unit's stability is increased by 40%.",
+                "Details": "NA",
                 "Icon": "uixSvgIcon_special_Equipment"
             },
             "statisticData": {

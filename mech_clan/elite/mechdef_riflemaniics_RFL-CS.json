@@ -219,17 +219,6 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -241,7 +230,29 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_AP_CLAN",
+            "ComponentDefID": "Gear_AP_CLAN_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_AMS_CLAN_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -252,7 +263,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

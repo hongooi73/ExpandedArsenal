@@ -109,9 +109,9 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefID": "Gear_AMS_CLAN_2",
             "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -131,7 +131,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Half",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -229,17 +229,6 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20_Double",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
             "SimGameUID": null,
@@ -266,6 +255,17 @@
             "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

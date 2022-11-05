@@ -131,7 +131,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
@@ -142,7 +142,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 3,
@@ -186,7 +186,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
@@ -197,7 +197,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 3,
@@ -251,28 +251,6 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
@@ -295,7 +273,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_Heavy_Defensive_Suite_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -307,7 +285,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefID": "Gear_Engine_Upgrade4XL",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -350,10 +328,21 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_AP_CLAN_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

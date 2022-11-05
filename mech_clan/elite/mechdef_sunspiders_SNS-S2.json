@@ -240,17 +240,6 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
@@ -274,7 +263,18 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
+            "ComponentDefID": "Gear_AMS_CLAN_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

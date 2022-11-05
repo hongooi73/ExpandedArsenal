@@ -23,7 +23,7 @@
     "Heatsinks": 15,
     "TopSpeed": 60,
     "TurnRadius": 90,
-    "MaxJumpjets": 0,
+    "MaxJumpjets": 2,
     "Stability": 200,
     "StabilityDefenses": [
         0,

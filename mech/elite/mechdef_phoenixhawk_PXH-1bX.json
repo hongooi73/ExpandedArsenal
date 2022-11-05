@@ -19,19 +19,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "Head",
-            "CurrentArmor": 35,
+            "CurrentArmor": 45,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
-            "AssignedArmor": 35,
+            "AssignedArmor": 45,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 50,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
-            "AssignedArmor": 50,
+            "AssignedArmor": 60,
             "AssignedRearArmor": -1
         },
         {
@@ -64,28 +64,28 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 50,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 35,
-            "AssignedArmor": 50,
+            "AssignedArmor": 60,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 75,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 55,
-            "AssignedArmor": 75,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 75,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 55,
-            "AssignedArmor": 75,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         }
     ],
@@ -103,7 +103,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -169,7 +169,18 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Sensor_Prototype_EWE",
+            "ComponentDefID": "Gear_Guardian_ECM",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Osprey",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -195,6 +206,28 @@
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

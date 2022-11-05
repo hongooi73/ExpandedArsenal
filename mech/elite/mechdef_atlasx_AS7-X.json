@@ -43,10 +43,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 160,
+            "CurrentArmor": 195,
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 160,
+            "AssignedArmor": 195,
             "AssignedRearArmor": 50
         },
         {
@@ -61,10 +61,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 160,
+            "CurrentArmor": 195,
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 160,
+            "AssignedArmor": 195,
             "AssignedRearArmor": 50
         },
         {
@@ -79,19 +79,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 205,
+            "CurrentArmor": 190,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 205,
+            "AssignedArmor": 190,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 205,
+            "CurrentArmor": 190,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 205,
+            "AssignedArmor": 190,
             "AssignedRearArmor": -1
         }
     ],
@@ -207,11 +207,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_AMS_1",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
