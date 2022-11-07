@@ -44,6 +44,10 @@ Any duplicate effects of the AMS, active probe, Guardian ECM, VSS and Nova CEWS 
 - Fix tags for several Clan mechs to match their tonnage. This should result in fewer instances of heavy and assault mechs showing up in low-skull missions.
 - Various database fixes.
 
+### Bundled mods
+
+- Update Mission Control to version 1.5.1 (patched).
+
 
 ## v3.0.0
 
