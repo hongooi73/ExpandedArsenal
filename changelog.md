@@ -1,4 +1,4 @@
-## v3.1.0
+## v4.0.0
 
 ### Significant item changes
 
@@ -28,14 +28,16 @@ Any duplicate effects of the AMS, active probe, Guardian ECM, VSS and Nova CEWS 
 
 ### Other changes
 
-- Tone down the CIC cockpit mod to grant +1 init and +2 resolve/turn.
+- Tone down the CIC cockpit mod to weigh 1 ton, grant +1 init and +2 resolve/turn.
 - Add a +2 accuracy bonus to Thunderbolt missiles.
-- Thunderbolt missiles now explode when hit, which balances the lack of separate ammo.
+- Thunderbolt missile launchers now explode when they take a critical hit, which represents the internal ammunition storage (and balances the lack of separate ammo).
+
+### New mechs
+
 - Add the following mechs back from Vanilla Plus. The presence of such advanced mechs in the Periphery could mean something is afoot in the Inner Sphere....
   - Osprey OSP-15
   - Septicemia PRI-A and PRI-D
   - Osteon OS-C and OS-D
-
 
 ### Bug fixes
 
