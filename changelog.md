@@ -1,3 +1,10 @@
+## v4.0.1
+
+### Bug fixes
+
+Fix the allowed locations for the XMD/40 mass driver (should only be the torso).
+
+
 ## v4.0.0
 
 ### Significant item changes
