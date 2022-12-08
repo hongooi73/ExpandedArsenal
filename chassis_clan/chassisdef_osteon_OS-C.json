@@ -11,7 +11,9 @@
         "Details": "The Osteon was The Society's assault-class OmniMech. To maximize the 'Mech's battlefield longevity, the designers focused on survivability above other considerations. Eighteen tons of Ferro-Lamellor armor provide excellent protection against weapons fire, but in case the armor is breached the Reinforced Structure will resist most attacks. In addition, the Torso-Mounted Cockpit allows the Osteon's pilot to take advantage of the heavy center torso armor. In the primary configuration, the huge ammunition bays are protected by CASE II systems, further insurance against critical damage. To maximize the Osteon's damage potential, a Nova CEWS allows the unit to share targeting data with friendly units. This equipment is so valuable that it's permanently mounted in the 'Mech's head.",
         "Icon": "uixTxrIcon_osteon"
     },
-    "FixedEquipment": [],
+    "FixedEquipment": [
+
+    ],
     "MovementCapDefID": "movedef_osteon",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_osteon",
@@ -120,7 +122,9 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 270,
@@ -155,7 +159,9 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 140,
@@ -164,7 +170,9 @@
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -173,7 +181,9 @@
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [],
+            "Hardpoints": [
+
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 180,
@@ -227,9 +237,12 @@
     ],
     "VariantName": "OS-C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Ranged Assault",
     "YangsThoughts": "A close-combat version, this variant carries four Medium Pulse Lasers and two Large Pulse Lasers tied to a Targeting Computer. Five Improved Jump Jets provide a surprise 150 meter jump radius."
 }
+

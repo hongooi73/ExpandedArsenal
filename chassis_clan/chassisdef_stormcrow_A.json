@@ -7,7 +7,7 @@
         "Model": "",
         "Name": "Stormcrow",
         "Details": "Configured mainly for close combat, the Stormcrow A is armed with a single LRM-20 launcher for long range capabilities; allowing it to support friendly units at long range. For close combat, the 'Mech is armed with four Medium Pulse Lasers and two Streak SRM-6 launchers making it a deadly knife fighter.",
-        "UIName": "Stormcrow SCR-A",
+        "UIName": "Stormcrow",
         "Id": "chassisdef_stormcrow_A",
         "Icon": "uixTxrIcon_stormcrow"
     },

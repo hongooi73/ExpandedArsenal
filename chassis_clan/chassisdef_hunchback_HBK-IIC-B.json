@@ -5,9 +5,9 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Hunchback",
+        "UIName": "Hunchback IIC",
         "Id": "chassisdef_hunchback_HBK-IIC-B",
-        "Name": "Hunchback",
+        "Name": "Hunchback IIC",
         "Details": "The second PGI variant is a Streak SRM Missile Boat, carrying a pair of Streak SRM-6 launchers in each side torso, supported by twin center torso mounted Medium Pulse Lasers. Perhaps indicating some of the differences between table-top and MechWarrior Online play, the B carries a mammoth six tons of Streak reloads, the remaining weight going to an extra two double heat sinks and eight tons of armor.",
         "Icon": "uixTxrIcon_hunchbackiic"
     },

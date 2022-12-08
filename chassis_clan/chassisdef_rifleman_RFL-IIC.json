@@ -7,7 +7,7 @@
         "Model": "",
         "UIName": "Rifleman IIC",
         "Id": "chassisdef_rifleman_RFL-IIC",
-        "Name": "Rifleman",
+        "Name": "Rifleman IIC",
         "Details": "Simple, straightforward, and accurate; the Rifleman IIC is armed with four Large Pulse Lasers. This allows it to pick apart enemies from a respectable range, as well as easily target incoming aircraft. A single ER Small Laser is installed, seemingly as an afterthought. Nineteen double heat sinks keep heat mostly in check, though volley fire should be used.",
         "Icon": "uixTxrIcon_riflemaniic"
     },

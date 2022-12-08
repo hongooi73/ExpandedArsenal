@@ -7,7 +7,7 @@
         "Model": "",
         "UIName": "Warhammer IIC",
         "Id": "chassisdef_warhammer_WHM-IIC-2",
-        "Name": "Warhammer",
+        "Name": "Warhammer IIC",
         "Details": "This variant turns the Warhammer IIC into a fire support 'Mech. Clan scientists replaced the Medium Pulse Lasers with a pair of LRM-15s and four tons of ammunition.",
         "Icon": "uixTxrIcon_warhammeriic"
     },

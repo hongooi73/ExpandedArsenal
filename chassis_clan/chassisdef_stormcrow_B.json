@@ -7,7 +7,7 @@
         "Model": "",
         "Name": "Stormcrow",
         "Details": "Another close combat configuration, the B configuration of the Stormcrow carries a single, deadly Ultra Autocannon/20 as its primary weapon. This is backed up by six ER Medium Lasers. To handle the 'Mech's heat, it has three additional double heat sinks.",
-        "UIName": "Stormcrow SCR-B",
+        "UIName": "Stormcrow",
         "Id": "chassisdef_stormcrow_B",
         "Icon": "uixTxrIcon_stormcrow"
     },

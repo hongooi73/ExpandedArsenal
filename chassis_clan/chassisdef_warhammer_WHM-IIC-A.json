@@ -7,7 +7,7 @@
         "Model": "",
         "UIName": "Warhammer IIC",
         "Id": "chassisdef_warhammer_WHM-IIC-A",
-        "Name": "Warhammer",
+        "Name": "Warhammer IIC",
         "Details": "The A variant carries a LB 10-X Autocannon in each arm, supported by a Streak SRM-6 and ER Medium Laser in each side torso, with an additional ER Medium in the center torso. Carrying two tons each of autocannon and Streak reloads, the Warhammer IIC is built around a 320 Standard Engine, Endo Streel frame and Ferro-Fibrous armor and carries twelve double heat sinks.",
         "Icon": "uixTxrIcon_warhammeriic"
     },
