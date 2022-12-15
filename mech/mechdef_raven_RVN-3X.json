@@ -72,6 +72,10 @@
         "Icon": "uixTxrIcon_raven"
     },
     "simGameMechPartCost": 1300000,
+    "RequiredToSpawnCompanyTags": {
+        "items": "flashpoint_uw1_complete",
+        "tagSetSourceFile": ""
+    },
     "Version": 1,
     "Locations": [
         {
