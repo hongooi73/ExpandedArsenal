@@ -4,7 +4,7 @@
     "Description": "Uses the CAB to add new mechs and vehicles.",	
     "Version": "4.0.1",
     "Author": "Z06Frank/hongooi2",
-    "DependsOn": [
+    "OptionallyDependsOn": [
         "AdvancedWeapons",
         "Even More Gear",
         "Extreme Weapons",
@@ -15,6 +15,7 @@
         "Artillery"
     ],
     "Manifest": [
+        { "Type": "AbilityDef", "Path": "abilities" },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionbox" },	
         { "Type": "HeatSinkDef", "Path": "heatsinks" },
         { "Type": "JumpJetDef", "Path": "jumpjets" },

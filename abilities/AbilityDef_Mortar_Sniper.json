@@ -1,0 +1,21 @@
+{
+	"Description" : {
+		"Id" : "AbilityDef_Mortar_Sniper",
+		"Name" : "SNIPER CANNON",
+		"Details" : "ACTION: Fire an artillery attack at the target area on units within the blast radius. Has [NumberOfUses] uses per mission.",
+		"Icon" : "uixSvgIcon_artillery"
+	},
+	"ActivationTime" : "ConsumedByFiring",
+	"Resource" : "ConsumesFiring",
+	"ActivationCooldown" : 2,
+	"ActivationETA" : 0,
+	"NumberOfUses" : 10,
+	"specialRules" : "Artillery",
+	"Targeting" : "CommandTargetSinglePoint",
+	"WeaponResource" : "Weapon_Mortar_Sniper",
+	"FloatParam1" : 90.0,
+    "IntParam1" : 0,
+	"IntParam2" : 9000,
+	"ShowIntParam1" : false,
+	"ShowIntParam2" : false
+}
