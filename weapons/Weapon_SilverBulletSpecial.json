@@ -24,11 +24,11 @@
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
-    "ShotsWhenFired": 6,
+    "ShotsWhenFired": 8,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 5,
     "Instability": 10,
-    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "WeaponEffectID": "WeaponEffect-Weapon_LB2X",
     "Description": {
         "Cost": 4450000,
         "Rarity": 2,

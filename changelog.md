@@ -1,9 +1,8 @@
 ## v4.0.1
 
-### Bug fixes/changes
+### Bug fixes
 
-- Fix the allowed locations for the XMD/40 mass driver (should only be the torso).
-- Some tweaks to Prototype TSM (remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods).
+Fix the allowed locations for the XMD/40 mass driver (should only be the torso).
 
 
 ## v4.0.0
