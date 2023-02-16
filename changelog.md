@@ -2,8 +2,11 @@
 
 ### Bug fixes/changes
 
-- Fix the allowed locations for the XMD/40 mass driver (should only be the torso).
-- Some tweaks to Prototype TSM (remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods).
+- To make mod management a bit easier, all items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
+- Fix clan mechs not being available in shops
+- Remove some NPC-only mechs that accidentally showed up in shops
+- Fix the allowed locations for the XMD/40 mass driver (should only be the torso)
+- Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
 
 
 ## v4.0.0
