@@ -1,15 +1,12 @@
 itemCollection_Mech_Parts_IS,,,
 mechdef_annihilator_ANH-1A,Mech,1,4
 mechdef_annihilator_ANH-1E,Mech,1,4
-mechdef_annihilator_ANH-JH,Mech,1,4
 mechdef_anubis_ABS-3L,Mech,1,4
 mechdef_anubis_ABS-3T,Mech,1,4
 mechdef_archer_ARC-2K,Mech,1,4
 mechdef_archer_ARC-2R,Mech,1,4
 mechdef_archer_ARC-2S,Mech,1,4
 mechdef_archer_ARC-2W,Mech,1,4
-mechdef_archer_ARC-LS,Mech,1,4
-mechdef_archer_ARC-XO,Mech,1,4
 mechdef_argus_AGS-2D,Mech,1,4
 mechdef_argus_AGS-5D,Mech,1,4
 mechdef_assassin_ASN-101,Mech,1,4
@@ -201,7 +198,6 @@ mechdef_rifleman_RFL-3C,Mech,1,4
 mechdef_rifleman_RFL-3M,Mech,1,4
 mechdef_rifleman_RFL-3N,Mech,1,4
 mechdef_rifleman_RFL-4D,Mech,1,4
-mechdef_rifleman_RFL-RIP,Mech,1,4
 mechdef_roughneck_RGH-1A,Mech,1,4
 mechdef_roughneck_RGH-3A,Mech,1,4
 mechdef_shadowhawk_SHD-2K,Mech,1,4
