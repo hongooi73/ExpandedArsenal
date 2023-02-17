@@ -1,5 +1,11 @@
 ## v4.0.1
 
+### Significant item changes
+
+- Add ER medium and large pulse lasers (clan)
+- Buff damage output of medium and large X-pulse lasers, and the binary large laser (blazer). The latter now fires 2 shots for damage each roughly equivalent to a LPL, essentially doubling the damage.
+
+
 ### Bug fixes/changes
 
 - To make mod management a bit easier, all items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.

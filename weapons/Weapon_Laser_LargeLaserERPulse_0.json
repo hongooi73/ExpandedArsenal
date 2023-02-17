@@ -18,7 +18,7 @@
     "EvasivePipsIgnored": 0,
     "DamageVariance": 0,
     "HeatDamage": 0,
-    "AccuracyModifier": -1,
+    "AccuracyModifier": -2,
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
     "IndirectFireCapable": false,
@@ -37,7 +37,7 @@
         "UIName": "ER L Pulse (C)",
         "Id": "Weapon_Laser_LargeLaserERPulse_0",
         "Name": "ER L Pulse (C)",
-        "Details": "The Extended Range Large Pulse Laser is the largest ER Pulse Laser created by the scientists of Clan Wolf. Inflicting as much damage as a standard ER PPC, the pulse laser offers the warrior using it a better chance of hitting a target. Unfortunately, the longer range of the weapon slightly reduces its accuracy when compared to traditional pulse laser weapons.",
+        "Details": "The Extended Range Large Pulse Laser is the largest ER Pulse Laser created by the scientists of Clan Wolf. Like all pulse lasers, it offers the warrior using it a better chance of hitting a target. Inflicting as much damage as a standard ER PPC, the pulse laser offers the warrior using it a better chance of hitting a target.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "",
