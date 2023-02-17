@@ -17,7 +17,7 @@
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
     "DamageVariance": 150,
-    "HeatDamage": 30,
+    "HeatDamage": 0,
     "StructureDamage": 45,
     "AccuracyModifier": 6,
     "CriticalChanceMultiplier": 1,
@@ -27,7 +27,7 @@
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 20,
-    "Instability": 40,
+    "Instability": 80,
     "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
     "Description": {
         "Cost": 3350000,

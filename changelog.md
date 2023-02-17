@@ -4,6 +4,9 @@
 
 - Add ER medium and large pulse lasers (clan)
 - Buff damage output of medium and large X-pulse lasers, and the binary large laser (blazer). The latter now fires 2 shots for damage each roughly equivalent to a LPL, essentially doubling the damage.
+- Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
+- Tone down the SBS Gauss Rifle slightly: now called the Silver Bullet Rotary Gauss Rifle in-game, fires 6 shots for (45 + 5) damage, 15 stability damage per shot. Generates 20 heat.
+
 
 
 ### Bug fixes/changes
