@@ -7,6 +7,31 @@
 - Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
 - Tone down the SBS Gauss Rifle slightly: now called the Silver Bullet Rotary Gauss Rifle in-game, fires 6 shots for (45 + 5) damage, 15 stability damage per shot. Generates 20 heat.
 
+### New mechs
+
+New in this release is a selection of mechs that use the weapons listed above. These mostly date from the Jihad and early Dark Age eras.
+
+Inner Sphere/hybrid mechs:
+- Avatar AV1-OH
+- Crusader CRD-7M
+- Huron Warrior HUR-WO-R4X
+- Javelin JVN-11D "Bob Farrell special"
+- Marauder MAD-4X
+- Ostsol OTL-8E
+- Phoenix Hawk PXH-9
+- Shadow Hawk SHD-3K
+- Stinger STG-5T
+- Templar TLR1-OD
+
+Clan mechs:
+- Adder K
+- Black Lanner G
+- Ebon Jaguar X
+- Executioner T
+- Mad Cat Z
+- Summoner Z
+
+In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rather than MRMs.
 
 
 ### Bug fixes/changes
