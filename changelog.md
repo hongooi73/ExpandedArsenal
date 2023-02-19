@@ -33,6 +33,14 @@ Clan mechs:
 
 In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rather than MRMs.
 
+### Mech rebalancing
+
+Several mechs, mostly clan ones, have had their **hardpoint totals reduced**. Some of the original mod developers appear to have interpreted the "omnimech" designation literally, meaning that you should be allowed to put any weapon, anywhere. To enable this, they added multiple hardpoints to every location, so that a mech could have 30, 40 or more hardpoints in all. While this is indeed extremely flexible, it also makes it way too easy to boat large numbers of weapons, which is a winning build strategy in any incarnation of BattleTech.
+
+To deal with this, the affected mechs have had hardpoints reduced to a more reasonable number: usually less than 20. Note that this is far more than what most Inner Sphere mechs have, and should still allow good levels of boating (and yes, there are some clan mechs that are all about boating; these still exist).
+
+Conversely, some _other_ mechs (clearly originating from different developers) had anemic hardpoint allocations: as few as 2 or 4 in some cases, the minimum required for their stock loadout. These have had more hardpoints added, to make them more flexible.
+
 
 ### Bug fixes/changes
 

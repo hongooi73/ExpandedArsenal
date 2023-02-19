@@ -65,14 +65,6 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -185,14 +177,6 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
