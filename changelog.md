@@ -26,6 +26,12 @@ Inner Sphere/hybrid mechs:
 - Stinger STG-5T
 - Templar TLR1-OD
 
+Word of Blake mechs:
+- Preta C-PRT-OA Dominus
+- Preta C-PRT-O Invictus
+- Archangel C-ANG-OA Dominus
+- Archangel C-ANG-OB Infernus
+
 Clan mechs:
 - Adder K
 - Black Lanner G
