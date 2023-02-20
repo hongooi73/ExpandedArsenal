@@ -2,10 +2,13 @@
 
 ### Significant item changes
 
+- Major buff to the binary large laser (blazer). Instead of firing one shot for middling damage, it now fires two shots for 50 points each.
+- Buff damage output of medium and large X-pulse lasers
 - Add ER medium and large pulse lasers (clan)
-- Buff damage output of medium and large X-pulse lasers, and the binary large laser (blazer). The latter now fires 2 shots for damage each roughly equivalent to a LPL, essentially doubling the damage.
 - Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
 - Tone down the SBS Gauss Rifle slightly: now called the Silver Bullet Rotary Gauss Rifle in-game, fires 6 shots for (45 + 5) damage, 15 stability damage per shot. Generates 20 heat.
+
+Elite Arsenal also contains + and ++ variants of the above weapons.
 
 ### New mechs
 
@@ -35,20 +38,21 @@ In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rat
 
 ### Mech rebalancing
 
-Several mechs, mostly clan ones, have had their **hardpoint totals reduced**. Some of the original mod developers appear to have interpreted the "omnimech" designation literally, meaning that you should be allowed to put any weapon, anywhere. To enable this, they added multiple hardpoints to every location, so that a mech could have 30, 40 or more hardpoints in all. While this is indeed extremely flexible, it also makes it way too easy to boat large numbers of weapons, which is a winning build strategy in any incarnation of BattleTech.
+Several mechs, mostly clan ones, have had their **hardpoint totals reduced**. Some of the original mod authors appear to have interpreted the "omnimech" designation literally, meaning that you should be allowed to put any weapon, anywhere. To enable this, they added multiple hardpoints to every location, so that a mech could have 30, 40 or more hardpoints in all. While this is indeed extremely flexible, it also makes it too easy to boat large numbers of weapons and removes a key point of differentiation between mechs.
 
-To deal with this, the affected mechs have had hardpoints reduced to a more reasonable number: usually less than 20. Note that this is far more than what most Inner Sphere mechs have, and should still allow good levels of boating (and yes, there are some clan mechs that are all about boating; these still exist).
+To deal with this, the affected mechs have had their hardpoints reduced to a more reasonable number: generally less than 20. Note that this is still far more than what most Inner Sphere mechs have, and should allow good levels of boating (and yes, there are some clan mechs that are all about boating; they still exist, although the unused hardpoints may have been cut back).
 
-Conversely, some _other_ mechs (clearly originating from different developers) had anemic hardpoint allocations: as few as 2 or 4 in some cases, the minimum required for their stock loadout. These have had more hardpoints added, to make them more flexible.
+Conversely, some _other_ mechs (clearly originating from different authors) had anemic hardpoint allocations: as few as 2 or 4 in some cases, the minimum required for their stock loadout. These have had more hardpoints added, to make them more flexible.
 
 
 ### Bug fixes/changes
 
-- To streamline mod management, all items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
+- To streamline mod management, the items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
 - Fix clan mechs not being available in shops
+- All Gauss weapons can now explode on a critical hit. This change affects heavy and light Gauss rifles, all HAGs, the XMD/40 mass driver and the SB rotary Gauss rifle.
 - Remove some NPC-only mechs that accidentally showed up in shops
-- Fix bug where the accuracy penalty from heavy and light PPC hits didn't stack
-- Fix the allowed locations for the XMD/40 mass driver (should only be the torso)
+- Fix a bug where the accuracy penalty from heavy and light PPC hits didn't stack
+- Fix the allowed locations for the XMD/40 mass driver and SB Rotary Gauss (should only be the torso)
 - Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
 
 
