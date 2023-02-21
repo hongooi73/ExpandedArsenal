@@ -103,8 +103,8 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_Arm_Blade",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_C3i_Computer",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
@@ -127,8 +127,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_PRETA",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional",

@@ -104,6 +104,14 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_C3i_Computer",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_PPC_PPC_LIGHT",
             "ComponentDefType": "Weapon",
@@ -138,8 +146,8 @@
             "SimGameUID": ""
         },
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_PPC_PPCSnub_ARCH",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional",

@@ -2,13 +2,14 @@
 
 ### Significant item changes
 
+- New item: C3i computer, available in stores and also mounted on Preta and Archangel mechs (see below). The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
 - Major buff to the binary large laser (blazer). Instead of firing one shot for middling damage, it now fires two shots for 50 points each.
 - Buff damage output of medium and large X-pulse lasers
 - Add ER medium and large pulse lasers (clan)
 - Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
 - Tone down the SBS Gauss Rifle slightly: now called the Silver Bullet Rotary Gauss Rifle in-game, fires 6 shots for (45 + 5) damage, 15 stability damage per shot. Generates 20 heat.
 
-Elite Arsenal also contains + and ++ variants of the above weapons.
+Elite Arsenal also contains + and ++ variants of the above items.
 
 ### New mechs
 
