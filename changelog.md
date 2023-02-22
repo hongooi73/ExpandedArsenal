@@ -27,7 +27,7 @@ Inner Sphere/hybrid mechs:
 - Stinger STG-5T
 - Templar TLR1-OD
 
-Word of Blake mechs:
+Word of Blake mechs (which were originally part of Vanilla Plus, and have been reactivated):
 - Preta C-PRT-OA Dominus
 - Preta C-PRT-O Invictus
 - Archangel C-ANG-OA Dominus

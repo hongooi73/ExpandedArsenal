@@ -52,7 +52,7 @@
             "Description": {
                 "Id": "StatusEffect-Initiative_Add-T1",
                 "Name": "C3I COMPUTER",
-                "Details": "Provides + 1 Initiative.",
+                "Details": "Enhanced initiative and weapon targeting.",
                 "Icon": "uixSvgIcon_equipment_Cockpit"
             },
             "nature": "Buff",
