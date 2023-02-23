@@ -37,6 +37,7 @@ Word of Blake mechs:
 - Archangel C-ANG-OB "Infernus"
 
 Clan mechs:
+- Osteon Prime
 - Adder K
 - Black Lanner G
 - Ebon Jaguar X
