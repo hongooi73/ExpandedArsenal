@@ -10,6 +10,7 @@
             "unit_range_medium",
             "unit_indirectFire",
             "unit_hot",
+            "unit_jumpOK",
             "unit_speed_low"
         ],
         "tagSetSourceFile": ""
