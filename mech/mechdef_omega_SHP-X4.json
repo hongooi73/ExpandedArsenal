@@ -1,0 +1,274 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_superheavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "WordOfBlake"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_omega_SHP-X4",
+    "Description": {
+        "Cost": 25000000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Omega SHP-X4",
+        "Id": "mechdef_omega_SHP-X4",
+        "Name": "Omega SHP-X4",
+        "Details": "Although the concept of a superheavy 'Mech had already been explored by the Terran Hegemony centuries before, and later by Amaris forces, with the Matar as example, and the Clans polished that concept launching the Stone Rhino, it wasn't until the Word of Blake overcame the problems associated with such a massive design that the Omega became viable. Featuring an Endo Steel skeleton larger and bulkier than any seen before, oversized actuators and a new myomer system that involved both larger fiber bundles than standard and the use of hybrid myomers, the Blakists were able to overcome a number of flaws discovered by those who had explored the superheavy 'Mech concept in the past. The resulting internal structure was far larger than would be viable for any conventional BattleMech, but in the case of the Omega, resulted in a working superheavy design that stood half again as tall as the 100-ton King Crab, from which the designers had evidently taken a number of cues.",
+        "Icon": "uixTxrIcon_annihilator"
+    },
+    "simGameMechPartCost": 714821,
+    "Version": 1,
+    "Locations": [
+        {
+            "Location": "Head",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 24,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftArm",
+            "CurrentArmor": 250,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 125,
+            "AssignedArmor": 250,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftTorso",
+            "CurrentArmor": 280,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 160,
+            "AssignedArmor": 280,
+            "AssignedRearArmor": 60,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "CenterTorso",
+            "CurrentArmor": 320,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 230,
+            "AssignedArmor": 320,
+            "AssignedRearArmor": 60,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightTorso",
+            "CurrentArmor": 280,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 160,
+            "AssignedArmor": 280,
+            "AssignedRearArmor": 60,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightArm",
+            "CurrentArmor": 250,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 125,
+            "AssignedArmor": 250,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftLeg",
+            "CurrentArmor": 270,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 160,
+            "AssignedArmor": 270,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightLeg",
+            "CurrentArmor": 270,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 160,
+            "AssignedArmor": 270,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+       {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_C3i_Computer",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
