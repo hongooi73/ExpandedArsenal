@@ -7,7 +7,7 @@
 - Buff damage output of medium and large X-pulse lasers
 - Add ER medium and large pulse lasers (clan)
 - Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
-- Tone down the SBS Gauss Rifle slightly: now called the Silver Bullet Rotary Gauss Rifle in-game, fires 6 shots for (45 + 5) damage, 15 stability damage per shot. Generates 20 heat.
+- Rework the Silver Bullet Special, which now fires two shots for 90 damage per shot, instead of a large volley of lower-damage shots. This reduces the total damage, but also makes it more practical by concentrating the damage into two locations and reducing ammo consumption.
 
 Elite Arsenal also contains + and ++ variants of the above items.
 
