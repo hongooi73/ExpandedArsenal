@@ -66,6 +66,7 @@ Conversely, some _other_ mechs (clearly originating from different authors) had 
 - Fix the allowed locations for the XMD/40 mass driver and SB Rotary Gauss (should only be the torso)
 - Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
 - Fix movement for Warhammer IIC
+- Fix heat generation for MML3/5/7: should be 6, 9 and 12 heat respectively, to match TT values
 
 
 ## v4.0.0
