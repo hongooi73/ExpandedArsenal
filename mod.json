@@ -4,6 +4,9 @@
     "Description": "Uses the CAB to add new mechs and vehicles.",	
     "Version": "4.0.1",
     "Author": "Z06Frank/hongooi2",
+    "DependsOn": [
+        "FlashpointEnabler"
+    ],
     "OptionallyDependsOn": [
         "AdvancedWeapons",
         "Even More Gear",
@@ -13,6 +16,11 @@
         "More Rokkits",
         "PlasmaRifle",
         "Artillery"
+    ],
+    "RequiredContentPacks": [
+        "flashpoint",
+        "urbanwarfare",
+        "heavymetal"
     ],
     "Manifest": [
         { "Type": "AbilityDef", "Path": "abilities" },
@@ -38,6 +46,10 @@
         { "Type": "TurretChassisDef", "Path": "chassis_turret" },
         { "Type": "Sprite", "Path": "portraits" },
         { "Type": "Sprite", "Path": "sprite" },
+        { "Type": "FactionDef", "Path": "factions"},
+        { "Type": "Texture2D", "Path": "Emblems" },
+        { "Type": "Sprite", "Path": "Emblems" },
+        { "Type": "HeraldryDef", "Path": "heraldry" },
         {
             "Type": "LanceDef",
             "Path": "lance",
@@ -46,6 +58,12 @@
         {
             "Type": "AdvancedJSONMerge",
             "Path": "starsystems"
+        }
+    ],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.FactionEnumeration",
+            "path": "Faction.json"
         }
     ]
 }
