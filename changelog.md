@@ -70,6 +70,7 @@ Conversely, some _other_ mechs (clearly originating from different authors) had 
 - Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
 - Fix movement for Warhammer IIC
 - Fix heat generation for MML3/5/7: should be 6, 9 and 12 heat respectively, to match TT values
+- Clarify that the speed boost from engine upgrades is incompatible (doesn't stack) with MASC.
 
 
 ## v4.0.0
