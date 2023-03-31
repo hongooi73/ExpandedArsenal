@@ -38,6 +38,8 @@ Word of Blake mechs:
 - Preta C-PRT-O "Invictus"
 - Archangel C-ANG-OA "Dominus"
 - Archangel C-ANG-OB "Infernus"
+- Archangel C-ANG-OC "Comminus"
+- Archangel C-ANG-OS "Caelestis"
 
 Clan mechs:
 - Osteon Prime
@@ -48,7 +50,7 @@ Clan mechs:
 - Mad Cat Z
 - Summoner Z
 
-The Preta and Archangel WoB mechs were actually part of the original Vanilla plus content, and have now been restored; the Deva, Grigori and Malak are new. In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rather than MRMs.
+Some of the Preta and Archangel WoB mechs were actually part of the original Vanilla Plus content, and have now been restored; the Deva, Grigori and Malak are new. In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rather than MRMs.
 
 ### Mech rebalancing
 
