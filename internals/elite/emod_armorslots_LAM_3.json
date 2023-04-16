@@ -6,13 +6,13 @@
         "Manufacturer": "Allied Aerospace",
         "Model": "Armor Critical Slot",
         "UIName": "LAM Aluminium Armor + + +",
-        "Id": "emod_armorslots_LAM_2",
+        "Id": "emod_armorslots_LAM_3",
         "Name": "Light Aluminium Armor + + +",
         "Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms.",
         "Icon": "uixSvgIcon_action_end"
     },
     "BonusValueA": "+ 20% Jump Distance",
-    "BonusValueB": "- 20% Dmg.",
+    "BonusValueB": "- 20% Dmg., +35% Stability",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -132,6 +132,40 @@
                 "statName": "MaxStability",
                 "operation": "Float_Multiply",
                 "modValue": "1.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-EA-StabilityIncrease",
+                "Name": "STABILITY INCREASE",
+                "Details": "NA",
+                "Icon": "uixSvgIcon_special_Equipment"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "MaxStability",
+                "operation": "Float_Multiply",
+                "modValue": "1.35",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",
