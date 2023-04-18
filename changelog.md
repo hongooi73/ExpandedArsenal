@@ -28,18 +28,21 @@ Inner Sphere/hybrid mechs:
 - Templar TLR1-OD
 
 Word of Blake mechs:
+- Archangel C-ANG-OA "Dominus"
+- Archangel C-ANG-OB "Infernus"
+- Archangel C-ANG-OC "Comminus"
+- Archangel C-ANG-OS "Caelestis"
 - Deva C-DVA-OA "Dominus"
 - Deva C-DVA-OB "Infernus"
 - Deva C-DVA-OS "Caelestis"
 - Grigori C-GRG-O "Invictus"
 - Grigori C-GRG-OS "Caelestis"
 - Malak C-MK-O "Invictus"
-- Preta C-PRT-OA "Dominus"
 - Preta C-PRT-O "Invictus"
-- Archangel C-ANG-OA "Dominus"
-- Archangel C-ANG-OB "Infernus"
-- Archangel C-ANG-OC "Comminus"
-- Archangel C-ANG-OS "Caelestis"
+- Preta C-PRT-OA "Dominus"
+- Seraph C-SRP-O "Invictus"
+- Seraph C-SRP-OC "Comminus"
+- Seraph C-SRP-OE "Eminus"
 
 Clan mechs:
 - Osteon Prime
