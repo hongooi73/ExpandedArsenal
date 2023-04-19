@@ -16,6 +16,7 @@
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_Arm_Blade",
             "ComponentDefType": "Upgrade",
+            "IsFixed": true,
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
