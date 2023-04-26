@@ -17,7 +17,7 @@
         "Id": "mechdef_wanetas_WN-LAM-S",
         "Name": "Waneta S",
         "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
-        "Icon": "uixTxrIcon_waneta"
+        "Icon": "uixTxrIcon_gerwalk4"
     },
     "simGameMechPartCost": 620000,
     "Version": 1,
@@ -108,8 +108,19 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_C3i_Computer_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

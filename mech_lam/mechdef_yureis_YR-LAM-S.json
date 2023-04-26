@@ -17,7 +17,7 @@
         "Id": "mechdef_yureis_YR-LAM-S",
         "Name": "Yurei S",
         "Details": "Like the larger Waneta Spectral LAM, the Yurei mounts a weapons array comprised entirely of Clantech weaponry, although again the exact source of the various weapons is unknown. The weapons are almost all energy weapons, comprising an array of one ER Large Laser backed up by two ER Medium Lasers.",
-        "Icon": "uixTxrIcon_waneta"
+        "Icon": "uixTxrIcon_gerwalk4"
     },
     "simGameMechPartCost": 620000,
     "Version": 1,
@@ -109,7 +109,29 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -130,11 +152,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_C3i_Computer_2",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

@@ -59,13 +59,13 @@
         "Id": "chassisdef_shadowhawk_SHD-X1",
         "Name": "Shadow Hawk LAM",
         "Details": "The original and considerably flawed prototypes were completed in 2680. Based on the Shadow Hawk SHD-2H, the 'Mech carried a Class 2 Autocannon in place of the Class 5. The SHD-X1 carried only 6.5 tons of armor for protection. Only one chassis survived multiple crashes caused by its faulty schematics. It had a top ground speed of 86.4 km/h like its progenitor, the SHD-2H, and used ten single heat sinks.",
-        "Icon": "uixTxrIcon_shawklam"
+        "Icon": "uixTxrIcon_gerwalk"
     },
     "MovementCapDefID": "movedef_shadowhawklam",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_shawklam",
-    "PrefabIdentifier": "chrprfmech_shawklambase-001",
-    "PrefabBase": "shawklam",
+    "HardpointDataDefID": "hardpointdatadef_yf24gerwalk",
+    "PrefabIdentifier": "chrprfmech_yf24gerwalkbase-001",
+    "PrefabBase": "yf24gerwalk",
     "Tonnage": 55,
     "InitialTonnage": 29,
     "weightClass": "MEDIUM",

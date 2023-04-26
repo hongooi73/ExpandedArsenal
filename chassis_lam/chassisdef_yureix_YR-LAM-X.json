@@ -59,13 +59,13 @@
         "Id": "chassisdef_yureix_YR-LAM-X",
         "Name": "Yurei",
         "Details": "Like the larger Waneta Spectral LAM, the Yurei mounts a weapons array comprised entirely of Clantech weaponry, although again the exact source of the various weapons is unknown. The weapons are almost all energy weapons, comprising an array of one ER Large Laser backed up by two ER Medium Lasers.",
-        "Icon": "uixTxrIcon_waneta"
+        "Icon": "uixTxrIcon_gerwalk4"
     },
     "MovementCapDefID": "movedef_yurei",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_waneta",
-    "PrefabIdentifier": "chrprfmech_wanetabase-001",
-    "PrefabBase": "waneta",
+    "HardpointDataDefID": "hardpointdatadef_twlam",
+    "PrefabIdentifier": "chrprfmech_twlambase-001",
+    "PrefabBase": "twlam",
     "Tonnage": 40,
     "InitialTonnage": 20.5,
     "weightClass": "MEDIUM",

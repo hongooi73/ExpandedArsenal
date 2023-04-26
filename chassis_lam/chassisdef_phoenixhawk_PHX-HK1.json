@@ -9,7 +9,7 @@
         "Id": "chassisdef_phoenixhawk_PHX-HK1",
         "Name": "Phoenix Hawk LAM",
         "Details": "The Phoenix Hawk LAM was the largest Land-Air 'Mech produced during the Star League. Allied Aerospace reworked their designs for conversion equipment and the size of the LAM, learning from their mistake with the Shadow Hawk LAM and the success of the Stinger LAM. The resulting LAM was the largest LAM ever constructed capable of remaining in AirMech mode. Unfortunately, large Land-Air 'Mech conversion technology was not fully researched before the fall of the Star League, and the Phoenix Hawk LAM frequently met its end due to the occasional glitch. The end of the Star League and destruction of the Allied Aerospace facilities at the beginning of the First Succession War prevented further development and refinement.",
-        "Icon": "uixTxrIcon_phawklam"
+        "Icon": "uixTxrIcon_gerwalk"
     },
     "MovementCapDefID": "movedef_phoenixhawklam",
     "FixedEquipment": [
@@ -87,9 +87,9 @@
         }
     ],
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_phawklam",
-    "PrefabIdentifier": "chrprfmech_phawklambase-001",
-    "PrefabBase": "phawklam",
+    "HardpointDataDefID": "hardpointdatadef_phawklegacylam",
+    "PrefabIdentifier": "chrprfmech_phawklegacylambase-001",
+    "PrefabBase": "phawklegacylam",
     "Tonnage": 50,
     "InitialTonnage": 25,
     "weightClass": "MEDIUM",

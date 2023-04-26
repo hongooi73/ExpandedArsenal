@@ -17,7 +17,7 @@
         "Id": "mechdef_phoenixhawkx_PHX-LAM-X",
         "Name": "Phoenix Hawk LAM X",
         "Details": "The Phoenix Hawk 1B LAM is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. Allied Aerospace reworked their designs, learning from their mistakes with the PHX-HK1.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_phawklam"
+        "Icon": "uixTxrIcon_gerwalk"
     },
     "simGameMechPartCost": 1000000,
     "Version": 1,

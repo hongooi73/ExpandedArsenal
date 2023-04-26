@@ -17,7 +17,7 @@
         "Id": "mechdef_yurei_S-YR-1LAM",
         "Name": "Yurei",
         "Details": "Like the larger Waneta Spectral LAM, the Yurei mounts a weapons array comprised entirely of Clantech weaponry, although again the exact source of the various weapons is unknown. The weapons are almost all energy weapons, comprising an array of one ER Large Laser backed up by two ER Medium Lasers.",
-        "Icon": "uixTxrIcon_waneta"
+        "Icon": "uixTxrIcon_gerwalk4"
     },
     "simGameMechPartCost": 620000,
     "Version": 1,

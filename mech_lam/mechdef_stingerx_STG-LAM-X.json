@@ -17,7 +17,7 @@
         "Id": "mechdef_stingerx_STG-LAM-X",
         "Name": "Stinger LAM X",
         "Details": "Never produced in large numbers, there were still many in service during the Succession Wars[1] due in part because the LexaTech facility on the Draconis Combine world of Irece, the last intact LAM factory in the Inner Sphere. LexaTech was able to construct new Stinger LAMs as well as new parts.[2] The loss of the factory to the forces of Clan Nova Cat in 3050 during the Clan Invasion sounded the death knell for the Land Air 'Mech as a viable combat unit: the Nova Cats viewed Land Air 'Mechs as an abomination and utterly razed the LexaTech factory to the ground.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_stingerlam"
+        "Icon": "uixTxrIcon_gerwalk"
     },
     "simGameMechPartCost": 500000,
     "Version": 1,
