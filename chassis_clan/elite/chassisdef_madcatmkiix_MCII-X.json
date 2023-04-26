@@ -80,10 +80,6 @@
                     "Omni": true
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -143,26 +139,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -207,10 +184,6 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": true

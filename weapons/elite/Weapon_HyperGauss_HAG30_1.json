@@ -28,6 +28,7 @@
     "ProjectilesPerShot": 1,
     "AttackRecoil": 5,
     "Instability": 30,
+    "CanExplode": true,
     "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
     "Description": {
         "Cost": 7875000,

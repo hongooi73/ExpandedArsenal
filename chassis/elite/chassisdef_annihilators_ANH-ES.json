@@ -20,7 +20,7 @@
     "InitialTonnage": 23.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10581000,
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 2,
@@ -91,7 +91,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -128,7 +131,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,

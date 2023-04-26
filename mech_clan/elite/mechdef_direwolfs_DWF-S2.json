@@ -120,7 +120,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_2",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -175,7 +175,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_2",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,

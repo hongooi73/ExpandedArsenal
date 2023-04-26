@@ -20,7 +20,7 @@
     "InitialTonnage": 13.5,
     "weightClass": "LIGHT",
     "BattleValue": 2061000,
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "TopSpeed": 86,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -80,6 +80,10 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
@@ -108,6 +112,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false

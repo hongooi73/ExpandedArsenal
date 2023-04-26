@@ -164,7 +164,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_3",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -175,7 +175,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_3",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

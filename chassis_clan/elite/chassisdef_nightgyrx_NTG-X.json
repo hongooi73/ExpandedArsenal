@@ -80,6 +80,10 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
@@ -97,6 +101,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -131,6 +139,10 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -146,6 +158,10 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {

@@ -12,7 +12,7 @@
     "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 25,
-    "Damage": 70,
+    "Damage": 80,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -40,7 +40,7 @@
         "Details": "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA": "+ 10 Dmg.",
+    "BonusValueA": "+ 20 Dmg.",
     "BonusValueB": "- 5 Heat",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",

@@ -59,7 +59,7 @@
                 "useActivationsOfTarget": true,
                 "ticksOnEndOfRound": false,
                 "ticksOnMovements": false,
-                "stackLimit": 1,
+                "stackLimit": 0,
                 "clearedWhenAttacked": false
             },
             "targetingData": {

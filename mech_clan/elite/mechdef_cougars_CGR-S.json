@@ -152,7 +152,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_SRM_SRM2_STREAK_CLAN_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -174,7 +174,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_SRM_SRM2_STREAK_CLAN_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
