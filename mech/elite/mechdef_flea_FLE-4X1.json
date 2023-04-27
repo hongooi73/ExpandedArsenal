@@ -170,6 +170,17 @@
     ],
     "MechTags": {
         "items": [
+            "elite_forces",
+            "unit_ready",
+            "unit_role_scout",
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_mech",
+            "unit_light",
+            "unit_release",
+            "unit_mech_Advanced",
+            "mech_light_Advanced",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

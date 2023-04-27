@@ -270,6 +270,7 @@
     "VariantName": "WHK_X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

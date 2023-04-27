@@ -218,6 +218,7 @@
     "VariantName": "SHD-X1",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

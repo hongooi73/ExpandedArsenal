@@ -248,6 +248,7 @@
     "VariantName": "C-ANG-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

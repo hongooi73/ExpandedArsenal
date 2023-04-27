@@ -1,6 +1,18 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_release",
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_armor_low",
+            "NotKurita",
+            "Liao",
+            "NotSteiner",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

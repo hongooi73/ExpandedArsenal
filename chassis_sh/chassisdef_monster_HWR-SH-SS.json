@@ -249,7 +249,9 @@
     "VariantName": "HWR-SH-SS",
     "ChassisTags": {
         "items": [
-            "BLACKLISTED"
+            "BLACKLISTED",
+            "elite_arsenal_s_tier",
+            "mr-resize-1.8"
         ],
         "tagSetSourceFile": ""
     },

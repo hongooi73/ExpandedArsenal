@@ -139,6 +139,9 @@
     ],
     "ComponentTags": {
         "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

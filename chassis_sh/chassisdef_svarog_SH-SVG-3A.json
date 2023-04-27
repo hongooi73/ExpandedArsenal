@@ -258,6 +258,7 @@
     "VariantName": "SH-SVG-3A",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

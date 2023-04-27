@@ -262,6 +262,7 @@
     "VariantName": "OS-X2",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

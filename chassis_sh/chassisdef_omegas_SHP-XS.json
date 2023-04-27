@@ -239,6 +239,8 @@
     "VariantName": "SHP-XS",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
+            "mr-resize-1.5",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

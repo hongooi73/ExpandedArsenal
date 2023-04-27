@@ -215,6 +215,8 @@
     "VariantName": "AXM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.5",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

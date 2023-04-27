@@ -215,6 +215,7 @@
     "VariantName": "ZEU-YX",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

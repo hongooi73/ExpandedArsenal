@@ -283,6 +283,7 @@
     "VariantName": "HBR-X2",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -262,6 +262,7 @@
     "VariantName": "S-WN-2LAM",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.12",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

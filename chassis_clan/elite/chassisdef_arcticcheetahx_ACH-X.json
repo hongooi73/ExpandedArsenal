@@ -254,6 +254,7 @@
     "VariantName": "ACH-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -254,6 +254,8 @@
     "VariantName": "STG-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.1",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

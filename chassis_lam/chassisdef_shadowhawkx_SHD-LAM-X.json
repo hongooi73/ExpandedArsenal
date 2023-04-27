@@ -266,6 +266,8 @@
     "VariantName": "SHD-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.05",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

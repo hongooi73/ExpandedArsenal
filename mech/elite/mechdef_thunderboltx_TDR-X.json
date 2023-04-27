@@ -1,6 +1,28 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_indirectFire",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_range_short",
+            "unit_armor_high",
+            "unit_speed_low",
+            "unit_jumpOK",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "TaurianConcordat",
+            "unit_common",
+            "unit_role_scout",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_lance_vanguard",
+            "unit_lance_support",
+            "unit_lance_assassin",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

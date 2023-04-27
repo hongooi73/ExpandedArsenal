@@ -244,6 +244,7 @@
     "VariantName": "SH-GG-O7",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -1,6 +1,17 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_assassin",
+            "unit_role_sniper",
+            "unit_release",
+            "unit_range_medium",
+            "unit_armor_high",
+            "elite_forces",
+            "unit_mech_Advanced",
+            "mech_medium_Advanced",
+            "unit_speed_low",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

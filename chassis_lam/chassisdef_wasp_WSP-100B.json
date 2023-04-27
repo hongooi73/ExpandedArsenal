@@ -243,6 +243,7 @@
     "VariantName": "WSP-100B",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.1",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

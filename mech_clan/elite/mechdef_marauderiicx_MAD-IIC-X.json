@@ -1,6 +1,13 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_indirectFire",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_release",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

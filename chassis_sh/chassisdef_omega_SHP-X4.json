@@ -239,6 +239,7 @@
     "VariantName": "SHP-X4",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.5",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -285,6 +285,7 @@
     "VariantName": "PHX-HK1",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.2",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

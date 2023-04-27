@@ -231,6 +231,7 @@
     "VariantName": "FM-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

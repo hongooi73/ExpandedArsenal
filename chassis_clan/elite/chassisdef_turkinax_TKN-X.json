@@ -194,6 +194,8 @@
     ],
     "ChassisTags": {
         "items": [
+            "unit_mechtool",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

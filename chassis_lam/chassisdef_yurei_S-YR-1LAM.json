@@ -270,6 +270,7 @@
     "VariantName": "S-YR-1LAM",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.0",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -230,6 +230,7 @@
     "VariantName": "HGN-CX",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

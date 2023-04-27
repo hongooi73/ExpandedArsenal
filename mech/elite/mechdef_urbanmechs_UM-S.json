@@ -1,6 +1,28 @@
 {
     "MechTags": {
         "items": [
+            "unit_release",
+            "unit_mech_s_tier",
+            "unit_light",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_range_medium",
+            "unit_range_short",
+            "unit_jumpOK",
+            "unit_speed_low",
+            "unit_armor_high",
+            "Liao",
+            "TaurianConcordat",
+            "MagistracyOfCanopus",
+            "unit_common",
+            "unit_role_scout",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_lance_vanguard",
+            "unit_lance_support",
+            "unit_lance_assassin",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

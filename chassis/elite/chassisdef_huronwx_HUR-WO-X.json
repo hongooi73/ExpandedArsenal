@@ -216,6 +216,7 @@
     "VariantName": "HUR-WO-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

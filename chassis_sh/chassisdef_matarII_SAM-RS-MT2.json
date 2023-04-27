@@ -250,6 +250,7 @@
     "VariantName": "SAM-RS-MT2",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

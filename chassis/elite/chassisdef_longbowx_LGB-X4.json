@@ -241,6 +241,8 @@
     "VariantName": "LGB-X4",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.4",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

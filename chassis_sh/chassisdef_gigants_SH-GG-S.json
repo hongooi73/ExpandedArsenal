@@ -244,6 +244,8 @@
     "VariantName": "SH-GG-S",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

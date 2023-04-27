@@ -225,6 +225,7 @@
     "VariantName": "C-DVA-X3",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -231,6 +231,7 @@
     "VariantName": "HEH-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

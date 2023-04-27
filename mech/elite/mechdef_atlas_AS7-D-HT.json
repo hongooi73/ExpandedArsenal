@@ -1,6 +1,13 @@
 {
     "MechTags": {
         "items": [
+            "unit_indirectFire",
+            "unit_mech",
+            "unit_assault",
+            "Warboys",
+            "unit_ready",
+            "unit_lance_tank",
+            "unit_role_brawler",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

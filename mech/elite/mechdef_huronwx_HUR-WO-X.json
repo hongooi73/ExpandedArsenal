@@ -1,6 +1,13 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_role_support",
+            "unit_release",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -234,6 +234,8 @@
     "VariantName": "RPT-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

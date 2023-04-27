@@ -246,6 +246,7 @@
     "VariantName": "TMS-1",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

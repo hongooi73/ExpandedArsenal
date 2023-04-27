@@ -1,6 +1,14 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech_s_tier",
+            "unit_assault",
+            "unit_indirectFire",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_release",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

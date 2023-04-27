@@ -1,6 +1,12 @@
 {
     "MechTags": {
         "items": [
+            "unit_superheavy_s_tier",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

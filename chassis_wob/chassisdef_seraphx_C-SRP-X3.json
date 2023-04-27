@@ -233,6 +233,7 @@
     "VariantName": "C-SRP-X3",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

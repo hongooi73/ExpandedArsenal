@@ -270,6 +270,8 @@
     "VariantName": "YR-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.0",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

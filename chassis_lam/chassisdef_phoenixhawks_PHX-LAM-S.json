@@ -289,6 +289,8 @@
     "VariantName": "PHX-LAM-S",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.2",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

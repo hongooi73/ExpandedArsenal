@@ -258,6 +258,7 @@
     "VariantName": "SHD-X2",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.05",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

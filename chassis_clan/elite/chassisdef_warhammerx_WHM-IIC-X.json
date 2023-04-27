@@ -236,6 +236,7 @@
     "VariantName": "WHM-IIC-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -1,6 +1,21 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech_s_tier",
+            "unit_heavy",
+            "unit_release",
+            "unit_ready",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_role_sniper",
+            "unit_indirectFire",
+            "unit_range_medium",
+            "unit_range_long",
+            "unit_speed_low",
+            "wordofblake",
+            "wordofblake_s_tier",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

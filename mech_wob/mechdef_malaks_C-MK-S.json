@@ -1,6 +1,19 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech_s_tier",
+            "unit_light",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "unit_range_short",
+            "unit_hot",
+            "unit_speed_high",
+            "unit_armor_low",
+            "wordofblake",
+            "wordofblake_s_tier",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

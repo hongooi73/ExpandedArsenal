@@ -242,6 +242,7 @@
     "VariantName": "SH-LGB-9",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.8",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

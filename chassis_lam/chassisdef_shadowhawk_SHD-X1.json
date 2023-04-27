@@ -254,6 +254,7 @@
     "VariantName": "SHD-X1",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.05",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

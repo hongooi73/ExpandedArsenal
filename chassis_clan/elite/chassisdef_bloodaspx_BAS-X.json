@@ -257,6 +257,7 @@
     "VariantName": "BAS-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

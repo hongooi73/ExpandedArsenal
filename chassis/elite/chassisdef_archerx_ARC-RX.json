@@ -207,6 +207,7 @@
     "VariantName": "ARC-RX",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

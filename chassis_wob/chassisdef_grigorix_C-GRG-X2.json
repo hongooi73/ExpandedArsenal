@@ -221,6 +221,7 @@
     "VariantName": "C-GRG-X2",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

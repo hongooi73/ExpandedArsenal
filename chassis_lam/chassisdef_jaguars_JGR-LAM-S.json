@@ -265,6 +265,8 @@
     "VariantName": "JGR-LAM-S",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.12",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

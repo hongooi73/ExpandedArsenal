@@ -232,6 +232,7 @@
     "VariantName": "C-MK-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -1,6 +1,13 @@
 {
     "MechTags": {
         "items": [
+            "unit_jumpOK",
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_lam",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

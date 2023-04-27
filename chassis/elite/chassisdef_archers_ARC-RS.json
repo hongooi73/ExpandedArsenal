@@ -211,6 +211,7 @@
     "VariantName": "ARC-RS",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

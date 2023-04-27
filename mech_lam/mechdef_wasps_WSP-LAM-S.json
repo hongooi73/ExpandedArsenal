@@ -1,6 +1,19 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech_s_tier",
+            "unit_jumpOK",
+            "unit_release",
+            "unit_light",
+            "unit_ready",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_very_rare",
+            "unit_lam",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

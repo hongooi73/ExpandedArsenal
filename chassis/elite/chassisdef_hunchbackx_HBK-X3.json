@@ -223,6 +223,7 @@
     "VariantName": "HBK-X3",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

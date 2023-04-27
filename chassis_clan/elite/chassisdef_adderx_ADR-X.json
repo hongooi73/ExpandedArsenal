@@ -249,6 +249,7 @@
     "VariantName": "ADR-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

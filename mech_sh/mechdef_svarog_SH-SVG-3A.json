@@ -1,6 +1,10 @@
 {
     "MechTags": {
         "items": [
+            "unit_superheavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -276,6 +276,7 @@
     "VariantName": "MAD-IIC-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

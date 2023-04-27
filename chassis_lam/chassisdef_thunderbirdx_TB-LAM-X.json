@@ -273,6 +273,8 @@
     "VariantName": "TB-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.12",
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
