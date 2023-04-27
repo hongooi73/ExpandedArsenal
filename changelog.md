@@ -1,8 +1,10 @@
-## v4.0.1
+## v5.0.0
+
+Version 5.0.0 is a **major update** that removes some outdated mods and includes new ones. It also requires ModTek 3.0 and a relatively recent version of the CAB. As such, if you're upgrading from a previous version, it's highly recommended that you **delete** your entire mods folder, reinstall the CAB, install the latest ModTek, and then install EA. It's still back-compatible, so your existing saves will continue to work.
 
 ### Significant item changes
 
-- New item: C3i computer, available in stores and also mounted on Preta and Archangel mechs (see below). The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
+- New item: C3i computer, available in stores and also mounted on Word of Blake mechs. The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
 - Major buff to the binary large laser (blazer). Instead of firing one shot for middling damage, it now fires two shots for 50 points each.
 - Buff damage output of medium and large X-pulse lasers
 - Add ER medium and large pulse lasers (clan)
