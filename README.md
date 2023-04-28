@@ -41,8 +41,9 @@ In addition, the following included mods are optional: you don't have to use the
 
 ## Credits
 
-This modpack wouldn't have been possible without the contributions of many people, including: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (all the weapon and equipment mods), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix, FYLS), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System, Pilot Fatigue), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI), Jamie Wolf (Mech Affinity), Don Zappo (Repair Bays, Pilot Fatigue), Asimov (Drop Tonnage Reward and Limit on Difficulty). THANK YOU for letting me include your work in Expanded Arsenal!
+This modpack wouldn't have been possible without the contributions of many people, including: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (all the weapon and equipment mods), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix, FYLS), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System, Pilot Fatigue), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI), Jamie Wolf (Mech Affinity), Don Zappo (Repair Bays, Pilot Fatigue), Asimov (Drop Tonnage Reward and Limit on Difficulty), mcb (Simple Mech Assembly). THANK YOU for letting me include your work in Expanded Arsenal!
 
+In addition, much credit to Amechwarrior, tbone, Jamie Wolf, CWolf and others on Discord who helped me come to grips with the HBS flashpoint system.
 
 ## Feedback/bug reports
 

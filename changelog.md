@@ -2,6 +2,21 @@
 
 Version 5.0.0 is a **major update** that removes some outdated mods and includes new ones. It also requires ModTek 3.0 and a relatively recent version of the CAB. As such, if you're upgrading from a previous version, it's highly recommended that you **delete** your entire mods folder, reinstall the CAB, install the latest ModTek, and then install EA. It's still back-compatible, so your existing saves will continue to work.
 
+### Simple Mech Assembly
+
+EA now uses the Simple Mech Assembly mod, which lets you put mechs together from different variants of the same chassis. Eg if you have 2 WHM-6R parts and 1 WHM-6D part, you can combine them to build either a WHM-6R or WHM-6D. This should make it easier to acquire mechs, and reduce the downside to having too many mechs defined.
+
+When picking parts for salvage, the number of parts you have for a given chassis looks like this: **A(B)/C(D)** where A, B, C and D are numbers:
+
+- **A** is the number of parts you have for this chassis variant
+- **B** is the number of parts you have for other variants of the same chassis
+- **C** is the number of parts you need for a complete mech
+- **D** is how many complete mechs of this variant you have in storage
+
+So for example, 0(1)/3(4) means you have 0 parts of this variant and 1 part from a different variant, you need 3 parts to build a new mech, and you have 4 complete mechs already built.
+
+All vanilla, base Expanded Arsenal and Elite Forces mechs are considered to be part of the same pool for assembly purposes. For example, you can combine parts from a MAD-3R (vanilla), MAD-3L (Expanded Arsenal) and MAD-2RX (Elite Forces) to build a new Marauder. Elite Arsenal X-tier mechs form another pool, and S-tier mechs yet another pool, so you can combine MAD-S1, MAD-S2 and MAD-S3 parts to build a new S-tier Marauder. However, you can't combine parts from different pools: eg MAD-3R, MAD-X1 and MAD-S2 parts can't be combined to build a new mech.
+
 ### Significant item changes
 
 - New item: C3i computer, available in stores and also mounted on Word of Blake mechs. The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
@@ -70,7 +85,7 @@ Conversely, some _other_ mechs (clearly originating from different authors) had 
 
 - To streamline mod management, the items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
 - Fix clan mechs not being available in shops
-- All Gauss weapons can now explode on a critical hit. This change affects heavy and light Gauss rifles, all HAGs, the XMD/40 mass driver and the SB rotary Gauss rifle.
+- All Gauss weapons can now explode on a critical hit. This change affects heavy and light Gauss rifles, all HAGs, the XMD/40 mass driver and the Silver Bullet Gauss rifle.
 - Remove some NPC-only mechs that accidentally showed up in shops
 - Fix a bug where the accuracy penalty from heavy and light PPC hits didn't stack
 - Fix the allowed locations for the XMD/40 mass driver and SB Rotary Gauss (should only be the torso)
