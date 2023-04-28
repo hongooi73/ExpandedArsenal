@@ -63,9 +63,9 @@
         }
     ],
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_vf11lam",
-    "PrefabIdentifier": "chrprfmech_vf11lambase-001",
-    "PrefabBase": "vf11lam",
+    "HardpointDataDefID": "hardpointdatadef_switchblade",
+    "PrefabIdentifier": "chrprfmech_switchbladebase-001",
+    "PrefabBase": "switchblade",
     "Tonnage": 50,
     "InitialTonnage": 16,
     "weightClass": "MEDIUM",
