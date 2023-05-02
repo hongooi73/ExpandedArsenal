@@ -1,0 +1,586 @@
+{
+    "StartingMilestoneID" : "ms_fp_ea_elites_001",
+    "Milestones" : [
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_001",
+                "Name" : "Start",
+                "Details" : "Start",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Flashpoint",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "fp_choice_a",
+                            "fp_choice_b",
+                            "fp_choice_cancel"
+                        ]
+                    },
+                    "Stats" : null,
+                    "Actions" : null,
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_elites_002_briefing",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_002_briefing",
+                "Name" : "Mission briefing",
+                "Details" : "Mission briefing",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c4bed9e990af92604d036f4",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_elites_003_briefingresult",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_003_briefingresult",
+                "Name" : "Briefing result",
+                "Details" : "Briefing result",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_elites_011_mission1",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_011_mission1",
+                "Name" : "Mission 1",
+                "Details" : "Mission 1",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapArena_deathValley_aDes",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_elites_mission1",
+                                "AuriganRestoration",
+                                "AuriganDirectorate",
+                                "3",
+                                "ms_fp_ea_elites_012_mission2",
+                                "AuriganDirectorate",
+                                "AuriganDirectorate",
+                                null,
+                                "AuriganDirectorate",
+                                "AuriganDirectorate"
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_012_mission2",
+                "Name" : "Mission 2",
+                "Details" : "Mission 2",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapArena_bigLoch_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_elites_mission2",
+                                "AuriganRestoration",
+                                "AuriganDirectorate",
+                                "4",
+                                "ms_fp_ea_elites_013_mission3",
+                                "AuriganDirectorate",
+                                "AuriganDirectorate",
+                                null,
+                                "AuriganDirectorate",
+                                "AuriganDirectorate"
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_013_mission3",
+                "Name" : "Mission 3",
+                "Details" : "Mission 3",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_cityCenter_uTech",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_elites_mission3",
+                                "AuriganRestoration",
+                                "AuriganDirectorate",
+                                "5",
+                                "ms_fp_ea_elites_099_debrief",
+                                "AuriganDirectorate",
+                                "AuriganDirectorate",
+                                null,
+                                "AuriganDirectorate",
+                                "AuriganDirectorate"
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_099_debrief",
+                "Name" : "Debrief",
+                "Details" : "Debrief",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c7e6ec7dee4cc291ced842a",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_elites_200_complete",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_200_complete",
+                "Name" : "Complete",
+                "Details" : "Complete",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "flashpoint_ea_elites_complete"
+                        ]
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_CompleteFlashpoint",
+                            "value" : "ms_fp_ea_elites_201_reward",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "itemCollection_fp_ea_elites",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Ship",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_elites_201_reward",
+                "Name" : "Reward",
+                "Details" : "rewards",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Funds",
+                            "value" : "100000",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
+                    "Actions" : [],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        }
+    ]
+}

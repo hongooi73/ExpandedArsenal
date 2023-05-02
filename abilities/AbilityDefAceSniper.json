@@ -1,0 +1,123 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefAceSniper",
+		"Name" : "Sniper",
+		"Details" : "PASSIVE: The Sniper uses acurate, long range shots to hit moving targets.",
+		"Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+	},
+	"Type" : "Command",
+	"ShortDesc" : "Long range shots against moving targets.",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+            "Description" : {
+                "Id" : "StatusEffectAceEvasionIgnore",
+                "Name" : "Sniper Evasion Ignore",
+                "Details" : "Snipers excell at hitting moving targets.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1,
+				"ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "EvasivePipsIgnored",
+                "operation" : "Float_Add",
+				"modValue" : "3",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+                "Description" : {
+                    "Id" : "StatusEffect-Ace-RangeIncreaseLong",
+                    "Name" : "Sniper Distance Shooting",
+                    "Details" : "Snipers can engage at longer distances.",
+                    "Icon" : "UixSvgIcon_specialAbility_BWCL"
+                },
+                "durationData" : {
+                    "duration" : -1,
+                    "stackLimit" : -1
+                },
+                "targetingData" : {
+                    "effectTriggerType" : "Passive",
+                    "effectTargetType" : "Creator",
+                    "showInTargetPreview" : true,
+                    "showInStatusPanel" : true
+                },
+                "effectType" : "StatisticEffect",
+                "nature" : "Buff",
+                "statisticData" : {
+                    "appliesEachTick" : false,
+                    "effectsPersistAfterDestruction" : false,
+                    "statName" : "LongRange",
+                    "operation" : "Float_Add",
+                    "modValue" : "60.0",
+                    "modType" : "System.Single",
+                    "additionalRules" : "NotSet",
+                    "targetCollection" : "Weapon",
+                    "targetWeaponCategory" : "NotSet",
+                    "targetWeaponType" : "NotSet",
+                    "targetAmmoCategory" : "NotSet",
+                    "targetWeaponSubType" : "NotSet"
+                }
+        },
+        {
+                "Description" : {
+                    "Id" : "StatusEffect-Ace-RangeIncreaseMax",
+                    "Name" : "Sniper Distance Shooting",
+                    "Details" : "Increases max range bracket by 60m.",
+                    "Icon" : "UixSvgIcon_specialAbility_BWCL"
+                },
+                "durationData" : {
+                    "duration" : -1,
+                    "stackLimit" : -1
+                },
+                "targetingData" : {
+                    "effectTriggerType" : "Passive",
+                    "effectTargetType" : "Creator",
+                    "showInTargetPreview" : false,
+                    "showInStatusPanel" : false
+                },
+                "effectType" : "StatisticEffect",
+                "nature" : "Buff",
+                "statisticData" : {
+                    "appliesEachTick" : false,
+                    "effectsPersistAfterDestruction" : false,
+                    "statName" : "MaxRange",
+                    "operation" : "Float_Add",
+                    "modValue" : "60.0",
+                    "modType" : "System.Single",
+                    "additionalRules" : "NotSet",
+                    "targetCollection" : "Weapon",
+                    "targetWeaponCategory" : "NotSet",
+                    "targetWeaponType" : "NotSet",
+                    "targetAmmoCategory" : "NotSet",
+                    "targetWeaponSubType" : "NotSet"
+                }
+        }
+	]
+}

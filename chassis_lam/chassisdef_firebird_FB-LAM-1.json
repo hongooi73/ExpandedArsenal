@@ -265,7 +265,7 @@
     "VariantName": "FB-LAM-1",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.0",
+            "mr-resize-0.9",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
