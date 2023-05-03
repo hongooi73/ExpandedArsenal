@@ -1,6 +1,6 @@
 {
     "ID": "fp_ea_elites_mission2",
-    "contractName": "Testing Grounds: Mission 2 (+)",
+    "contractName": "Elite Testing Grounds: Mission 2 (+)",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 5,
     "difficultyUIModifier": 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Your duel against the light lance has given us a great deal of excellent data, Commander! Our techs will be poring over it for weeks. For the next run, we have a mix of medium and light 'Mechs: an Uziel, Nova, Adder and Javelin. The Uziel is an S-tier build, while the Nova and Adder are X-tier. The Nova is a specialist disabler that can overheat and jam your weapons, so be careful taking it on. The fight will take place in the highlands just outside the city.",
-    "longDescription": "They're letting us bring a heavy 'Mech this time, but nothing too extreme.",
+    "shortDescription": "Your duel against the light lance has given us a great deal of excellent data, Commander! Our techs will be poring over it for weeks. For the next run, we have a mix of medium and light 'Mechs: an Uziel, Nova, Adder and Javelin. The Uziel is an S-tier build, while the Nova and Adder are X-tier. The Nova is a specialist disabler that can overheat and blind a 'Mech, so be careful taking it on. The fight will take place in the highlands just outside the city.",
+    "longDescription": "They're letting us bring a heavy 'Mech this time. This is an opportunity to test how a Marauder's precision shot ability fares against an elite target.",
     "salvagePotential": 3,
     "requirementList": [
 

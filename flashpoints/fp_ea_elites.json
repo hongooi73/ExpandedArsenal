@@ -1,7 +1,7 @@
 {
     "Description" : {
         "Id" : "fp_ea_elites",
-        "Name" : "Testing Grounds",
+        "Name" : "Elite Testing Grounds",
         "Details" : "Introduction to Elites flashpoint",
         "Icon" : null
     },
@@ -26,8 +26,8 @@
                 {
                     "obj" : "Reputation.MercenaryReviewBoard",
                     "op" : "GreaterThan",
-                    "val" : 300,
-                    "valueConstant" : "300"
+                    "val" : 150,
+                    "valueConstant" : "150"
                 }
             ]
         }
