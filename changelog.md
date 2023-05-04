@@ -6,7 +6,7 @@ Version 5.0.0 is a **major update** that removes some outdated mods and includes
 
 EA now uses the Simple Mech Assembly mod, which lets you put mechs together from different variants of the same chassis. Eg if you have 2 WHM-6R parts and 1 WHM-6D part, you can combine them to build either a WHM-6R or WHM-6D. This should make it easier to acquire mechs, and reduce the downside to having too many mechs defined.
 
-When picking parts for salvage, the number of parts you have for a given chassis looks like this: **A(B)/C(D)** where A, B, C and D are numbers:
+When picking parts for salvage, the display for how many parts you have looks like **A(B)/C(D)** where A, B, C and D are numbers:
 
 - **A** is the number of parts you have for this chassis variant
 - **B** is the number of parts you have for other variants of the same chassis
@@ -15,7 +15,7 @@ When picking parts for salvage, the number of parts you have for a given chassis
 
 So for example, 0(1)/3(4) means you have 0 parts of this variant and 1 part from a different variant, you need 3 parts to build a new mech, and you have 4 complete mechs already built.
 
-All vanilla, base Expanded Arsenal and Elite Forces mechs are considered to be part of the same pool for assembly purposes. For example, you can combine parts from a MAD-3R (vanilla), MAD-3L (Expanded Arsenal) and MAD-2RX (Elite Forces) to build a new Marauder. Elite Arsenal X-tier mechs form another pool, and S-tier mechs yet another pool, so you can combine MAD-S1, MAD-S2 and MAD-S3 parts to build a new S-tier Marauder. However, you can't combine parts from different pools: eg MAD-3R, MAD-X1 and MAD-S2 parts can't be combined to build a new mech.
+All vanilla, base Expanded Arsenal and Elite Forces mechs are considered to be part of the same pool for assembly purposes. For example, you can combine parts from a MAD-3R (vanilla), MAD-3L (Expanded Arsenal) and MAD-2RX (Elite Forces) to build a new Marauder. Elite Arsenal X-tier mechs form another pool, and S-tier mechs yet another pool. Thus, you can combine MAD-S1, MAD-S2 and MAD-S3 parts to build a new S-tier Marauder. However, you can't combine parts from different pools: eg MAD-3R, MAD-X1 and MAD-S2 parts can't be combined to build a new mech.
 
 ### Significant item changes
 
@@ -80,6 +80,16 @@ To deal with this, the affected mechs have had their hardpoints reduced to a mor
 
 Conversely, some _other_ mechs (clearly originating from different authors) had anemic hardpoint allocations: as few as 2 or 4 in some cases, the minimum required for their stock loadout. These have had more hardpoints added, to make them more flexible.
 
+### Stores
+
+The store system has been reworked to be closer to the vanilla game. Rather than all EA items and mechs being available on a small number of worlds, a subset of items is available on all worlds matching various criteria:
+
+- Chemicals: missile weapons, flamers, inferno
+- Electronics: laser weapons, targeting computer, Artemis IV
+- Industrial: CIC cockpit, machine guns
+- Mining: autocannon, including UAC, LBX, HVAC, RAC
+- Research: PPC/plasma weapons, advanced electronics gear
+- Star League: Gauss weapons
 
 ### Bug fixes/changes
 
@@ -88,7 +98,7 @@ Conversely, some _other_ mechs (clearly originating from different authors) had 
 - All Gauss weapons can now explode on a critical hit. This change affects heavy and light Gauss rifles, all HAGs, the XMD/40 mass driver and the Silver Bullet Gauss rifle.
 - Remove some NPC-only mechs that accidentally showed up in shops
 - Fix a bug where the accuracy penalty from heavy and light PPC hits didn't stack
-- Fix the allowed locations for the XMD/40 mass driver and SB Rotary Gauss (should only be the torso)
+- Fix the allowed locations for the XMD/40 mass driver and SB Gauss rifle (should only be the torso)
 - Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
 - Fix movement for Warhammer IIC
 - Fix heat generation for MML3/5/7: should be 6, 9 and 12 heat respectively, to match TT values

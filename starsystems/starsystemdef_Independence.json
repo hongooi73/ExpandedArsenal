@@ -1,0 +1,16 @@
+{
+    "TargetID": "starsystemdef_Independence",
+    "Instructions": [
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_Master_EA"
+        },
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_electronics_EA"
+        }
+    ]
+}
+

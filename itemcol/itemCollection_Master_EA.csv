@@ -1,7 +1,5 @@
-itemCollection_Master_EA,,,
+itemCollection_Master_EA,type,qty,weight
 itemCollection_Ammo_EA,Reference,0,1
-itemCollection_Weapons_EA,Reference,20,1
-itemCollection_Upgrades_EA,Reference,6,1
 itemCollection_HeatSinks_EA,Reference,2,1
 itemCollection_JumpJets_EA,Reference,3,1
 itemCollection_Mech_CLAN,Reference,8,1
