@@ -59,13 +59,13 @@
         "Id": "chassisdef_wanetas_WN-LAM-S",
         "Name": "Waneta",
         "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
-        "Icon": "uixTxrIcon_waneta"
+        "Icon": "uixTxrIcon_gerwalk4"
     },
     "MovementCapDefID": "movedef_waneta",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_waneta",
-    "PrefabIdentifier": "chrprfmech_wanetabase-001",
-    "PrefabBase": "waneta",
+    "HardpointDataDefID": "hardpointdatadef_twlam",
+    "PrefabIdentifier": "chrprfmech_twlambase-001",
+    "PrefabBase": "twlam",
     "Tonnage": 55,
     "InitialTonnage": 23.5,
     "weightClass": "MEDIUM",
@@ -270,6 +270,8 @@
     "VariantName": "WN-LAM-S",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.12",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

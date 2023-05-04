@@ -1,0 +1,11 @@
+{
+    "TargetID": "starsystemdef_Maldive",
+    "Instructions": [
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_Master_EA"
+        }
+    ]
+}
+

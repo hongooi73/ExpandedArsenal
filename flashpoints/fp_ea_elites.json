@@ -1,0 +1,70 @@
+{
+    "Description" : {
+        "Id" : "fp_ea_elites",
+        "Name" : "Elite Testing Grounds",
+        "Details" : "Introduction to Elites flashpoint",
+        "Icon" : null
+    },
+    "Weight" : 1000,
+    "InternalName" : "ea_elites",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 5,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : [
+                    "flashpoint_ea_elites_complete"
+                ]
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "Reputation.MercenaryReviewBoard",
+                    "op" : "GreaterThan",
+                    "val" : 150,
+                    "valueConstant" : "150"
+                }
+            ]
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/PlanetTags",
+            "items" : [
+                "planet_name_coromodir"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/PlanetTags",
+            "items" : []
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "AuriganRestoration"
+    ],
+    "TargetFaction" : "AuriganDirectorate",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_ea_elites",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 180,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 30,
+    "RewardCollectionID" : "itemCollection_fp_ea_elites",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "Commander, we've recently acquired some examples of highly advanced 'Mechs and equipment. As a trusted friend of the Restoration, we'd like you to help us run them through some field tests.",
+    "FlashpointDescriberCastDefId" : "castDef_KameaDefault",
+    "Tags" : {
+        "tagSetSourceFile" : "tags/FlashpointTags",
+        "items" : []
+    }
+}

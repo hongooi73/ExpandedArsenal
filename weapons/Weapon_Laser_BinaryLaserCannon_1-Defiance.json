@@ -11,7 +11,7 @@
     ],
     "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 33,
+    "HeatGenerated": 36,
     "Damage": 55,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -37,11 +37,11 @@
         "UIName": "Binary Laser +",
         "Id": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
         "Name": "Binary Laser +",
-        "Details": "Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased penetration, the damage was still lower than firing two Large Lasers separately.  This variant adds a cooling jacket to reduce heat.",
+        "Details": "The Binary Laser (nicknamed 'Blazer') fuses two Large Laser cores together, allowing them to be fired simultaneously. Originally considered a dead end due to the enormous amounts of heat generated, improvements in heatsinking technology have made Blazers viable again. More advanced variants increase the weapon's damage output while reducing weight and bulk.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "+ 5 Dmg.",
-    "BonusValueB": "- 3 Heat",
+    "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "Laser",
@@ -56,6 +56,7 @@
     ],
     "ComponentTags": {
         "items": [
+            "component_type_stock",
             "component_type_variant",
             "component_type_variant1",
             "range_long"

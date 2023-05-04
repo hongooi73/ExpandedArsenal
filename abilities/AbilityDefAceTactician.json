@@ -1,0 +1,89 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefAceTactician",
+		"Name" : "Tactician",
+		"Details" : "PASSIVE: The Ace Tactiacian has better initiave and ability to hit targets.",
+		"Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+	},
+	"Type" : "Command",
+	"ShortDesc" : "To-hit and iniative bonus.",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		
+    {
+    "Description" : {
+        "Id" : "StatusEffect-Ace-Initiative",
+        "Name" : "Ace Initiave Buff",
+        "Details" : "Ace Tactician +1 initiative.",
+        "Icon" : "UixSvgIcon_specialAbility_BWCL"
+    },
+    "effectType" : "StatisticEffect",
+    "nature" : "Buff",
+    "durationData" : {
+        "duration" : -1,
+        "stackLimit" : 1,
+        "ticksOnActivations" : false,
+        "useActivationsOfTarget" : false,
+        "ticksOnEndOfRound" : false,
+        "ticksOnMovements" : false,
+        "clearedWhenAttacked" : false
+    },
+    "targetingData" : {
+        "effectTriggerType" : "Passive",
+        "effectTargetType" : "Creator",
+        "showInTargetPreview" : true,
+        "showInStatusPanel" : true,
+        "forcePathRebuild" : false,
+        "forceVisRebuild" : false,
+        "hideApplicationFloatie" : true
+    },
+    "statisticData" : {
+        "statName" : "BaseInitiative",
+        "operation" : "Int_Add",
+        "modValue" : "-1",
+        "modType" : "System.Int32",
+        "additionalRules" : "NotSet",
+        "targetCollection" : "NotSet",
+        "targetWeaponCategory" : "NotSet",
+        "targetWeaponType" : "NotSet",
+        "targetAmmoCategory" : "NotSet",
+        "targetWeaponSubType" : "NotSet"
+    }
+},
+{
+    "Description" : {
+        "Id" : "StatusEffect-Ace-Accuracy",
+        "Name" : "Ace Accuracy Buff",
+        "Details" : "Ace Tactician accuracy [AMT].",
+        "Icon" : "UixSvgIcon_specialAbility_BWCL"
+    },
+    "effectType" : "StatisticEffect",
+    "nature" : "Buff",
+    "durationData" : {
+        "duration" : -1,
+        "stackLimit" : 1
+    },
+    "targetingData" : {
+        "effectTriggerType" : "Passive",
+        "effectTargetType" : "Creator",
+        "showInTargetPreview" : true,
+        "showInStatusPanel" : true,
+        "hideApplicationFloatie" : true
+    },
+    "statisticData" : {
+        "statName" : "AccuracyModifier",
+        "operation" : "Float_Add",
+        "modValue" : "-2",
+        "modType" : "System.Single",
+        "additionalRules" : "NotSet",
+        "targetCollection" : "Weapon",
+        "targetWeaponCategory" : "NotSet",
+        "targetWeaponType" : "NotSet",
+        "targetAmmoCategory" : "NotSet",
+        "targetWeaponSubType" : "NotSet"
+    }
+}
+]
+}

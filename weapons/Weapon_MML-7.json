@@ -11,7 +11,7 @@
     ],
     "ammoCategoryID" : "LRM",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 15,
+    "HeatGenerated": 12,
     "Damage": 6,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -54,8 +54,7 @@
     "statusEffects": [],
     "ComponentTags": {
         "items": [
-            "component_type_variant",
-            "component_type_variant1",
+            "component_type_stock",
             "range_long"
         ],
         "tagSetSourceFile": ""

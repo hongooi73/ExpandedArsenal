@@ -19,7 +19,7 @@
     "Tonnage": 60,
     "InitialTonnage": 23.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -208,6 +208,7 @@
     "VariantName": "RFL-S",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

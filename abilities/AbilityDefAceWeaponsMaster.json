@@ -1,0 +1,117 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefAceWeaponsMaster",
+		"Name" : "Weapon's Master",
+		"Details" : "PASSIVE: The Weapons Master can enhance the performance of any weapon at hand.",
+		"Icon" : "UixSvgIcon_specialAbility_BWCL"
+	},
+	"Type" : "Command",
+	"ShortDesc" : "Effective Weapons Usage",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-MissleClustering",
+                "Name" : "Clustering",
+                "Details" : "The Weapons Master can put more missles on target.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "ClusteringModifier",
+                "operation" : "Float_Add",
+                "modValue" : "10",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-EnergyToHit",
+                "Name" : "Laser Precision",
+                "Details" : "The Weapons Master uses lasers with surgical precision.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "Laser",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-ACStructureDamage",
+                "Name" : "AP ROUNDS",
+                "Details" : "The Weapons Master uses AutoCannon to pierce enemy armor.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "StructureDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "5.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Autocannon",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+		
+	]
+}

@@ -73,18 +73,6 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
@@ -183,18 +171,6 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {

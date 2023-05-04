@@ -11,6 +11,44 @@
         "Details": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer. The two primary weapons on board the Axman are its massive Hatchet, which alone weighs five tons and can cleave through enemy 'Mech armor like a knife through butter, and a Autocannon/20, which can strip over a ton of armor off of an enemy 'Mech with ease. The 'Mech also carries a trio of Medium Lasers and a highly accurate Large Pulse Laser for short to intermediate range combat.",
         "Icon": "uixTxrIcon_hatchetman"
     },
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_TSM_Prototype_Bergan",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_TSM_Prototype_Bergan",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
     "MovementCapDefID": "movedef_hatchetman_HCT-3F",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_hatchetman",
@@ -53,7 +91,7 @@
 
             ],
             "Tonnage": 0,
-            "InventorySlots": 6,
+            "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -62,12 +100,16 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 12,
+            "InventorySlots": 8,
             "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -85,7 +127,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 12,
+            "InventorySlots": 10,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -93,10 +135,13 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
-            "InventorySlots": 15,
+            "InventorySlots": 4,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -118,7 +163,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 12,
+            "InventorySlots": 10,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -126,6 +171,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -140,7 +189,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 12,
+            "InventorySlots": 8,
             "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -151,7 +200,7 @@
 
             ],
             "Tonnage": 0,
-            "InventorySlots": 6,
+            "InventorySlots": 4,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -162,7 +211,7 @@
 
             ],
             "Tonnage": 0,
-            "InventorySlots": 6,
+            "InventorySlots": 4,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -215,46 +264,13 @@
     "VariantName": "AXM-S",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.5",
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Melee Specialist",
-    "YangsThoughts": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer. The two primary weapons on board the Axman are its massive Hatchet, which alone weighs five tons and can cleave through enemy 'Mech armor like a knife through butter, and a Autocannon/20, which can strip over a ton of armor off of an enemy 'Mech with ease. The 'Mech also carries a trio of Medium Lasers and a highly accurate Large Pulse Laser for short to intermediate range combat.",
-    "FixedEquipment": [
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_TSM_Prototype_Bergan",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_TSM_Prototype_Bergan",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
-    ]
+    "YangsThoughts": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer. The two primary weapons on board the Axman are its massive Hatchet, which alone weighs five tons and can cleave through enemy 'Mech armor like a knife through butter, and a Autocannon/20, which can strip over a ton of armor off of an enemy 'Mech with ease. The 'Mech also carries a trio of Medium Lasers and a highly accurate Large Pulse Laser for short to intermediate range combat."
 }
 

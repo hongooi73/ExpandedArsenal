@@ -2,8 +2,11 @@
     "Name": "Expanded Arsenal",
     "Enabled": true,
     "Description": "Uses the CAB to add new mechs and vehicles.",	
-    "Version": "4.0.1",
+    "Version": "5.0.0",
     "Author": "Z06Frank/hongooi2",
+    "DependsOn": [
+        "FlashpointEnabler"
+    ],
     "OptionallyDependsOn": [
         "AdvancedWeapons",
         "Even More Gear",
@@ -13,6 +16,11 @@
         "More Rokkits",
         "PlasmaRifle",
         "Artillery"
+    ],
+    "RequiredContentPacks": [
+        "flashpoint",
+        "urbanwarfare",
+        "heavymetal"
     ],
     "Manifest": [
         { "Type": "AbilityDef", "Path": "abilities" },
@@ -26,10 +34,12 @@
         { "Type": "ChassisDef", "Path": "chassis_clan" },
         { "Type": "ChassisDef", "Path": "chassis_vp" },
         { "Type": "ChassisDef", "Path": "chassis_lam" },
+        { "Type": "ChassisDef", "Path": "chassis_fp" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MechDef", "Path": "mech_clan" },
         { "Type": "MechDef", "Path": "mech_vp" },
         { "Type": "MechDef", "Path": "mech_lam" },
+        { "Type": "MechDef", "Path": "mech_fp" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement_vehicle" },
         { "Type": "VehicleDef", "Path": "vehicle" },
@@ -38,6 +48,10 @@
         { "Type": "TurretChassisDef", "Path": "chassis_turret" },
         { "Type": "Sprite", "Path": "portraits" },
         { "Type": "Sprite", "Path": "sprite" },
+        { "Type": "FactionDef", "Path": "factions"},
+        { "Type": "Texture2D", "Path": "Emblems" },
+        { "Type": "Sprite", "Path": "Emblems" },
+        { "Type": "HeraldryDef", "Path": "heraldry" },
         {
             "Type": "LanceDef",
             "Path": "lance",
@@ -46,6 +60,33 @@
         {
             "Type": "AdvancedJSONMerge",
             "Path": "starsystems"
+        },
+        {
+            "Type": "FlashpointDef",
+            "Path": "flashpoints"
+        },
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+        {
+            "Type": "SimGameMilestoneSet",
+            "Path": "milestoneSets"
+        },
+        {
+            "Type": "BaseDescriptionDef",
+            "Path": "lore"
+        },
+        {
+            "Type": "ContractOverride",
+            "Path": "contracts"
+        },
+		{ "Type": "PilotDef", "Path": "pilot", "AddToDB":true }
+    ],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.FactionEnumeration",
+            "path": "Faction.json"
         }
     ]
 }

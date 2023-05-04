@@ -1,0 +1,11 @@
+{
+    "TargetID": "starsystemdef_Pilpala",
+    "Instructions": [
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_Master_EA"
+        }
+    ]
+}
+

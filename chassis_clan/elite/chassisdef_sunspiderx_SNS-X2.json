@@ -222,6 +222,7 @@
     "VariantName": "SNS-X2",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

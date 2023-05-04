@@ -83,7 +83,15 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -115,7 +123,15 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -213,6 +229,7 @@
     "VariantName": "UZL-S",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

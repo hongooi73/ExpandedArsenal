@@ -100,14 +100,6 @@
                 {
                     "Omni": false,
                     "WeaponMount": "AntiPersonnel"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "AntiPersonnel"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "AntiPersonnel"
                 }
             ],
             "Tonnage": 0,
@@ -136,22 +128,6 @@
                 {
                     "Omni": false,
                     "WeaponMount": "Missile"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "Energy"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "Energy"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "Energy"
-                },
-                {
-                    "Omni": false,
-                    "WeaponMount": "Energy"
                 }
             ],
             "Tonnage": 0,

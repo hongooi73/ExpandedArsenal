@@ -229,6 +229,7 @@
     "VariantName": "ZEU-XX",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

@@ -5,6 +5,11 @@
             "JSONPath": "SystemShopItems",
             "Action": "ArrayAdd",
             "Value": "itemCollection_Master_EA"
+        },
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_manufacturing_EA"
         }
     ]
 }

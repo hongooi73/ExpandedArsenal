@@ -1,0 +1,16 @@
+{
+    "TargetID": "starsystemdef_Jacson",
+    "Instructions": [
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_Master_EA"
+        },
+        {
+            "JSONPath": "SystemShopItems",
+            "Action": "ArrayAdd",
+            "Value": "itemCollection_research_EA"
+        }
+    ]
+}
+

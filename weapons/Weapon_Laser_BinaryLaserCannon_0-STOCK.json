@@ -37,7 +37,7 @@
         "UIName" : "Binary Laser",
         "Id" : "Weapon_Laser_BinaryLaserCannon_0-STOCK",
         "Name" : "Binary Laser",
-        "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased penetration, the damage was still lower than firing two Large Lasers separately.",
+        "Details" : "The Binary Laser (nicknamed 'Blazer') fuses two Large Laser cores together, allowing them to be fired simultaneously. Originally considered a dead end due to the enormous amounts of heat generated, improvements in heatsinking technology have made Blazers viable again.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",

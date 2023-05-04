@@ -20,7 +20,7 @@
     "InitialTonnage": 18.5,
     "weightClass": "MEDIUM",
     "BattleValue": 4124000,
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "TopSpeed": 65,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -61,7 +61,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -72,6 +75,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -90,7 +97,10 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -101,6 +111,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -121,6 +135,14 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -204,6 +226,7 @@
     "VariantName": "TLS-S",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

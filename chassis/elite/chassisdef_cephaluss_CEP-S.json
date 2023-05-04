@@ -1,0 +1,219 @@
+{
+    "Description": {
+        "Cost": 2100000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Cephalus",
+        "Id": "chassisdef_cephaluss_CEP-S",
+        "Name": "Cephalus",
+        "Details": "The Cephalus was developed by The Society as an escort unit for their Septicemia series OmniMech. This light 'Mech was designed to serve primarily one purpose: Bringing the Nova Combined Electronic Warfare System (CEWS) to the battlefield. To insure that the Cephalus would survive, the designers used a 250-rated XXL Engine that provides a cruising speed of over 100km/h. Protection for the Cephalus comes from six tons of Ferro-Lamellor armor. Targeting systems were further disrupted by the Chameleon Light Polarization Shield and Null-Signature Systems that the Society built from old SLDF plans. If the speed, armor, and electronic systems failed, the Cephalus pilot (being a valuable and limited resource) was further protected by a Full-Head Ejection System. This ejection system allowed Society warriors to be picked up after the battle was over",
+        "Icon": "uixTxrIcon_cephalus"
+    },
+    "FixedEquipment": [
+
+    ],
+    "MovementCapDefID": "movedef_cephalus",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_cephalus",
+    "PrefabIdentifier": "chrprfmech_cephalusbase-001",
+    "PrefabBase": "cephalus",
+    "Tonnage": 25,
+    "InitialTonnage": 12.5,
+    "weightClass": "LIGHT",
+    "BattleValue": 2061000,
+    "Heatsinks": 45,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 35,
+    "MeleeInstability": 25,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 9.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "CEP-S",
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Fast Recon & Scout",
+    "YangsThoughts": "This variant carries a Light TAG and ER Large Laser. An extra heat sink helps deal with the heat generated by the configuration."
+}
+

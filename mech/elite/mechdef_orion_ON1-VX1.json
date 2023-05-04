@@ -1,6 +1,15 @@
 {
     "MechTags": {
         "items": [
+            "mech_heavy_Advanced",
+            "unit_mech_Advanced",
+            "unit_heavy",
+            "unit_indirectFire",
+            "unit_release",
+            "unit_mech",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "elite_forces",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

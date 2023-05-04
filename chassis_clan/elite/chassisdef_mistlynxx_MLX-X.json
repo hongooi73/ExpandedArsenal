@@ -226,6 +226,7 @@
     "VariantName": "MLX-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

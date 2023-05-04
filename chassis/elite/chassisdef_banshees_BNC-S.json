@@ -22,7 +22,7 @@
     "Tonnage": 95,
     "InitialTonnage": 32,
     "weightClass": "ASSAULT",
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "TopSpeed": 90,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
@@ -50,6 +50,7 @@
     "DFAInstability": 120,
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
@@ -72,6 +73,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false

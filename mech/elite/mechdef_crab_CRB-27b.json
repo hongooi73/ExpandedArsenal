@@ -1,6 +1,12 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_release",
+            "unit_dlc",
+            "unit_range_long",
+            "unit_armor_high",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

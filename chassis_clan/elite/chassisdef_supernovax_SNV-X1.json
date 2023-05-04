@@ -232,6 +232,7 @@
     "VariantName": "SNV-X1",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

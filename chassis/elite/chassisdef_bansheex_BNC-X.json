@@ -50,6 +50,7 @@
     "DFAInstability": 120,
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

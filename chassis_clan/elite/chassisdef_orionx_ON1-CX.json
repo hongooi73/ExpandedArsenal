@@ -230,6 +230,7 @@
     "VariantName": "ON1-CX",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""

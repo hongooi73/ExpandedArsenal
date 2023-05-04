@@ -1,12 +1,112 @@
-## v4.0.1
+## v5.0.0
+
+Version 5.0.0 is a **major update** that removes some outdated mods and includes new ones. It also requires ModTek 3.0 and a relatively recent version of the CAB. As such, if you're upgrading from a previous version, it's highly recommended that you **delete** your entire mods folder, reinstall the CAB, install the latest ModTek, and then install EA. It's still back-compatible, so your existing saves will continue to work.
+
+### Simple Mech Assembly
+
+EA now uses the Simple Mech Assembly mod, which lets you put mechs together from different variants of the same chassis. Eg if you have 2 WHM-6R parts and 1 WHM-6D part, you can combine them to build either a WHM-6R or WHM-6D. This should make it easier to acquire mechs, and reduce the downside to having too many mechs defined.
+
+When picking parts for salvage, the display for how many parts you have looks like **A(B)/C(D)** where A, B, C and D are numbers:
+
+- **A** is the number of parts you have for this chassis variant
+- **B** is the number of parts you have for other variants of the same chassis
+- **C** is the number of parts you need for a complete mech
+- **D** is how many complete mechs of this variant you have in storage
+
+So for example, 0(1)/3(4) means you have 0 parts of this variant and 1 part from a different variant, you need 3 parts to build a new mech, and you have 4 complete mechs already built.
+
+All vanilla, base Expanded Arsenal and Elite Forces mechs are considered to be part of the same pool for assembly purposes. For example, you can combine parts from a MAD-3R (vanilla), MAD-3L (Expanded Arsenal) and MAD-2RX (Elite Forces) to build a new Marauder. Elite Arsenal X-tier mechs form another pool, and S-tier mechs yet another pool. Thus, you can combine MAD-S1, MAD-S2 and MAD-S3 parts to build a new S-tier Marauder. However, you can't combine parts from different pools: eg MAD-3R, MAD-X1 and MAD-S2 parts can't be combined to build a new mech.
+
+### Introductory elite flashpoint
+
+EA includes a new flashpoint, "Elite Testing Grounds" where you take part in a series of field tests of elite mechs from Elite Arsenal. This becomes available once you reach 150 reputation with the Mercenary Review Board. The purpose of this is to provide an introduction to the elite content in the modpack, and encourage players to try it out.
+
+### Significant item changes
+
+- New item: C3i computer, available in stores and also mounted on Word of Blake mechs. The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
+- Major buff to the binary large laser (blazer). Instead of firing one shot for middling damage, it now fires two shots for 50 points each.
+- Buff damage output of medium and large X-pulse lasers
+- Add ER medium and large pulse lasers (clan)
+- Increase the stability damage for the XMD/40 mass driver to 80, and remove the overheating effect
+- Rework the Silver Bullet Special, which now fires two shots for 90 damage per shot, instead of a large volley of lower-damage shots. This reduces the total damage, but also makes it more practical by concentrating the damage into two locations and reducing ammo consumption.
+
+Elite Arsenal also contains + and ++ variants of the above items.
+
+### New mechs
+
+New in this release is a selection of mechs that use the weapons listed above. These mostly date from the Jihad and early Dark Age eras.
+
+Inner Sphere/hybrid mechs:
+- Avatar AV1-OH
+- Crusader CRD-7M
+- Huron Warrior HUR-WO-R4X
+- Javelin JVN-11D "Bob Farrell special"
+- Marauder MAD-4X
+- Ostsol OTL-8E
+- Phoenix Hawk PXH-9
+- Shadow Hawk SHD-3K
+- Stinger STG-5T
+- Templar TLR1-OD
+
+Word of Blake mechs:
+- Archangel C-ANG-OA "Dominus"
+- Archangel C-ANG-OB "Infernus"
+- Archangel C-ANG-OC "Comminus"
+- Archangel C-ANG-OS "Caelestis"
+- Deva C-DVA-OA "Dominus"
+- Deva C-DVA-OB "Infernus"
+- Deva C-DVA-OS "Caelestis"
+- Grigori C-GRG-O "Invictus"
+- Grigori C-GRG-OS "Caelestis"
+- Malak C-MK-O "Invictus"
+- Preta C-PRT-O "Invictus"
+- Preta C-PRT-OA "Dominus"
+- Seraph C-SRP-O "Invictus"
+- Seraph C-SRP-OC "Comminus"
+- Seraph C-SRP-OE "Eminus"
+
+Clan mechs:
+- Osteon Prime
+- Adder K
+- Black Lanner G
+- Ebon Jaguar X
+- Executioner T
+- Mad Cat Z
+- Summoner Z
+
+Some of the Preta and Archangel WoB mechs were actually part of the original Vanilla Plus content, and have now been restored; the Deva, Grigori and Malak are new. In addition, the Titan 2P has been fixed to mount the MML-9s found in canon, rather than MRMs.
+
+### Mech rebalancing
+
+Several mechs, mostly clan ones, have had their **hardpoint totals reduced**. Some of the original mod authors appear to have interpreted the "omnimech" designation literally, meaning that you should be allowed to put any weapon, anywhere. To enable this, they added multiple hardpoints to every location, so that a mech could have 30, 40 or more hardpoints in all. While this is indeed extremely flexible, it also makes it too easy to boat large numbers of weapons and removes a key point of differentiation between mechs.
+
+To deal with this, the affected mechs have had their hardpoints reduced to a more reasonable number: generally less than 20. Note that this is still far more than what most Inner Sphere mechs have, and should allow good levels of boating (and yes, there are some clan mechs that are all about boating; they still exist, although the unused hardpoints may have been cut back).
+
+Conversely, some _other_ mechs (clearly originating from different authors) had anemic hardpoint allocations: as few as 2 or 4 in some cases, the minimum required for their stock loadout. These have had more hardpoints added, to make them more flexible.
+
+### Stores
+
+The store system has been reworked to be closer to the vanilla game. Rather than all EA items and mechs being available on a small number of worlds, a subset of items is available on all worlds matching various criteria:
+
+- Chemicals: missile weapons, flamers, inferno
+- Electronics: laser weapons, targeting computer, Artemis IV
+- Industrial: CIC cockpit, machine guns
+- Mining: autocannon, including UAC, LBX, HVAC, RAC
+- Research: PPC/plasma weapons, advanced electronics gear
+- Star League: Gauss weapons
 
 ### Bug fixes/changes
 
-- To make mod management a bit easier, all items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
+- To streamline mod management, the items from Haakon's mods (which have been removed from Nexus) have been moved into the base Expanded Arsenal mod. There should be no visible in-game effects from this change. All credit to Haakon for making these items available.
 - Fix clan mechs not being available in shops
+- All Gauss weapons can now explode on a critical hit. This change affects heavy and light Gauss rifles, all HAGs, the XMD/40 mass driver and the Silver Bullet Gauss rifle.
 - Remove some NPC-only mechs that accidentally showed up in shops
-- Fix the allowed locations for the XMD/40 mass driver (should only be the torso)
+- Fix a bug where the accuracy penalty from heavy and light PPC hits didn't stack
+- Fix the allowed locations for the XMD/40 mass driver and SB Gauss rifle (should only be the torso)
 - Some tweaks to Prototype TSM: remove movement buff, change heat penalty to a percentage, fix bug when mounted simultaneously with arm mods
+- Fix movement for Warhammer IIC
+- Fix heat generation for MML3/5/7: should be 6, 9 and 12 heat respectively, to match TT values
+- Clarify that the speed boost from engine upgrades is incompatible (doesn't stack) with MASC.
 
 
 ## v4.0.0

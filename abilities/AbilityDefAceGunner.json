@@ -1,0 +1,89 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefAceGunner",
+		"Name" : "Gunner",
+		"Details" : "PASSIVE: The Gunner excell at critical hits and destabilize enemy mechs.",
+		"Icon" : "UixSvgIcon_specialAbility_HiredGuns"
+	},
+	"Type" : "Command",
+	"ShortDesc" : "Critical hit bonus with additional instability damage.",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-CriticalChance",
+                "Name" : "Gunner Crit Bonus",
+                "Details" : "The Gunner is an expert at critical strikes.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "CriticalChanceMultiplier",
+                "operation" : "Float_Multiply",
+				"modValue" : "1.5",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffectAceInstabilityDamage",
+                "Name" : "Instability Damage",
+                "Details" : "The Gunner is an expert at keeping ememys off balance.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+				"ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+				"appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "Instability",
+                "operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	]
+}

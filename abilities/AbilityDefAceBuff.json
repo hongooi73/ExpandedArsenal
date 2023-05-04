@@ -1,0 +1,158 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefAceBuff",
+		"Name" : "Ace Pilot Buff",
+		"Details" : "PASSIVE: Ace pilots are experts at heat management and have improved resolve",
+		"Icon" : "UixSvgIcon_specialAbility_BWCL"
+	},
+	"Type" : "Command",
+	"ShortDesc" : "Ace Heat and Resolve bonuses",
+    "DisplayParams" : "NeverShow",
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-HeatGen",
+                "Name" : "Ace HeatGen Buff",
+                "Details" : "Ace pilot improved HeatGen [AMT].",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+				"modValue" : "0.90",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-MaxHeat",
+                "Name" : "Ace MaxHeat Buff",
+                "Details" : "Ace Pilot improved MaxHeat [AMT].",
+                "Icon" : "uixSvgIcon_equipment_HeatBank"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "MaxHeat",
+                "operation" : "Int_Add",
+				"modValue" : "20",
+				"modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Ace-DamageReduction",
+                "Name" : "Ace Damage Reduction",
+                "Details" : "Ace pilots take [AMT] less damage.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Multiply",
+				"modValue" : "0.85",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        },
+		{
+            "Description" : {
+                "Id" : "StatusEffect-Ace-Resolve",
+                "Name" : "Ace Resolve Buff",
+                "Details" : "Ace pilots have +2 resolve.",
+                "Icon" : "UixSvgIcon_specialAbility_BWCL"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1,
+				"ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true,
+				"triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+				"range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "hideApplicationFloatie" : true
+            },
+            "statisticData" : {
+                "statName" : "MoraleBonusGain",
+                "operation" : "Int_Add",
+				"modValue" : "2",
+				"modType" : "System.Int32",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            }
+        }
+	]
+}

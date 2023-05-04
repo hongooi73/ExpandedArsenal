@@ -19,7 +19,7 @@
     "Tonnage": 70,
     "InitialTonnage": 22,
     "weightClass": "HEAVY",
-    "Heatsinks": 15,
+    "Heatsinks": 45,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -211,6 +211,7 @@
     "VariantName": "ARC-RS",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
