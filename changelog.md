@@ -17,6 +17,10 @@ So for example, 0(1)/3(4) means you have 0 parts of this variant and 1 part from
 
 All vanilla, base Expanded Arsenal and Elite Forces mechs are considered to be part of the same pool for assembly purposes. For example, you can combine parts from a MAD-3R (vanilla), MAD-3L (Expanded Arsenal) and MAD-2RX (Elite Forces) to build a new Marauder. Elite Arsenal X-tier mechs form another pool, and S-tier mechs yet another pool. Thus, you can combine MAD-S1, MAD-S2 and MAD-S3 parts to build a new S-tier Marauder. However, you can't combine parts from different pools: eg MAD-3R, MAD-X1 and MAD-S2 parts can't be combined to build a new mech.
 
+### Introductory elite flashpoint
+
+EA includes a new flashpoint, "Elite Testing Grounds" where you take part in a series of field tests of elite mechs from Elite Arsenal. This becomes available once you reach 150 reputation with the Mercenary Review Board. The purpose of this is to provide an introduction to the elite content in the modpack, and encourage players to try it out.
+
 ### Significant item changes
 
 - New item: C3i computer, available in stores and also mounted on Word of Blake mechs. The stock configuration grants +1 initiative and +15% optimal weapon range, and weighs 2 tons.
