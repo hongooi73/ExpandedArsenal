@@ -1,0 +1,910 @@
+## Expanded Arsenal mech list
+
+### Base mod (Inner Sphere)
+
+- Annihilator ANH-1A
+- Annihilator ANH-1E
+- Anubis ABS-3L
+- Anubis ABS-3T
+- Archangel C-ANG-OA
+- Archangel C-ANG-OB
+- Archangel C-ANG-OC
+- Archangel C-ANG-OS
+- Archer ARC-2K
+- Archer ARC-2R
+- Archer ARC-2S
+- Archer ARC-2W
+- Argus AGS-2D
+- Argus AGS-5D
+- Assassin ASN-101
+- Assassin ASN-21
+- Assassin ASN-SB
+- Atlas AS7-A
+- Atlas AS7-D-DC
+- Atlas AS7-D-K
+- Atlas AS7-LL
+- Atlas AS7-RS
+- Avatar AV1-O
+- Avatar AV1-OA
+- Avatar AV1-OB
+- Avatar AV1-OH
+- Awesome AWS-8R
+- Awesome AWS-8V
+- Axman AXM-1N
+- Axman AXM-2N
+- Banshee BNC-3Q
+- BattleMaster BLR-1D
+- BattleMaster BLR-1G-DC
+- BattleMaster BLR-1S
+- Blackjack BJ-1DC
+- Blackjack BJ-1X
+- Blackjack BJ-3
+- Blackjack BJ-3X
+- Black Knight BL-6b-KNT
+- Black Knight BL-7-KNT-L
+- Black Knight BL-7-KNT
+- Blitzkrieg BTZ-3F
+- Bombard BMB-010
+- Bull Shark BSK-M3
+- Bull Shark BSK-MAZ
+- Bushwacker BSW-L1
+- Bushwacker BSW-X1
+- Bushwacker BSW-X2
+- Cataphract CTF-0X
+- Cataphract CTF-2X
+- Cataphract CTF-3L
+- Cataphract CTF-4X
+- Catapult CPLT-A1
+- Catapult CPLT-COL
+- Catapult CPLT-COL2
+- Centurion CN9-AH
+- Cephalus CEP-D
+- Cephalus CEP-E
+- Champion CHP-1N2
+- Royal Champion CHP-1Nb
+- Champion CHP-2N
+- Charger CGR-1A1
+- Charger CGR-1A5
+- Charger CGR-1A9
+- Charger CGR-1L
+- Charger CGR-PB
+- Cicada CDA-2B
+- Clint CLNT-1-2R
+- Clint CLNT-2-3T
+- Commando COM-1C
+- Commando COM-1D
+- Commando COM-2D-BI
+- Commando COM-3A
+- Commando COM-J
+- Corsair COR-5R
+- Corsair COR-5T
+- Corsair COR-6R
+- Corsair COR-7A
+- Corsair COR-7R
+- Corsair COR-8R
+- Corsair COR-RA
+- BIG STEEL CLAW BSC-20
+- Crab CRB-20
+- Crab CRB-20
+- Crusader CRD-2R
+- Crusader CRD-3R
+- Crusader CRD-7M
+- Cyclops CP-10-Q
+- Cyclops CP-10-Z-DC
+- Cyclops CP-10-Z
+- Dervish DV-6M
+- Dervish DV-7D
+- Deva C-DVA-OA
+- Deva C-DVA-OB
+- Deva C-DVA-OS
+- Dragon DRG-1C
+- Emperor EMP-5A
+- Emperor EMP-6A
+- Enforcer ENF-3R
+- Fafnir FNR-5
+- Fafnir FNR-5B
+- Firebee FRB-2E
+- Firestarter FS9-A
+- Firestarter FS9-K
+- Firestarter FS9-M
+- Flea FLE-14
+- Flea FLE-15
+- Flea FLE-16
+- Flea FLE-4
+- Grand Dragon DRG-1G
+- Grasshopper GHR-4R
+- Grasshopper GHR-5N
+- Griffin GRF-3M
+- Grigori C-GRG-O
+- Grigori C-GRG-OS
+- Hatamoto-Chi HTM-26T
+- Hatamoto-Chi HTM-27T
+- Hatamoto-Kaze HTM-27V
+- Hatamoto-Ku HTM-27W
+- Hatamoto-Chi HTM-SAM
+- Hatchetman HCT-3F
+- Hatchetman HCT-3G
+- Hatchetman HCT-3K
+- Hatchetman HCT-3NH
+- Hatchetman HCT-3X
+- Hauptmann HA1-O
+- Hauptmann HA1-OC
+- Helepolis HEP-2H
+- Hellspawn HSN-7D
+- Hellspawn HSN-8E
+- Highlander HGN-733C
+- Hollander BZK-F3
+- Hollander BZK-G1
+- Hornet HNT-151
+- Hunchback HBK-4H
+- Hunchback HBK-4J
+- Hunchback HBK-4N
+- Hunchback HBK-4SP
+- Huron Warrior HUR-WO-R4L
+- Huron Warrior HUR-WO-R4N
+- Huron Warrior HUR-WO-R4X
+- Hussar HSR-200-D
+- Hussar HSR-200-Db
+- Icarus II ICR-1S
+- Imp IMP-2E
+- Imp IMP-3E
+- JagerMech JM6-B
+- Javelin JVN-10A
+- Fire Javelin JVN-10F
+- Javelin JVN-10N
+- Javelin JVN-RF
+- Jenner JR7-A
+- Jenner JR7-F
+- Jenner JR7-IIC-A
+- Jenner JR7-IIC
+- King Crab KGC-000B
+- King Crab KGC-001
+- Kintaro KTO-20
+- Lament LMT-2R
+- Lament LMT-4RC
+- Lao Hu LHU-2B
+- Lao Hu LHU-3C
+- Locust LCT-1D
+- Locust LCT-1E
+- Locust LCT-1L
+- Locust LCT-3V
+- Locust IIC LCT-IIC
+- Longbow LGB-7Q
+- Mackie MSK-6S
+- Malak C-MK-O
+- Marauder MAD-3D
+- Marauder MAD-3L
+- Marauder MAD-3M-DC
+- Marauder MAD-3M
+- Marauder MAD-4X
+- Marauder II MAD-5A
+- Marauder II MAD-5B
+- Marauder II MAD-COL
+- Mauler MAL-1PT5
+- Mauler MAL-1R
+- Mauler MAL-DOB
+- Merlin MLN-1A
+- Mongoose MON-66
+- Royal Mongoose MON-66b
+- Nightstar NSR-7J
+- Nightstar NSR-9J
+- Orion ON1-V-DC
+- Orion ON1-VA
+- Osiris OSR-3D
+- Osiris OSR-4D
+- Osprey OSP-15
+- Ostroc OSR-2C
+- Ostroc OSR-2M
+- Ostroc OSR-3C
+- Ostsol OTL-4D
+- Ostsol OTL-4F
+- Ostsol OTL-5M
+- Ostsol OTL-8E
+- Ostwar OWR-2MB
+- Owens OW-1
+- Panther PNT-8Z
+- Panther PNT-9ALAG
+- Phoenix Hawk PXH-1
+- Phoenix Hawk PXH-1D
+- Phoenix Hawk PXH-1K
+- Phoenix Hawk PXH-9
+- Preta C-PRT-O
+- Preta C-PRT-OA
+- Quickdraw QKD-4H
+- Raven RVN-1X
+- Raven RVN-2X
+- Raven RVN-3X
+- Raven RVN-4X
+- Black Knight BL-X-KNT
+- Rifleman RFL-3C
+- Rifleman RFL-3M
+- Rifleman RFL-3N
+- Rifleman RFL-4D
+- Roughneck RGH-1A
+- Roughneck RGH-3A
+- Seraph C-SRP-O
+- Seraph C-SRP-OC
+- Seraph C-SRP-OE
+- Shadow Hawk SHD-2K
+- Shadow Hawk SHD-3H
+- Shadow Hawk SHD-3K
+- Shadow Hawk SHD-5M
+- Spider SDR-5D
+- Spider SDR-5K
+- Stalker STK-3H
+- Stalker STK-4N
+- Stalker STK-4P
+- Stinger STG-3G
+- Stinger STG-3Gb
+- Stinger STG-3R
+- Stinger STG-5T
+- Strider SR1-0
+- Talos TLS-1B
+- Templar TLR1-O
+- Templar TLR1-OA
+- Templar TLR1-OD
+- Thanatos TNS-4S
+- Thanatos TNS-4T
+- Thug THG-10E
+- Thug THG-11E
+- Thunderbolt TDR-5D
+- Titan II TI-2P
+- Toro TR-A-6 
+- Trebuchet TBT-5J
+- Trebuchet TBT-5S
+- Trebuchet TBT-7K
+- Trooper TP-1R
+- UrbanMech UM-R60C
+- UrbanMech UM-R60X
+- UrbanMech UM-RM
+- Uziel UZL-2S
+- Uziel UZL-3S
+- Valiant V4-LNT-K7
+- Valkyrie VLK-QA
+- Valkyrie II VLK-II-1A
+- Valkyrie II VLK-II-2A
+- Victor VTR-9A
+- Victor VTR-9A1
+- Vindicator VND-1SIC
+- Vindicator VND-1X
+- Vulcan VL-2T
+- Vulcan VL-5T
+- Vulcan VT-BL
+- Warhammer WHM-6K
+- Warhammer WHM-6L-DC
+- Warhammer WHM-6L
+- Warhammer WHM-6R-DC
+- Wasp WSP-1A
+- Wasp WSP-1D
+- Wasp WSP-1K
+- Wolfhound WLF-1
+- Wolfhound WLF-1A
+- Wolfhound WLF-2
+- Grinner WLF-GRN
+- Wolverine WVR-5M
+- Wolverine WVR-6D
+- Wolverine WVR-6M
+- Wolverine WVR-6T
+- Wolverine WVR-7K
+- Yeoman YMN-10-OR
+- Yeoman YMN-6Y
+- Zeus ZEU-6A
+- Zeus ZEU-6S-DC
+- Zeus ZEU-6T
+- Zeus ZEU-6Y
+- Zeus ZEU-X
+
+### Base mod (Clan)
+
+- Adder ADR-A
+- Adder ADR-B
+- Adder ADR-C
+- Adder ADR-D
+- Adder ADR-K
+- Adder ADR-PRIME
+- Arctic Cheetah ACH-A
+- Arctic Cheetah ACH-B
+- Arctic Cheetah ACH-C
+- Arctic Cheetah ACH-Prime
+- Arcticwolf ACW-1
+- Arcticwolf ACW-BK
+- Arcticwolf ACW-P
+- Bane BAN-1
+- Bane BAN-2
+- Bane BAN-3
+- Bane BAN-4
+- Bane BAN-CX
+- Black Python BP-2
+- Black Python BP-3
+- Black Python BP-Prime
+- Black Lanner BKL-A
+- Black Lanner BKL-C
+- Black Lanner BKL-D
+- Black Lanner BKL-G
+- Black Lanner BKL-PRIME
+- Blood Asp BAS-A
+- Blood Asp BAS-B
+- Blood Asp BAS-PRIME
+- Cougar CGR-A
+- Cougar CGR-B
+- Cougar CGR-C
+- Cougar CGR-D
+- Cougar CGR-PRIME
+- Dire Wolf DWF-A
+- Dire Wolf DWF-B
+- Dire Wolf DWF-D
+- Dire Wolf DWF-PRIME
+- Ebon Jaguar EBJ-B
+- Ebon Jaguar EBJ-C
+- Ebon Jaguar EBJ-D
+- Ebon Jaguar EBJ-Prime
+- Ebon Jaguar EBJ-X
+- Executioner EXE-A
+- Executioner EXE-B
+- Executioner EXE-PRIME
+- Executioner EXE-T
+- Fire Moth FM-B
+- Fire Moth FM-D
+- Fire Moth FM-PRIME
+- Gargoyle GAR-A
+- Gargoyle GAR-B
+- Gargoyle GAR-C
+- Gargoyle GAR-E
+- Gargoyle GAR-PRIME
+- Hellbringer HBR-B
+- Hellbringer HBR-Prime
+- Hellfire HLF-1
+- Hellfire HLF-2
+- Hellhound HEH-1
+- Hellhound HEH-2
+- Hellhound HEH-3
+- Highlander IIC HGN-IIC-A
+- Highlander IIC HGN-IIC-B
+- Highlander IIC HGN-IIC-C
+- Highlander IIC HGN-IIC
+- Hunchback IIC HBK-IIC-B
+- Hunchback IIC HBK-IIC
+- Huntsman HMN-A
+- Huntsman HMN-B
+- Huntsman HMN-C
+- Huntsman HMN-PRIME
+- IceFerret IFR-A
+- IceFerret IFR-B
+- IceFerret IFR-C
+- IceFerret IFR-PRIME
+- Incubus INC-1
+- Incubus INC-2
+- Incubus INC-3
+- Kitfox KFX-A
+- Kitfox KFX-B
+- Kitfox KFX-D
+- Kitfox KFX-PRIME
+- Kodiak KDK-1
+- Kodiak KDK-3
+- Kodiak KDK-4
+- Linebacker LBK-A
+- Linebacker LBK-B
+- Linebacker LBK-D
+- Linebacker LBK-PRIME
+- Lupus LUPUS-A
+- Lupus LUPUS-B
+- Lupus LUPUS-PRIME
+- Mad Cat MC-A
+- Mad Cat MC-B
+- Mad Cat MC-C
+- Mad Cat MC-E
+- Mad Cat MC-H
+- Mad Cat MC-PRIME
+- Mad Cat MC-PRYDE
+- Mad Cat MC-S
+- Mad Cat MC-Z
+- Mad Cat MK II MCII-1
+- Mad Cat MK II MCII-2
+- Mad Cat MK II MCII-4
+- Mad Dog MDD-A
+- Mad Dog MDD-B
+- Mad Dog MDD-Prime
+- Marauder IIC MAD-IIC-A
+- Marauder IIC MAD-IIC-S
+- Marauder IIC MAD-IIC
+- Medusa MED-1
+- Medusa MED-2
+- Medusa MED-3
+- Medusa MED-4
+- Mist Lynx MLX-B
+- Mist Lynx MLX-C
+- Mist Lynx MLX-G
+- Mist Lynx MLX-PRIME
+- Night Gyr NTG-B
+- Night Gyr NTG-D
+- Night Gyr NTG-JK
+- Night Gyr NTG-PRIME
+- Nova NVA-A
+- Nova NVA-B
+- Nova NVA-C
+- Nova NVA-D
+- Nova NVA-Prime
+- NovaCat NCT-A
+- NovaCat NCT-B
+- NovaCat NCT-C
+- NovaCat NCT-Prime
+- Orion IIC ON1-IIC-A
+- Orion IIC ON1-IIC-C
+- Orion IIC ON1-IIC
+- Osteon OS-C
+- Osteon OS-D
+- Osteon OS-PRIME
+- Piranha PIR-1
+- Piranha PIR-2
+- Piranha PIR-CIPHER
+- Rifleman IIC RFL-IIC-2
+- Rifleman IIC RFL-IIC-3
+- Rifleman IIC RFL-IIC-4
+- Rifleman IIC RFL-IIC-A
+- Rifleman IIC RFL-IIC
+- Septicemia PRI-A
+- Septicemia PRI-D
+- Shadow Cat SHC-A
+- Shadow Cat SHC-B
+- Shadow Cat SHC-Prime
+- Stone Rhino STR-1
+- Stone Rhino STR-2
+- Stone Rhino STR-3
+- Stone Rhino STR-4
+- Stone Rhino STR-5
+- Stone Rhino STR-6
+- Stormcrow SCR-A
+- Stormcrow SCR-B
+- Stormcrow SCR-C
+- Stormcrow SCR-Prime
+- Summoner SMN-PRIME
+- Summoner SMN-A
+- Summoner SMN-B
+- Summoner SMN-C
+- Summoner SMN-Z
+- Sun Spider SNS-A
+- Sun Spider SNS-B
+- Sun Spider SNS-C
+- Sun Spider SNS-D
+- Sun Spider SNS-PRIME
+- SuperNova SNV-4
+- SuperNova SNV-A
+- SuperNova SNV-BR
+- SuperNova SNV-C
+- Turkina TKN-A
+- Turkina X TKN-B
+- Turkina TKN-PRIME
+- Vapor Eagle VGL-1
+- Vapor Eagle VGL-2
+- Vapor Eagle VGL-3
+- Vapor Eagle VGL-RIVAL
+- Viper VPR-A
+- Viper VPR-B
+- Viper VPR-C
+- Viper VPR-D
+- Viper VPR-Prime
+- Warhammer IIC WHM-IIC-2
+- Warhammer IIC WHM-IIC-3
+- Warhammer IIC WHM-IIC-A
+- Warhammer IIC WHM-IIC
+- Warhawk WHK_A
+- Warhawk WHK_B
+- Warhawk WHK_C
+- Warhawk WHK_PRIME
+
+### Elite Arsenal (Inner Sphere) + Elite Forces
+
+- Annihilator ANH-1AX1
+- Annihilator ANH-ES
+- Annihilator ANH-EX
+- Archer ARC-2RX1
+- Archer ARC-2SX1
+- Archer ARC-RS
+- Archer ARC-SS
+- Archer ARC-RX
+- Archer ARC-SX
+- Argus AGS-S
+- Argus AGS-X
+- Assassin ASN-101X
+- Atlas II AS7-D-HT
+- Atlas II AS7-D-HTX
+- Atlas AS7-DX1
+- Atlas AS7-DX2
+- Atlas AS7-S
+- Atlas AS7-X
+- Awesome AWS-8QX1
+- Axman AXM-S
+- Axman AXM-X
+- Banshee BNC-3SX1
+- Banshee BNC-S
+- Banshee BNC-S2
+- Banshee BNC-X
+- Banshee BNC-X2
+- BattleMaster BLR-1GB
+- BattleMaster BLR-1GBX
+- BattleMaster BLR-1GX
+- Blackjack BJ-1X
+- Black Knight BL-6-KNTX1
+- Black Knight BL-6B-KNT
+- Black Knight BL-6B-KNTX
+- Black Knight BL-KNT-S
+- Black Knight BL-KNT-X
+- Bull Shark BSK-M3X
+- Bull Shark BSK-M3X2
+- Bull Shark BSK-MAZ
+- Bull Shark BSK-MAZX
+- Bushwacker BSW-XS
+- Bushwacker BSW-XX
+- Cataphract CTF-1XA
+- Cataphract CTF-1XB
+- Centurion CN9-ALX1
+- Cephalus CEP-S
+- Cephalus CEP-X
+- Cicada CDA-S
+- Cicada CDA-X
+- Commando COM-S
+- Commando COM-X
+- Corsair COR-S
+- Corsair COR-X
+- Crab CRB-27B
+- Crab CRB-27BX
+- Crab CRB-S1
+- Crab CRB-S2
+- Crab CRB-X1
+- Crab CRB-X2
+- Crusader CRD-S
+- Crusader CRD-S2
+- Crusader CRD-X
+- Crusader CRD-X2
+- Cyclops CP-10-ZX1
+- Dervish DV-S
+- Dervish DV-X
+- Enforcer ENF-4RX1
+- Fafnir FNR-S
+- Fafnir FNR-X
+- Firestarter FS9-HX1
+- Flea FLE-4X1
+- Grand Dragon DRG-1G
+- Grand Dragon DRG-1GX
+- Grasshopper GHR-5HX
+- Griffin GRF-1SX
+- Griffin GRF-2N
+- Griffin GRF-4NX
+- Griffin GRF-S
+- Griffin GRF-S2
+- Griffin GRF-X
+- Griffin GRF-X2
+- Hatamoto-Chi HTM-S
+- Hatchetman HCT-3FX1
+- Hatchetman HCT-S
+- Hatchetman HCT-X
+- Hellspawn HSN-S
+- Hellspawn HSN-X
+- Highlander HGN-732B
+- Highlander HGN-732BX
+- Hollander BZK-FS
+- Hollander BZK-FX
+- Hunchback HBK-4PX
+- Hunchback HBK-S1
+- Hunchback HBK-S2
+- Hunchback HBK-S3
+- Hunchback HBK-X1
+- Hunchback HBK-X2
+- Hunchback HBK-X3
+- Huron Warrior HUR-WO-S
+- Huron Warrior HUR-WO-X
+- JagerMech JM6-SX
+- JagerMech JM6-SX2
+- JagerMech JM6-SS
+- Fire Javelin JVN-10FX1
+- Javelin JVN-10NX
+- Jenner JR7-DX
+- King Crab KGC-0000X1
+- King Crab KGC-S
+- King Crab KGC-X
+- Kintaro KTO-18X1
+- Kintaro KTO-18X2
+- Lao Hu LHU-S
+- Lao Hu LHU-X
+- Locust LCT-1VX
+- Longbow LGB-S1
+- Longbow LGB-S2
+- Longbow LGB-S3
+- Longbow LGB-S4
+- Longbow LGB-X1
+- Longbow LGB-X2
+- Longbow LGB-X3
+- Longbow LGB-X4
+- Marauder MAD-2R
+- Marauder MAD-2RX
+- Marauder MAD-3RX1
+- Marauder II MAD-AS
+- Marauder II MAD-BS
+- Marauder II MAD-AX
+- Marauder II MAD-BX
+- Marauder MAD-S1
+- Marauder MAD-S2
+- Marauder MAD-S3
+- Marauder MAD-X1
+- Marauder MAD-X2
+- Marauder MAD-X3
+- Mauler MAL-S
+- Mauler MAL-X
+- Mongoose MON-S
+- Mongoose MON-X
+- Orion ON1-VX1
+- Orion ON1-VX2
+- Ostwar OWR-S
+- Ostwar OWR-X
+- Panther PNT-9RX
+- Phoenix Hawk PXH-1B
+- Phoenix Hawk PXH-1BX
+- Phoenix Hawk PXH-S
+- Phoenix Hawk PXH-X
+- Quickdraw QKD-4GX
+- Raven RVN-1X1
+- Raven RVN-1X2
+- Rifleman RFL-S
+- Rifleman RFL-X
+- Shadow Hawk SHD-2DX1
+- Shadow Hawk SHD-S1
+- Shadow Hawk SHD-S2
+- Shadow Hawk SHD-X1
+- Shadow Hawk SHD-X2
+- Stalker STK-3FX
+- Stinger STG-S
+- Stinger STG-X
+- Talos TLS-S
+- Talos TLS-X
+- Thanatos TNS-S
+- Thanatos TNS-X
+- Thunderbolt TDR-5SX
+- Thunderbolt TDR-S
+- Thunderbolt TDR-X
+- UrbanMech UM-S
+- UrbanMech UM-X
+- Uziel UZL-S
+- Uziel UZL-X
+- Valiant V4-LNT-S
+- Valiant V4-LNT-X
+- Valkyrie VLK-S
+- Valkyrie VLK-X
+- Vulcan VL-5TX
+- Warhammer WHM-6RX1
+- Warhammer WHM-7A
+- Warhammer WHM-7AX
+- Warhammer WHM-S
+- Warhammer WHM-X
+- Wolfhound WLF-S1
+- Wolfhound WLF-S2
+- Wolfhound WLF-X1
+- Wolfhound WLF-X2
+- Wolverine WVR-6KX1
+- Wolverine WVR-S
+- Wolverine WVR-X
+- Zeus ZEU-5T
+- Zeus ZEU-5TX
+- Zeus ZEU-6SX1
+- Zeus ZEU-XS
+- Zeus ZEU-YS
+- Zeus ZEU-XX
+- Zeus ZEU-YX
+
+### Elite Arsenal (Clan)
+
+- Adder ADR-S
+- Adder ADR-X
+- Arctic Cheetah ACH-S
+- Arctic Cheetah ACH-X
+- Bane BAN-S
+- Bane BAN-X
+- Black Lanner BKL-S
+- Black Lanner BKL-X
+- Blood Asp BAS-S
+- Blood Asp BAS-X
+- Cougar CGR-S
+- Cougar CGR-X
+- Dire Wolf DWF-S1
+- Dire Wolf DWF-S2
+- Dire Wolf DWF-X1
+- Dire Wolf DWF-X2
+- Ebon Jaguar EBJ-S
+- Ebon Jaguar EBJ-X
+- Executioner EXE-S
+- Executioner EXE-X
+- Fire Moth FM-S
+- Fire Moth FM-X
+- Gargoyle GAR-S
+- Gargoyle GAR-X
+- Hellbringer HBR-S
+- Hellbringer HBR-S2
+- Hellbringer HBR-X
+- Hellbringer HBR-X2
+- Hellfire HLF-S1
+- Hellfire HLF-S2
+- Hellfire HLF-X1
+- Hellfire HLF-X2
+- Hellhound HEH-S
+- Hellhound HEH-X
+- Highlander IIC HGN-CS
+- Highlander IIC HGN-CX
+- Huntsman HMN-S
+- Huntsman HMN-X
+- Incubus INC-S
+- Incubus INC-X
+- Kit Fox KFX-S1
+- Kit Fox KFX-S2
+- Kit Fox KFX-X1
+- Kit Fox KFX-X2
+- Kodiak KDK-S
+- Kodiak KDK-X
+- Mad Cat II MCII-S
+- Mad Cat II MCII-X
+- Mad Cat MC-S
+- Mad Cat MC-S2
+- Mad Cat MC-X
+- Mad Cat MC-X2
+- Mad Dog MDD-S
+- Mad Dog MDD-S2
+- Mad Dog MDD-X
+- Mad Dog MDD-X2
+- Marauder IIC MAD-IIC-S
+- Marauder IIC MAD-IIC-X
+- Medusa MED-S1
+- Medusa MED-S2
+- Medusa MED-X1
+- Medusa MED-X2
+- Mist Lynx MLX-S
+- Mist Lynx MLX-X
+- Night Gyr NTG-S
+- Night Gyr NTG-X
+- Nova NVA-S1
+- Nova NVA-S2
+- Nova NVA-X1
+- Nova NVA-X2
+- Orion IIC ON1-CS
+- Orion IIC ON1-CX
+- Osteon OS-S1
+- Osteon OS-S2
+- Osteon OS-X1
+- Osteon OS-X2
+- Piranha PIR-S
+- Piranha PIR-X
+- Rifleman IIC RFL-CS
+- Rifleman IIC RFL-CX
+- Septicemia PRI-S
+- Septicemia PRI-X
+- Shadow Cat SHC-S
+- Shadow Cat SHC-X
+- Stone Rhino STR-S
+- Stone Rhino STR-X
+- Stormcrow SCR-S1
+- Stormcrow SCR-S2
+- Stormcrow SCR-X1
+- Stormcrow SCR-X2
+- Summoner SMN-S1
+- Summoner SMN-S2
+- Summoner SMN-X1
+- Summoner SMN-X2
+- Sun Spider SNS-S1
+- Sun Spider SNS-S2
+- Sun Spider SNS-S3
+- Sun Spider SNS-X1
+- Sun Spider SNS-X2
+- Sun Spider SNS-X3
+- SuperNova SNV-S1
+- SuperNova SNV-S2
+- SuperNova SNV-X1
+- SuperNova SNV-X2
+- Turkina TKN-S
+- Turkina TKN-X
+- Vapor Eagle VGL-S
+- Vapor Eagle VGL-X
+- Viper VPR-S1
+- Viper VPR-S2
+- Viper VPR-X1
+- Viper VPR-X2
+- Warhammer IIC WHM-IIC-S
+- Warhammer IIC WHM-IIC-X
+- Warhawk WHK_S
+- Warhawk WHK_X
+
+### Elite Arsenal (Word of Blake)
+
+- Archangel C-ANG-S
+- Archangel C-ANG-S2
+- Archangel C-ANG-S3
+- Archangel C-ANG-X
+- Archangel C-ANG-X2
+- Archangel C-ANG-X3
+- Deva C-DVA-S1
+- Deva C-DVA-S2
+- Deva C-DVA-S3
+- Deva C-DVA-X1
+- Deva C-DVA-X2
+- Deva C-DVA-X3
+- Grigori C-GRG-S1
+- Grigori C-GRG-S2
+- Grigori C-GRG-X1
+- Grigori C-GRG-X2
+- Malak C-MK-S
+- Malak C-MK-X
+- Preta C-PRT-S1
+- Preta C-PRT-S2
+- Preta C-PRT-X1
+- Preta C-PRT-X2
+- Seraph C-SRP-S1
+- Seraph C-SRP-S2
+- Seraph C-SRP-S3
+- Seraph C-SRP-X1
+- Seraph C-SRP-X2
+- Seraph C-SRP-X3
+
+### LAMs
+
+- Black Falcon BF-LAM-1
+- Black Falcon BF-LAM-S
+- Black Falcon BF-LAM-X
+- Firebird FB-LAM-1
+- Firebird FB-LAM-S
+- Firebird FB-LAM-X
+- Jaguar JGR-LAM-1
+- Jaguar JGR-LAM-S
+- Jaguar JGR-LAM-X
+- Lancer LNC-LAM-1
+- Lancer LNC-LAM-S
+- Lancer LNC-LAM-X
+- Phoenix Hawk LAM PHX-HK1
+- Phoenix Hawk LAM PHX-LAM-S
+- Phoenix Hawk LAM PHX-LAM-X
+- Saber SBR-LAM-1
+- Saber SBR-LAM-S
+- Saber SBR-LAM-X
+- Shadow Hawk LAM SHD-X1
+- Shadow Hawk LAM SHD-X2
+- Shadow Hawk LAM SHD-LAM-S
+- Shadow Hawk LAM SHD-LAM-X
+- Stinger LAM STG-A1
+- Stinger LAM STG-LAM-S
+- Stinger LAM STG-LAM-X
+- Thunderbird TB-LAM-1
+- Thunderbird TB-LAM-S
+- Thunderbird TB-LAM-X
+- Valkyrie Ghost VG-LAM-SS
+- Waneta S-WN-2LAM
+- Waneta WN-LAM-S
+- Waneta WN-LAM-X
+- Wasp LAM WSP-100B
+- Wasp LAM WSP-LAM-S
+- Wasp LAM WSP-LAM-X
+- White Eagle WE-LAM-1
+- White Eagle WE-LAM-S
+- White Eagle WE-LAM-X
+- Yurei S-YR-1LAM
+- Yurei YR-LAM-S
+- Yurei YR-LAM-X
+
+### Superheavies
+
+- Gigant SH-GG-O7
+- Gigant SH-GG-S
+- Gigant SH-GG-X
+- Longbow II SH-LGB-9
+- Longbow II SH-LGB-S
+- Longbow II SH-LGB-X
+- Matar II SAM-RS-MT2
+- Matar II SAM-RS-MTS
+- Matar II SAM-RS-MTX
+- Monster HWR-SH-SS
+- Omega SHP-X4
+- Omega SHP-XS
+- Omega SHP-XX
+- Rampart RPT-1
+- Rampart RPT-S
+- Rampart RPT-X
+- Svarog SH-SVG-3A
+- Svarog SH-SVG-S
+- Svarog SH-SVG-X
+- Terminus TMS-1
+- Terminus TMS-S
+- Terminus TMS-X

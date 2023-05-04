@@ -25,7 +25,7 @@ With the amount of new toys that EA provides, things can get a bit stale after a
 - 250+ new variants of Expanded Arsenal mechs, which are deadlier than even those from Elite Forces.
 - Elite contracts and repeatable flashpoints. Fight the Word of Blake's Jihad for the ultimate endgame experience!
 
-By default Elite Arsenal is disabled, so as not to overwhelm you at the start of a game. The recommended approach is to play with only Elite Forces enabled while you get your team established, then enable Elite Arsenal. Once you have veteran pilots, take elite contracts to get the hardest fights and the best loot.
+By default Elite Arsenal is disabled, so as not to overwhelm you at the start of a game. The recommended approach is to play with only Elite Forces enabled while you get your team established, then enable Elite Arsenal. In addition, Expanded Arsenal provides an introductory flashpoint to give you a taste of what Elite Arsenal combat is like.
 
 **LAMs and Superheavies** add mechs of these types to the opfor. Both of these mods build on Elite Arsenal to add more content to the endgame. Land-Air Mechs (LAMs) are fast, agile, and nearly unhittable, while superheavies are juggernauts boasting incredible levels of protection and firepower.
 
@@ -41,9 +41,9 @@ In addition, the following included mods are optional: you don't have to use the
 
 ## Credits
 
-This modpack wouldn't have been possible without the contributions of many people, including: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (all the weapon and equipment mods), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix, FYLS), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System, Pilot Fatigue), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI), Jamie Wolf (Mech Affinity), Don Zappo (Repair Bays, Pilot Fatigue), Asimov (Drop Tonnage Reward and Limit on Difficulty), mcb (Simple Mech Assembly). THANK YOU for letting me include your work in Expanded Arsenal!
+This modpack includes the contributions of many people: mattyxr/crackfox (Vanilla Plus), Haakon the Viking (several weapons and other items), tokan511 (Elite Forces), CWolf (Mission Control), m22spencer (BattletechPerformanceFix), janxious (FYLS), ice raptor (Loot Magnet, IRTweaks), gnivler (Panic System, Pilot Fatigue), mpstark (Skip Intro), tbone (IRTweaks), Amechwarrior (Better AI), Jamie Wolf (Mech Affinity), Don Zappo (Repair Bays, Pilot Fatigue), Asimov (Drop Tonnage Reward and Limit on Difficulty), mcb (Simple Mech Assembly).
 
-In addition, much credit to Amechwarrior, tbone, Jamie Wolf, CWolf and others on Discord who helped me come to grips with the HBS flashpoint system.
+In addition, many thanks to Amechwarrior, tbone, Jamie Wolf, CWolf and others on Discord who helped me come to grips with the HBS flashpoint system.
 
 ## Feedback/bug reports
 
