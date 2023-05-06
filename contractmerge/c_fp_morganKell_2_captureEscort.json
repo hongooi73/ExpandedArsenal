@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_morganKell_2_captureEscort",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

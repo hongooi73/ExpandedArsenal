@@ -1,0 +1,12 @@
+{
+  "TargetID": "ThreeWayBattle_Spoiler",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

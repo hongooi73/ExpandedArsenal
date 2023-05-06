@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_FactoryRecall_Alt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

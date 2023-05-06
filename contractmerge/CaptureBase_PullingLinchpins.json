@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_PullingLinchpins",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

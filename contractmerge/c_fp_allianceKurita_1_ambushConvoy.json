@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_allianceKurita_1_ambushConvoy",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

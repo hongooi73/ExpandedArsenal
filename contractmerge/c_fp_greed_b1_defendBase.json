@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_greed_b1_defendBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

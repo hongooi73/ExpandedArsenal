@@ -1,0 +1,12 @@
+{
+  "TargetID": "redHunt_2_ThreeWayBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

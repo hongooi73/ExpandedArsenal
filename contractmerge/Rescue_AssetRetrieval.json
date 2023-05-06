@@ -1,0 +1,12 @@
+{
+  "TargetID": "Rescue_AssetRetrieval",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

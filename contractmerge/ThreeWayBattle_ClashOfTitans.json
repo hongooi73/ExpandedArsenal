@@ -1,0 +1,12 @@
+{
+  "TargetID": "ThreeWayBattle_ClashOfTitans",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

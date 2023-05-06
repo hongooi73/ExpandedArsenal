@@ -1,0 +1,12 @@
+{
+  "TargetID": "AttackDefend_HighTide",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_SurveillanceOutpost",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

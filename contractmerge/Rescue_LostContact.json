@@ -1,0 +1,12 @@
+{
+  "TargetID": "Rescue_LostContact",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

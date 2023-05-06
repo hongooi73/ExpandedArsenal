@@ -1,0 +1,12 @@
+{
+  "TargetID": "AmbushConvoy_Pirate_WitnessTampering_Hard",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

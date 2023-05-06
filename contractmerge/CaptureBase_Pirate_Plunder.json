@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_Pirate_Plunder",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

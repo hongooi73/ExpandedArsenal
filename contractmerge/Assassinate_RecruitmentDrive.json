@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_RecruitmentDrive",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_Pirate_KeyPersonnel",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

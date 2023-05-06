@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_restoration_1_panzyrAttack",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

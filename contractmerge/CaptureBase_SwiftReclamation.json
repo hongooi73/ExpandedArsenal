@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_SwiftReclamation",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_allianceLiao_1_simpleBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

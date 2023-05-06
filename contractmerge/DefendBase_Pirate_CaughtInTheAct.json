@@ -1,0 +1,12 @@
+{
+  "TargetID": "DefendBase_Pirate_CaughtInTheAct",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

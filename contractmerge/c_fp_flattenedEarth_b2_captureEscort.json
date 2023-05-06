@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_flattenedEarth_b2_captureEscort",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

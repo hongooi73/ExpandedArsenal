@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_3_axylus",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

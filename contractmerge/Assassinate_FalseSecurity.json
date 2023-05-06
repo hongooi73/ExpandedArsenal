@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_FalseSecurity",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

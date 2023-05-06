@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_CivilianExtraction",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

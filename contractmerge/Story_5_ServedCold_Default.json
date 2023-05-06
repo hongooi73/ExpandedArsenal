@@ -1,0 +1,12 @@
+{
+  "TargetID": "Story_5_ServedCold_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

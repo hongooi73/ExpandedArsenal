@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_flattenedEarth_a1_simpleBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "ThreeWayBattle_BountyHunting",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "Tyrlon_Attack_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

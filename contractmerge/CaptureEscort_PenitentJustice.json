@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_PenitentJustice",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

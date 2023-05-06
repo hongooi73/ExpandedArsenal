@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_InterruptedExercise",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

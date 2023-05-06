@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_restoration_3_smithonDefense",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

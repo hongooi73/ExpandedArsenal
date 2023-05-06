@@ -1,0 +1,12 @@
+{
+  "TargetID": "Rescue_PayrollSeizure",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

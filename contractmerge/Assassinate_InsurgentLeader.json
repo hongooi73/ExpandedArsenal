@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_InsurgentLeader",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

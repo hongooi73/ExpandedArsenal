@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_misc_warCouncil",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

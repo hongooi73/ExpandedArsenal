@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_SupplyLines",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_GoneToGround",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

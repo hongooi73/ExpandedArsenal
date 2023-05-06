@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_FormOfFlattery_Hard",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

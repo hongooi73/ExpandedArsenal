@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_longHunt_b2_captureBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

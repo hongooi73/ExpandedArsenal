@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_DeadOrAlive",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "FireMission_Untouchable",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

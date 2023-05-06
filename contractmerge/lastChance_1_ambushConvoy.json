@@ -1,0 +1,12 @@
+{
+  "TargetID": "lastChance_1_ambushConvoy",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

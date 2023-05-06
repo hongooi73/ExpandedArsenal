@@ -1,0 +1,12 @@
+{
+  "TargetID": "AmbushConvoy_BackyardBarbecue_Alt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

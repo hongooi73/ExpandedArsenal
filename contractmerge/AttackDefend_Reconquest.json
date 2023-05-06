@@ -1,0 +1,12 @@
+{
+  "TargetID": "AttackDefend_Reconquest",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

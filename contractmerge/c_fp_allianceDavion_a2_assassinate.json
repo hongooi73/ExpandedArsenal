@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_allianceDavion_a2_assassinate",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

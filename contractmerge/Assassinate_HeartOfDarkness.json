@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_HeartOfDarkness",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

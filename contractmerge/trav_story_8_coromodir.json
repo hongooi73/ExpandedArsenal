@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_8_coromodir",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

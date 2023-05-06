@@ -1,0 +1,12 @@
+{
+  "TargetID": "redHunt_3b_CaptureBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

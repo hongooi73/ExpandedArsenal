@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_allianceKurita_b2_fireMission",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

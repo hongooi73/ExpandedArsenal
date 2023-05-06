@@ -1,0 +1,12 @@
+{
+  "TargetID": "HM7_showdown_2_3wayBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

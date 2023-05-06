@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_ICanDestroy",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

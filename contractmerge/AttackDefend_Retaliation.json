@@ -1,0 +1,12 @@
+{
+  "TargetID": "AttackDefend_Retaliation",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

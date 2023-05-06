@@ -1,0 +1,12 @@
+{
+  "TargetID": "FireMission_FireForEffect",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "HM1_ofUnknownOrigin_1_captureBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

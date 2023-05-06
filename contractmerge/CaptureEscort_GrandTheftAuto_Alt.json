@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_GrandTheftAuto_Alt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

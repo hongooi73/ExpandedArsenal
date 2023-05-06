@@ -1,0 +1,12 @@
+{
+  "TargetID": "Rescue_Pirate_CopyrightViolations",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

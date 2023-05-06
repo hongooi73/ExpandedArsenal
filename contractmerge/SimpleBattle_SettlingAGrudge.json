@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_SettlingAGrudge",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

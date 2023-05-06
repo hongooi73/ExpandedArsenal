@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_scoundrel_b1_captureEscort",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

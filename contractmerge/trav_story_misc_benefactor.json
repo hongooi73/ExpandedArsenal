@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_misc_benefactor",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

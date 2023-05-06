@@ -1,0 +1,12 @@
+{
+  "TargetID": "Story_4_LiberationOfWeldry_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

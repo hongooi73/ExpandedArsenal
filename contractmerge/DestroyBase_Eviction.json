@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_Eviction",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

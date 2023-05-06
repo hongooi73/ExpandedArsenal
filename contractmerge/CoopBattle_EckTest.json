@@ -1,0 +1,12 @@
+{
+  "TargetID": "CoopBattle_EckTest",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

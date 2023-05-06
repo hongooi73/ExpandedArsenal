@@ -1,0 +1,12 @@
+{
+  "TargetID": "ThreeWayBattle_ShowTheFlag_Alt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

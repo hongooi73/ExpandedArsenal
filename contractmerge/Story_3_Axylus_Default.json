@@ -1,0 +1,12 @@
+{
+  "TargetID": "Story_3_Axylus_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

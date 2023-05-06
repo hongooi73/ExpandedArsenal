@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureBase_AbandonedFactory",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

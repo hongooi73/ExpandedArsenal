@@ -1,0 +1,12 @@
+{
+  "TargetID": "Story_1B_Retreat_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_Pirate_UnexpectedGuests",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

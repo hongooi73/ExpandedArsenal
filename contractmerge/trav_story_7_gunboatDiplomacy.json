@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_7_gunboatDiplomacy",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

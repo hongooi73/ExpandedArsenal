@@ -1,0 +1,12 @@
+{
+  "TargetID": "HM3_huntingSeason_1_3wayBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

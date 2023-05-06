@@ -1,0 +1,12 @@
+{
+  "TargetID": "redHunt_1_DefendBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

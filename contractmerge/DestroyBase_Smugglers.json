@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_Smugglers",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

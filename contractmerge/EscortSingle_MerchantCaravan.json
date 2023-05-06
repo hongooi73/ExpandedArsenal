@@ -1,0 +1,12 @@
+{
+  "TargetID": "EscortSingle_MerchantCaravan",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

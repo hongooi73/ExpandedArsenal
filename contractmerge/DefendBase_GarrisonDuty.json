@@ -1,0 +1,12 @@
+{
+  "TargetID": "DefendBase_GarrisonDuty",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

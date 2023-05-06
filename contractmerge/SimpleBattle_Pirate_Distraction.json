@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_Pirate_Distraction",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

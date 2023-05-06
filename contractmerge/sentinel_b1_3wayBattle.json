@@ -1,0 +1,12 @@
+{
+  "TargetID": "sentinel_b1_3wayBattle",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_FlushingThemOut",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

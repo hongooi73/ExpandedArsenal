@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_BrokenChain",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

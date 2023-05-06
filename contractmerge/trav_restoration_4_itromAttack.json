@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_restoration_4_itromAttack",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_Flyswatter",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

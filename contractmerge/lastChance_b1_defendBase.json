@@ -1,0 +1,12 @@
+{
+  "TargetID": "lastChance_b1_defendBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

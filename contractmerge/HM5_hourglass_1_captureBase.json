@@ -1,0 +1,12 @@
+{
+  "TargetID": "HM5_hourglass_1_captureBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

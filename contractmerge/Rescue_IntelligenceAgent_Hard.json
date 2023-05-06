@@ -1,0 +1,12 @@
+{
+  "TargetID": "Rescue_IntelligenceAgent_Hard",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

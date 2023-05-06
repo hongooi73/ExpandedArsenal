@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_HostageRescue",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_story_6a_graverobbing",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

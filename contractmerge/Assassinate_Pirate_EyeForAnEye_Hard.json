@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_Pirate_EyeForAnEye_Hard",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

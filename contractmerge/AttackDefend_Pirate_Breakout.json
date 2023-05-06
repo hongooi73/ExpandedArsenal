@@ -1,0 +1,12 @@
+{
+  "TargetID": "AttackDefend_Pirate_Breakout",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

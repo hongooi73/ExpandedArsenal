@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_Pirate_HideTheEvidence",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -35,11 +35,15 @@
         { "Type": "ChassisDef", "Path": "chassis_vp" },
         { "Type": "ChassisDef", "Path": "chassis_lam" },
         { "Type": "ChassisDef", "Path": "chassis_fp" },
+        { "Type": "ChassisDef", "Path": "chassis_sh" },
+        { "Type": "ChassisDef", "Path": "chassis_wob" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "MechDef", "Path": "mech_clan" },
         { "Type": "MechDef", "Path": "mech_vp" },
         { "Type": "MechDef", "Path": "mech_lam" },
         { "Type": "MechDef", "Path": "mech_fp" },
+        { "Type": "MechDef", "Path": "mech_sh" },
+        { "Type": "MechDef", "Path": "mech_wob" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
         { "Type": "MovementCapabilitiesDef", "Path": "movement_vehicle" },
         { "Type": "VehicleDef", "Path": "vehicle" },
@@ -52,6 +56,7 @@
         { "Type": "Texture2D", "Path": "Emblems" },
         { "Type": "Sprite", "Path": "Emblems" },
         { "Type": "HeraldryDef", "Path": "heraldry" },
+        { "Type": "PilotDef", "Path": "pilot", "AddToDB":true },
         {
             "Type": "LanceDef",
             "Path": "lance",
@@ -81,7 +86,14 @@
             "Type": "ContractOverride",
             "Path": "contracts"
         },
-		{ "Type": "PilotDef", "Path": "pilot", "AddToDB":true }
+        {
+            "Type": "ContractOverride",
+            "Path": "contract_backup"
+        },
+        {
+            "Type": "AdvancedJSONMerge",
+            "Path": "contractmerge"
+        }
     ],
     "DataAddendumEntries": [
         {

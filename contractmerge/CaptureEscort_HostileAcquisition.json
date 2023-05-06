@@ -1,0 +1,12 @@
+{
+  "TargetID": "CaptureEscort_HostileAcquisition",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "TargetID": "AmbushConvoy_ProofOfGuilt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

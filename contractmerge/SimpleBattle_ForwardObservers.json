@@ -1,0 +1,12 @@
+{
+  "TargetID": "SimpleBattle_ForwardObservers",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

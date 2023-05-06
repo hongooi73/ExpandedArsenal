@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_Pirate_CodeOfSilence",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

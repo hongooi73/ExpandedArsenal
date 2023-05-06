@@ -1,0 +1,12 @@
+{
+  "TargetID": "ThreeWayBattle_TrainingDay_Alt_2",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

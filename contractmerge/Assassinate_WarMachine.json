@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_WarMachine",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

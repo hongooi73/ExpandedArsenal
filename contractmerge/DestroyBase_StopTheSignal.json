@@ -1,0 +1,12 @@
+{
+  "TargetID": "DestroyBase_StopTheSignal",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

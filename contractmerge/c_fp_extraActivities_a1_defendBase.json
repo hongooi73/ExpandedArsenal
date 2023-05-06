@@ -1,0 +1,12 @@
+{
+  "TargetID": "c_fp_extraActivities_a1_defendBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

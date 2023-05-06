@@ -1,0 +1,12 @@
+{
+  "TargetID": "AmbushConvoy_Pirate_EasyPickings",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

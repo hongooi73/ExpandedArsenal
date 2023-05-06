@@ -1,0 +1,12 @@
+{
+  "TargetID": "trav_restoration_7_tyrlonAttack",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

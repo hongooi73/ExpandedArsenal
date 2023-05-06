@@ -1,0 +1,12 @@
+{
+  "TargetID": "Story_2_ThreeYearsLater_Default",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

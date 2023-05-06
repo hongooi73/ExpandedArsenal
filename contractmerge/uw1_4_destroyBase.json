@@ -1,0 +1,12 @@
+{
+  "TargetID": "uw1_4_destroyBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

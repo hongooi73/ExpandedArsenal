@@ -1,0 +1,12 @@
+{
+  "TargetID": "redHunt_3a_DestroyBase",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

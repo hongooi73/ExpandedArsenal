@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_BugHunt_Alt",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}

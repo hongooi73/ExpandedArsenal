@@ -1,0 +1,12 @@
+{
+  "TargetID": "Assassinate_AggressiveNegotiations",
+  "Instructions": [
+    {
+      "JSONPath": "$",
+      "Action": "ObjectMerge",
+      "Value": {
+        "lanceMaxTonnage": 400
+      }
+    }
+  ]
+}
