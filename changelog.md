@@ -1,3 +1,7 @@
+## v5.0.2
+
+- Fix bug where flashpoint pilots were showing up in procedurally generated missions
+
 ## v5.0.0
 
 Version 5.0.0 is a **major update** that removes some outdated mods and includes new ones. It also requires ModTek 3.0 and a relatively recent version of the CAB. As such, if you're upgrading from a previous version, it's highly recommended that you **delete** your entire mods folder, reinstall the CAB, install the latest ModTek, and then install EA. It's still back-compatible, so your existing saves will continue to work.

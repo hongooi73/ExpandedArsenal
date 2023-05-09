@@ -63,14 +63,8 @@
     "AIPersonality": "Undefined",
     "PilotTags": {
         "items": [
-			"pilot_npc_gladiator",
-            "pilot_npc_dynamic",
-			"pilot_npc_d5_elite",
-			"pilot_npc_d5_elite_forces",
-			"elite_forces",
-			"pilot_elite_forces",
-            "pilot_npc_d5"
-        ],
+            "BLACKLISTED"
+       ],
         "tagSetSourceFile": ""
     },
     "PilotCost": 0
