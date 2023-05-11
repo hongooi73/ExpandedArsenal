@@ -6,7 +6,7 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Seraph",
-        "Id": "chassisdef_seraph_C-SRP-S3",
+        "Id": "chassisdef_seraphs_C-SRP-S3",
         "Name": "Seraph",
         "Details": "The light assault 'Mech of the Celestial series of OmniMechs, the Seraph is somewhat slow for its weight, but it attempts to make up for that with the inclusion of MASC that enables the 'Mech to speed up to 64 km/h. Like the other Celestials, the Seraph makes use of a light fusion engine and a small cockpit, though other newer technologies are present only in its weaponry. The Seraph E uses two experimental Thunderbolt 20s, along with a variable-speed medium pulse laser and ER small laser.",
         "Icon": "uixTxrIcon_seraph"

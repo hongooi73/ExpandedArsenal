@@ -3828,7 +3828,7 @@
                         "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-                                "pilot_npc_d10",
+                                "pilot_npc_d10_ace",
                                 "elite_forces"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
@@ -5707,7 +5707,7 @@
                         "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-                                "pilot_npc_d10",
+                                "pilot_npc_d10_ace",
                                 "elite_forces"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
