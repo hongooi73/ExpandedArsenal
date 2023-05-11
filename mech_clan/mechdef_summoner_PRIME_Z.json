@@ -19,7 +19,7 @@
         "Manufacturer": null,
         "Model": null,
         "UIName": "Summoner SMN-Z",
-        "Id": "mechdef_summoner_PRIME",
+        "Id": "mechdef_summoner_PRIME_Z",
         "Name": "Summoner",
         "Details": "This configuration was used by The Society. It has a 150 meter jump capability and a Nova CEWS. Its right arm carries an experimental ER Large Pulse Laser. The left arm carries eight AP Gauss Rifles to deal with battle armor and conventional infantry. The left torso mounts a single iATM 12 with three tons of ammunition.",
         "Icon": "uixTxrIcon_summoner"
