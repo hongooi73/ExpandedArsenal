@@ -1,6 +1,11 @@
 ## v5.0.2
 
 - Fix bug where flashpoint pilots were showing up in procedurally generated missions
+- Fix Grigori not showing up in the mechbay
+
+## v5.0.1
+
+- Minor conversation fix
 
 ## v5.0.0
 
@@ -111,6 +116,7 @@ The store system has been reworked to be closer to the vanilla game. Rather than
 - Fix movement for Warhammer IIC
 - Fix heat generation for MML3/5/7: should be 6, 9 and 12 heat respectively, to match TT values
 - Clarify that the speed boost from engine upgrades is incompatible (doesn't stack) with MASC.
+- All missions now have a 400-ton drop limit by default, to accommodate the superheavies mod. The Leopard can only carry so much.
 
 
 ## v4.0.0
