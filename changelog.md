@@ -18,7 +18,7 @@ EA now uses the Simple Mech Assembly mod, which lets you put mechs together from
 When picking parts for salvage, the display for how many parts you have looks like **A(B)/C(D)** where A, B, C and D are numbers:
 
 - **A** is the number of parts you have for this chassis variant
-- **B** is the number of parts you have for other variants of the same chassis
+- **B** is the number of parts you have for all variants of the same chassis
 - **C** is the number of parts you need for a complete mech
 - **D** is how many complete mechs of this variant you have in storage
 

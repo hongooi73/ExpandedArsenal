@@ -21,7 +21,7 @@
         "Model": null,
         "UIName": "Seraph C-SRP-OC Comminus",
         "Id": "mechdef_seraph_C-SRP-OC",
-        "Name": "Seraph C-SRP-OC",
+        "Name": "Seraph",
         "Details": "Though the Comminus variant is quite powerful against conventional units, it sacrifices little firepower against other 'Mechs. An MRM 40 is useful against either type of opponent, though it is more difficult to aim than other weapons. A heavy PPC and two ER medium lasers work well against hardened targets. A plasma rifle deals heavy damage against enemy units, but is especially potent against infantry. To protect the Seraph C from enemy electronics, it mounts a Guardian ECM suite.",
         "Icon": "uixTxrIcon_seraph"
     },
