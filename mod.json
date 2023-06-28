@@ -2,7 +2,7 @@
     "Name": "Expanded Arsenal",
     "Enabled": true,
     "Description": "Uses the CAB to add new mechs and vehicles.",	
-    "Version": "5.0.2",
+    "Version": "5.0.3",
     "Author": "Z06Frank/hongooi2",
     "DependsOn": [
         "FlashpointEnabler"
